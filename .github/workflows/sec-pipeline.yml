@@ -21,8 +21,11 @@ concurrency: sec-pipeline
 jobs:
   run:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -eo pipefail {0}
     env:
-      SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}   # repository variable (required); not stored in the repo
+      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}   # repository secret (required); masked in logs, never stored in the repo
       PYTHONPATH: src
     steps:
       - uses: actions/checkout@v4
@@ -38,7 +41,6 @@ jobs:
         run: |
           mkdir -p reports
           SEC_LIVE=1 python -m pytest -v -rs 2>&1 | tee reports/F_test_results.txt
-          test ${PIPESTATUS[0]} -eq 0
       - name: C/D/E. Process and write reports
         run: |
           ASOF="${{ inputs.asof }}"; ASOF="${ASOF:-$(date -u +%F)}"
