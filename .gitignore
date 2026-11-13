@@ -1,0 +1,4 @@
+__pycache__/
+.pytest_cache/
+*.tmp
+config/sec_user_agent.txt

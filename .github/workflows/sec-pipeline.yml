@@ -1,0 +1,53 @@
+name: SEC pipeline
+
+on:
+  workflow_dispatch:
+    inputs:
+      asof:
+        description: "Assessment date (YYYY-MM-DD); blank = today"
+        required: false
+      documents:
+        description: "Also download original 10-K / 10-Q / proxy documents"
+        type: boolean
+        default: false
+  schedule:
+    - cron: "17 6 * * 1"   # weekly, Monday 06:17 UTC
+
+permissions:
+  contents: write
+
+concurrency: sec-pipeline
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}   # repository variable (required); not stored in the repo
+      PYTHONPATH: src
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pytest
+      - name: A. SEC connection self-test
+        run: python -m celi.sec selftest | tee reports_selftest.json
+      - name: B. Fetch the five companies from SEC
+        run: python -m celi.sec fetch ${{ inputs.documents && '--documents' || '' }}
+      - name: F. Automated tests (offline + live SEC)
+        run: |
+          mkdir -p reports
+          SEC_LIVE=1 python -m pytest -v -rs 2>&1 | tee reports/F_test_results.txt
+          test ${PIPESTATUS[0]} -eq 0
+      - name: C/D/E. Process and write reports
+        run: |
+          ASOF="${{ inputs.asof }}"; ASOF="${ASOF:-$(date -u +%F)}"
+          python -m celi.sec process --asof "$ASOF"
+          mv reports_selftest.json reports/A_sec_connection.json
+      - name: Commit raw SEC data, evidence database and reports
+        run: |
+          git config user.name "equilibra-sec-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data reports
+          git commit -m "SEC pipeline run $(date -u +%FT%TZ)" || echo "no changes"
+          git push

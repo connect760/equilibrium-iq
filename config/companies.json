@@ -1,0 +1,10 @@
+{
+  "_note": "Company identifier registry. 'expect' is checked against the name SEC returns for the CIK; a mismatch stops processing.",
+  "companies": [
+    {"cik": "789019",  "ticker": "MSFT", "expect": "MICROSOFT", "model": "corporate"},
+    {"cik": "1045810", "ticker": "NVDA", "expect": "NVIDIA",    "model": "corporate"},
+    {"cik": "19617",   "ticker": "JPM",  "expect": "JPMORGAN",  "model": "bank"},
+    {"cik": "320193",  "ticker": "AAPL", "expect": "APPLE",     "model": "corporate"},
+    {"cik": "1018724", "ticker": "AMZN", "expect": "AMAZON",    "model": "corporate"}
+  ]
+}

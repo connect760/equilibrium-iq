@@ -1,0 +1,537 @@
+{
+ "AAPL": {
+  "name": "Apple Inc.",
+  "archetype": "tech",
+  "summary": {
+   "P": 64.01,
+   "Rt": 59.57,
+   "El": 0.0,
+   "Reff": 59.57,
+   "L": 40.84,
+   "gap": 23.58,
+   "Eb": 0.16,
+   "S": 1.0,
+   "raw": 49.78,
+   "celi": 49.78,
+   "dcs": 52.3,
+   "status": "insufficient",
+   "archetype": "High-growth technology",
+   "coverage": {
+    "cap": 0.6,
+    "risk": 0.25,
+    "adapt": 0.25
+   }
+  },
+  "reasons": [
+   "Constructive Capability scored coverage 60% below 80%",
+   "Systemic Risk scored coverage 25% below 80%",
+   "Adaptability scored coverage 25% below 80%"
+  ],
+  "layerA": {
+   "ROIC_5Y": {
+    "score": 100.0,
+    "raw": "ROIC 5y avg 70.0% vs WACC prior 8% (spread +62.0 pp)"
+   },
+   "FCF_DUR": {
+    "score": 89.8,
+    "raw": "FCF/operating income 0.85 over 5y; FCF positive in 100% of years"
+   },
+   "REV_DUR": {
+    "score": 92.6,
+    "raw": "Revenue growth s.d. 4.1%; operating-margin s.d. 0.9%"
+   },
+   "FIN_FRAG": {
+    "score": 8.7,
+    "raw": "Net debt/EBITDA 0.43x (scale 5x); interest expense not tagged"
+   },
+   "OP_RES": {
+    "score": 93.0,
+    "raw": "Worst revenue drawdown 2.8% over 5 fiscal years"
+   }
+  },
+  "not_applicable": [],
+  "ebit_proxy": false,
+  "input_hash": "d5081ab50d4dc189a0029f088aea3c58ed26bae1143ff7e76468a2de8b63c79b"
+ },
+ "MSFT": {
+  "name": "Microsoft Corporation",
+  "archetype": "tech",
+  "summary": {
+   "P": 61.42,
+   "Rt": 57.88,
+   "El": 0.0,
+   "Reff": 57.88,
+   "L": 42.5,
+   "gap": 19.3,
+   "Eb": 0.02,
+   "S": 1.0,
+   "raw": 49.9,
+   "celi": 49.9,
+   "dcs": 52.3,
+   "status": "insufficient",
+   "archetype": "High-growth technology",
+   "coverage": {
+    "cap": 0.6,
+    "risk": 0.25,
+    "adapt": 0.25
+   }
+  },
+  "reasons": [
+   "Constructive Capability scored coverage 60% below 80%",
+   "Systemic Risk scored coverage 25% below 80%",
+   "Adaptability scored coverage 25% below 80%"
+  ],
+  "layerA": {
+   "ROIC_5Y": {
+    "score": 100.0,
+    "raw": "ROIC 5y avg 32.1% vs WACC prior 8% (spread +24.1 pp)"
+   },
+   "FCF_DUR": {
+    "score": 77.6,
+    "raw": "FCF/operating income 0.68 over 5y; FCF positive in 100% of years"
+   },
+   "REV_DUR": {
+    "score": 90.7,
+    "raw": "Revenue growth s.d. 4.2%; operating-margin s.d. 1.6%"
+   },
+   "FIN_FRAG": {
+    "score": 1.6,
+    "raw": "Net debt/EBITDA 0.08x (scale 5x); interest expense not tagged"
+   },
+   "OP_RES": {
+    "score": 100.0,
+    "raw": "Worst revenue drawdown 0.0% over 5 fiscal years"
+   }
+  },
+  "not_applicable": [],
+  "ebit_proxy": false,
+  "input_hash": "bed48a4ccd3d30f878aaf1249b14ac64fd9347dde73adbda3c9addab4c937c07"
+ },
+ "NVDA": {
+  "name": "NVIDIA Corporation",
+  "archetype": "tech",
+  "summary": {
+   "P": 49.9,
+   "Rt": 57.5,
+   "El": 0.0,
+   "Reff": 57.5,
+   "L": 42.5,
+   "gap": 7.4,
+   "Eb": 0.0,
+   "S": 1.0,
+   "raw": 45.46,
+   "celi": 45.46,
+   "dcs": 52.3,
+   "status": "insufficient",
+   "archetype": "High-growth technology",
+   "coverage": {
+    "cap": 0.6,
+    "risk": 0.25,
+    "adapt": 0.25
+   }
+  },
+  "reasons": [
+   "Constructive Capability scored coverage 60% below 80%",
+   "Systemic Risk scored coverage 25% below 80%",
+   "Adaptability scored coverage 25% below 80%"
+  ],
+  "layerA": {
+   "ROIC_5Y": {
+    "score": 100.0,
+    "raw": "ROIC 5y avg 53.3% vs WACC prior 8% (spread +45.3 pp)"
+   },
+   "FCF_DUR": {
+    "score": 83.1,
+    "raw": "FCF/operating income 0.76 over 5y; FCF positive in 100% of years"
+   },
+   "REV_DUR": {
+    "score": 2.5,
+    "raw": "Revenue growth s.d. 49.5%; operating-margin s.d. 19.0%"
+   },
+   "FIN_FRAG": {
+    "score": 0.0,
+    "raw": "Net debt/EBITDA -0.02x (scale 5x); interest cover 503.4x"
+   },
+   "OP_RES": {
+    "score": 100.0,
+    "raw": "Worst revenue drawdown 0.0% over 5 fiscal years"
+   }
+  },
+  "not_applicable": [],
+  "ebit_proxy": false,
+  "input_hash": "aa00834fe1608247fbdbcbc75ff9461c07525e3b638b92c406b72b6fe1d339e8"
+ },
+ "JPM": {
+  "name": "JPMorgan Chase & Co.",
+  "archetype": "financial",
+  "summary": {
+   "P": 45.33,
+   "Rt": 75.0,
+   "El": 0.0,
+   "Reff": 75.0,
+   "L": 25.0,
+   "gap": 20.33,
+   "Eb": 1.36,
+   "S": 1.0,
+   "raw": 29.74,
+   "celi": 29.74,
+   "dcs": 33.94,
+   "status": "insufficient",
+   "archetype": "Financials",
+   "coverage": {
+    "cap": 0.5,
+    "risk": 0.0,
+    "adapt": 0.0
+   }
+  },
+  "reasons": [
+   "Constructive Capability scored coverage 50% below 80%",
+   "Systemic Risk scored coverage 0% below 80%",
+   "Adaptability scored coverage 0% below 80%",
+   "Data Confidence 33.9 below 50"
+  ],
+  "layerA": {
+   "ROIC_5Y": {
+    "score": 62.9,
+    "raw": "ROE 4y avg 15.2% vs cost of equity 10% (spread +5.2 pp)"
+   },
+   "REV_DUR": {
+    "score": 79.5,
+    "raw": "Revenue growth s.d. 8.2%"
+   }
+  },
+  "not_applicable": [
+   "FCF_DUR"
+  ],
+  "ebit_proxy": false,
+  "input_hash": "e89357b48522ede1ee46c9c13d7cfbdf5e648e5f2e13a9b81356256db14b0c78"
+ },
+ "NEE": {
+  "name": "NextEra Energy, Inc.",
+  "archetype": "utility",
+  "summary": {
+   "P": 37.61,
+   "Rt": 76.5,
+   "El": 0.0,
+   "Reff": 76.5,
+   "L": 35.4,
+   "gap": 14.11,
+   "Eb": 0.0,
+   "S": 1.0,
+   "raw": 30.11,
+   "celi": 30.11,
+   "dcs": 49.85,
+   "status": "insufficient",
+   "archetype": "Regulated utilities",
+   "coverage": {
+    "cap": 0.6,
+    "risk": 0.25,
+    "adapt": 0.25
+   }
+  },
+  "reasons": [
+   "Constructive Capability scored coverage 60% below 80%",
+   "Systemic Risk scored coverage 25% below 80%",
+   "Adaptability scored coverage 25% below 80%",
+   "Data Confidence 49.9 below 50"
+  ],
+  "layerA": {
+   "ROIC_5Y": {
+    "score": 41.4,
+    "raw": "ROIC 5y avg 4.6% vs WACC prior 8% (spread -3.4 pp)"
+   },
+   "FCF_DUR": {
+    "score": 46.0,
+    "raw": "FCF/operating income 0.31 over 5y; FCF positive in 80% of years"
+   },
+   "REV_DUR": {
+    "score": 63.4,
+    "raw": "Revenue growth s.d. 17.1%; operating-margin s.d. 6.1%"
+   },
+   "FIN_FRAG": {
+    "score": 80.0,
+    "raw": "Net debt/EBITDA 6.25x (scale 8x); interest cover 1.8x"
+   },
+   "OP_RES": {
+    "score": 70.1,
+    "raw": "Worst revenue drawdown 12.0% over 5 fiscal years"
+   }
+  },
+  "not_applicable": [],
+  "ebit_proxy": false,
+  "input_hash": "ee30436678a197bde90ae8d488b4e8270dc1a2a8ecebb5dbcb76e541a9c24906"
+ },
+ "DUK": {
+  "name": "Duke Energy Corporation",
+  "archetype": "utility",
+  "summary": {
+   "P": 33.55,
+   "Rt": 74.69,
+   "El": 0.0,
+   "Reff": 74.69,
+   "L": 42.5,
+   "gap": 8.24,
+   "Eb": 0.0,
+   "S": 1.0,
+   "raw": 31.22,
+   "celi": 31.22,
+   "dcs": 49.85,
+   "status": "insufficient",
+   "archetype": "Regulated utilities",
+   "coverage": {
+    "cap": 0.6,
+    "risk": 0.25,
+    "adapt": 0.25
+   }
+  },
+  "reasons": [
+   "Constructive Capability scored coverage 60% below 80%",
+   "Systemic Risk scored coverage 25% below 80%",
+   "Adaptability scored coverage 25% below 80%",
+   "Data Confidence 49.9 below 50"
+  ],
+  "layerA": {
+   "ROIC_5Y": {
+    "score": 42.2,
+    "raw": "ROIC 5y avg 4.9% vs WACC prior 8% (spread -3.1 pp)"
+   },
+   "FCF_DUR": {
+    "score": 6.0,
+    "raw": "FCF/operating income -0.32 over 5y; FCF positive in 20% of years"
+   },
+   "REV_DUR": {
+    "score": 86.9,
+    "raw": "Revenue growth s.d. 5.9%; operating-margin s.d. 2.3%"
+   },
+   "FIN_FRAG": {
+    "score": 72.4,
+    "raw": "Net debt/EBITDA 5.49x (scale 8x); interest cover 2.4x"
+   },
+   "OP_RES": {
+    "score": 100.0,
+    "raw": "Worst revenue drawdown 0.0% over 5 fiscal years"
+   }
+  },
+  "not_applicable": [],
+  "ebit_proxy": false,
+  "input_hash": "a697a3ad1c81fb1f06f862b95fca4cefce2e92388f4cf4b1db97a9a7177f7c00"
+ },
+ "CAT": {
+  "name": "Caterpillar Inc.",
+  "archetype": "industrial",
+  "summary": {
+   "P": 55.39,
+   "Rt": 69.3,
+   "El": 0.0,
+   "Reff": 69.3,
+   "L": 40.5,
+   "gap": 24.69,
+   "Eb": 1.22,
+   "S": 1.0,
+   "raw": 40.08,
+   "celi": 40.08,
+   "dcs": 51.08,
+   "status": "insufficient",
+   "archetype": "Asset-heavy industrials",
+   "coverage": {
+    "cap": 0.6,
+    "risk": 0.25,
+    "adapt": 0.25
+   }
+  },
+  "reasons": [
+   "Constructive Capability scored coverage 60% below 80%",
+   "Systemic Risk scored coverage 25% below 80%",
+   "Adaptability scored coverage 25% below 80%"
+  ],
+  "layerA": {
+   "ROIC_5Y": {
+    "score": 70.8,
+    "raw": "ROIC 5y avg 16.3% vs WACC prior 8% (spread +8.3 pp)"
+   },
+   "FCF_DUR": {
+    "score": 87.7,
+    "raw": "FCF/operating income 0.82 over 5y; FCF positive in 100% of years"
+   },
+   "REV_DUR": {
+    "score": 83.6,
+    "raw": "Revenue growth s.d. 7.7%; operating-margin s.d. 2.7%"
+   },
+   "FIN_FRAG": {
+    "score": 49.7,
+    "raw": "Net debt/EBITDA 2.49x (scale 5x); interest expense not tagged"
+   },
+   "OP_RES": {
+    "score": 91.6,
+    "raw": "Worst revenue drawdown 3.4% over 5 fiscal years"
+   }
+  },
+  "not_applicable": [],
+  "ebit_proxy": false,
+  "input_hash": "51dd09007366d5f44b1133524065daa81d6fe4054db68c215db70e2ef99629f2"
+ },
+ "XOM": {
+  "name": "Exxon Mobil Corporation",
+  "archetype": "industrial",
+  "summary": {
+   "P": 44.38,
+   "Rt": 62.21,
+   "El": 0.0,
+   "Reff": 62.21,
+   "L": 30.82,
+   "gap": 6.59,
+   "Eb": 0.0,
+   "S": 1.0,
+   "raw": 38.7,
+   "celi": 38.7,
+   "dcs": 46.24,
+   "status": "insufficient",
+   "archetype": "Asset-heavy industrials",
+   "coverage": {
+    "cap": 0.6,
+    "risk": 0.25,
+    "adapt": 0.25
+   }
+  },
+  "reasons": [
+   "Constructive Capability scored coverage 60% below 80%",
+   "Systemic Risk scored coverage 25% below 80%",
+   "Adaptability scored coverage 25% below 80%",
+   "Data Confidence 46.2 below 50"
+  ],
+  "layerA": {
+   "ROIC_5Y": {
+    "score": 69.0,
+    "raw": "ROIC 5y avg 15.6% vs WACC prior 8% (spread +7.6 pp) [operating income derived: pretax + interest expense - interest income]"
+   },
+   "FCF_DUR": {
+    "score": 79.8,
+    "raw": "FCF/operating income 0.71 over 5y; FCF positive in 100% of years [operating income derived: pretax + interest expense - interest income]"
+   },
+   "REV_DUR": {
+    "score": 65.1,
+    "raw": "Revenue growth s.d. 23.3%; operating-margin s.d. 2.3% [operating income derived: pretax + interest expense - interest income]"
+   },
+   "FIN_FRAG": {
+    "score": 4.8,
+    "raw": "Net debt/EBITDA 0.48x (scale 5x); interest cover 69.4x [operating income derived: pretax + interest expense - interest income]"
+   },
+   "OP_RES": {
+    "score": 50.8,
+    "raw": "Worst revenue drawdown 19.7% over 5 fiscal years"
+   }
+  },
+  "not_applicable": [],
+  "ebit_proxy": true,
+  "input_hash": "9f223c911b40a9a4fbc90feeda71bccd76d2e4e1201e571ecd57b159e431968f"
+ },
+ "JNJ": {
+  "name": "Johnson & Johnson",
+  "archetype": "general",
+  "summary": {
+   "P": 50.1,
+   "Rt": 62.67,
+   "El": 0.0,
+   "Reff": 62.67,
+   "L": 42.5,
+   "gap": 12.77,
+   "Eb": 0.01,
+   "S": 1.0,
+   "raw": 43.46,
+   "celi": 43.46,
+   "dcs": 47.2,
+   "status": "insufficient",
+   "archetype": "General (unclassified)",
+   "coverage": {
+    "cap": 0.6,
+    "risk": 0.25,
+    "adapt": 0.25
+   }
+  },
+  "reasons": [
+   "Constructive Capability scored coverage 60% below 80%",
+   "Systemic Risk scored coverage 25% below 80%",
+   "Adaptability scored coverage 25% below 80%",
+   "Data Confidence 47.2 below 50"
+  ],
+  "layerA": {
+   "ROIC_5Y": {
+    "score": 76.0,
+    "raw": "ROIC 5y avg 18.4% vs WACC prior 8% (spread +10.4 pp) [operating income derived: pretax + interest expense - interest income]"
+   },
+   "FCF_DUR": {
+    "score": 95.4,
+    "raw": "FCF/operating income 0.93 over 5y; FCF positive in 100% of years [operating income derived: pretax + interest expense - interest income]"
+   },
+   "REV_DUR": {
+    "score": 80.3,
+    "raw": "Revenue growth s.d. 1.9%; operating-margin s.d. 6.9% [operating income derived: pretax + interest expense - interest income]"
+   },
+   "FIN_FRAG": {
+    "score": 7.1,
+    "raw": "Net debt/EBITDA 0.71x (scale 5x); interest cover 33.5x [operating income derived: pretax + interest expense - interest income]"
+   },
+   "OP_RES": {
+    "score": 100.0,
+    "raw": "Worst revenue drawdown 0.0% over 5 fiscal years"
+   }
+  },
+  "not_applicable": [],
+  "ebit_proxy": true,
+  "input_hash": "1bf103a943c6f4481d6a162c0438e8c35b8b7227cba2829e92f1ae43fbf1391c"
+ },
+ "PG": {
+  "name": "The Procter & Gamble Company",
+  "archetype": "general",
+  "summary": {
+   "P": 59.11,
+   "Rt": 60.04,
+   "El": 0.0,
+   "Reff": 60.04,
+   "L": 42.5,
+   "gap": 19.15,
+   "Eb": 0.25,
+   "S": 1.0,
+   "raw": 47.88,
+   "celi": 47.88,
+   "dcs": 52.3,
+   "status": "insufficient",
+   "archetype": "General (unclassified)",
+   "coverage": {
+    "cap": 0.6,
+    "risk": 0.25,
+    "adapt": 0.25
+   }
+  },
+  "reasons": [
+   "Constructive Capability scored coverage 60% below 80%",
+   "Systemic Risk scored coverage 25% below 80%",
+   "Adaptability scored coverage 25% below 80%"
+  ],
+  "layerA": {
+   "ROIC_5Y": {
+    "score": 81.2,
+    "raw": "ROIC 5y avg 20.5% vs WACC prior 8% (spread +12.5 pp)"
+   },
+   "FCF_DUR": {
+    "score": 85.4,
+    "raw": "FCF/operating income 0.79 over 5y; FCF positive in 100% of years"
+   },
+   "REV_DUR": {
+    "score": 95.4,
+    "raw": "Revenue growth s.d. 1.8%; operating-margin s.d. 0.9%"
+   },
+   "FIN_FRAG": {
+    "score": 10.7,
+    "raw": "Net debt/EBITDA 1.07x (scale 5x); interest cover 22.5x"
+   },
+   "OP_RES": {
+    "score": 100.0,
+    "raw": "Worst revenue drawdown 0.0% over 5 fiscal years"
+   }
+  },
+  "not_applicable": [],
+  "ebit_proxy": false,
+  "input_hash": "86ae35debd01ebfaba48048c9a202636bba734d788f14704f4c7928c1caf6a65"
+ }
+}
