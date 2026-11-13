@@ -7,7 +7,7 @@ Every figure below is traceable to one SEC accession number and filing date. Raw
 
 - companyfacts: https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json · fetched 2026-11-13T12:23:54Z · 4,938,072 bytes · sha256 `8c1903c041f5c27e86ed15f37debb1f41882b7904bba129ef9edc76478b1e8ea`
 - submissions: https://data.sec.gov/submissions/CIK0000789019.json · fetched 2026-11-13T12:23:54Z · 186,640 bytes · sha256 `4d4ff98b1deea7b90123e2b99c059cdac4343de0dccbdfdc9855e788419f893e`
-- assessment id `0000789019-2026-11-13-5063f91aaf00` · input hash `5063f91aaf00491f3d90a2ea777377f2d37785296848291654e2136f2ac2b9ce`
+- assessment id `0000789019-2026-11-13-21a685af4e43` · input hash `21a685af4e43d82f16eaab54f80c51b3d59c0ca52691e60f954eccc6e721c2b2`
 
 | Accession | form | filed | document |
 |---|---|---|---|
@@ -23,7 +23,7 @@ Every figure below is traceable to one SEC accession number and filing date. Raw
 
 - companyfacts: https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json · fetched 2026-11-13T12:23:59Z · 4,092,966 bytes · sha256 `19ef503a5770f5660964b3c3aea6937579d9b359da344afe6a9adf59c63d26ff`
 - submissions: https://data.sec.gov/submissions/CIK0001045810.json · fetched 2026-11-13T12:23:58Z · 160,083 bytes · sha256 `092e307ba8b409e49bd89a410eeb3134e7d193ea083eaf6e687539702b2ede07`
-- assessment id `0001045810-2026-11-13-fbaf4dcbf2d3` · input hash `fbaf4dcbf2d35a89ebe70d025f905273820e8320c0967c3ac0f8ef53d9719059`
+- assessment id `0001045810-2026-11-13-e5d4e03b264d` · input hash `e5d4e03b264dc38c9872a548fae5799ba35c14f65db4619dcf32a92ada7da65e`
 
 | Accession | form | filed | document |
 |---|---|---|---|
@@ -48,7 +48,7 @@ Every figure below is traceable to one SEC accession number and filing date. Raw
 
 - companyfacts: https://data.sec.gov/api/xbrl/companyfacts/CIK0000019617.json · fetched 2026-11-13T12:24:15Z · 8,141,435 bytes · sha256 `9ae303a532bde47ea040f005e1d6c26b10114fd21a482c68d7e7689fe577cc34`
 - submissions: https://data.sec.gov/submissions/CIK0000019617.json · fetched 2026-11-13T12:24:02Z · 4,692,683 bytes · sha256 `b99899532f2476d469ffd3708398d2492a0ceb2630ffa11d55142e7207bba150`
-- assessment id `0000019617-2026-11-13-879d47232948` · input hash `879d47232948a1ac820a10effa2d5e7656c01c02bdc68d0ad7638e93dcf0b8df`
+- assessment id `0000019617-2026-11-13-08604fcd2450` · input hash `08604fcd24501681e449ac8e4686011acd24d9fedf5b46b07ca587c17b49415f`
 
 | Accession | form | filed | document |
 |---|---|---|---|
@@ -72,7 +72,7 @@ Every figure below is traceable to one SEC accession number and filing date. Raw
 
 - companyfacts: https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json · fetched 2026-11-13T12:24:27Z · 3,859,564 bytes · sha256 `f085735b4d08fb116ade18d24247ffabe11df8eb52eae6556b165831f15ef1ad`
 - submissions: https://data.sec.gov/submissions/CIK0000320193.json · fetched 2026-11-13T12:24:26Z · 163,926 bytes · sha256 `ecc3321932506974dec32db5b7f475a95a4756ed3839d9b5d57122db0e824e08`
-- assessment id `0000320193-2026-11-13-d250c36b5b4d` · input hash `d250c36b5b4d30861d231172995937837133039058529754595d0a18a16df70c`
+- assessment id `0000320193-2026-11-13-95a2acc85a2e` · input hash `95a2acc85a2ed8d39dacd8b0d00ce518baca7214ce86ca70e3b1051d64df8bdc`
 
 | Accession | form | filed | document |
 |---|---|---|---|
@@ -88,7 +88,7 @@ Every figure below is traceable to one SEC accession number and filing date. Raw
 
 - companyfacts: https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json · fetched 2026-11-13T12:24:29Z · 4,554,378 bytes · sha256 `acddb7c0a6973a1fd08372de3b292298a34eae7f42a7eedc4bdebd3ac659c8fd`
 - submissions: https://data.sec.gov/submissions/CIK0001018724.json · fetched 2026-11-13T12:24:29Z · 160,388 bytes · sha256 `c2c36f85c91b5d57c0808db46c216d089401d3ad0c5b813ac828b8830481fd80`
-- assessment id `0001018724-2026-11-13-3ae596fb704c` · input hash `3ae596fb704cb29c5fca3c919e1515924683ebcdee4bbb9e2f45179c518b388e`
+- assessment id `0001018724-2026-11-13-07826d234c6b` · input hash `07826d234c6b0e95e70085a41dba64e0d8ef51a2a0c6ca0708aa36434f6af437`
 
 | Accession | form | filed | document |
 |---|---|---|---|

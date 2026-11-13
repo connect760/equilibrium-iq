@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T12:24:38Z",
+ "generated_at": "2026-11-13T12:25:44Z",
  "asof": "2026-11-13",
  "methodology": "CELI-100 v3.0",
  "source": "SEC EDGAR (data.sec.gov companyfacts + submissions)",
@@ -26,8 +26,9 @@
     "model_detected": "corporate",
     "model_conflict": false
    },
-   "assessment_id": "0000789019-2026-11-13-5063f91aaf00",
-   "input_hash": "5063f91aaf00491f3d90a2ea777377f2d37785296848291654e2136f2ac2b9ce",
+   "assessment_id": "0000789019-2026-11-13-21a685af4e43",
+   "input_hash": "21a685af4e43d82f16eaab54f80c51b3d59c0ca52691e60f954eccc6e721c2b2",
+   "code_fingerprint": "ca60a05151ecae6ea05a9aa4409778da6ff75f5d75011fc266bb6c573d258168",
    "sources": {
     "companyfacts": {
      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
@@ -44,7 +45,7 @@
    },
    "counts": {
     "facts": 33058,
-    "facts_new_in_db": 33058,
+    "facts_new_in_db": 0,
     "filings_registered": 336,
     "ten_k": 18,
     "ten_q": 56,
@@ -6883,8 +6884,9 @@
     "model_detected": "corporate",
     "model_conflict": false
    },
-   "assessment_id": "0001045810-2026-11-13-fbaf4dcbf2d3",
-   "input_hash": "fbaf4dcbf2d35a89ebe70d025f905273820e8320c0967c3ac0f8ef53d9719059",
+   "assessment_id": "0001045810-2026-11-13-e5d4e03b264d",
+   "input_hash": "e5d4e03b264dc38c9872a548fae5799ba35c14f65db4619dcf32a92ada7da65e",
+   "code_fingerprint": "ca60a05151ecae6ea05a9aa4409778da6ff75f5d75011fc266bb6c573d258168",
    "sources": {
     "companyfacts": {
      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
@@ -6901,7 +6903,7 @@
    },
    "counts": {
     "facts": 27281,
-    "facts_new_in_db": 27281,
+    "facts_new_in_db": 0,
     "filings_registered": 416,
     "ten_k": 27,
     "ten_q": 85,
@@ -14354,8 +14356,9 @@
     "model_detected": "bank",
     "model_conflict": false
    },
-   "assessment_id": "0000019617-2026-11-13-879d47232948",
-   "input_hash": "879d47232948a1ac820a10effa2d5e7656c01c02bdc68d0ad7638e93dcf0b8df",
+   "assessment_id": "0000019617-2026-11-13-08604fcd2450",
+   "input_hash": "08604fcd24501681e449ac8e4686011acd24d9fedf5b46b07ca587c17b49415f",
+   "code_fingerprint": "ca60a05151ecae6ea05a9aa4409778da6ff75f5d75011fc266bb6c573d258168",
    "sources": {
     "companyfacts": {
      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000019617.json",
@@ -14372,7 +14375,7 @@
    },
    "counts": {
     "facts": 55228,
-    "facts_new_in_db": 55228,
+    "facts_new_in_db": 0,
     "filings_registered": 487,
     "ten_k": 12,
     "ten_q": 38,
@@ -16013,12 +16016,186 @@
      }
     },
     "cash": {
-     "2020-12-31": null,
-     "2021-12-31": null,
-     "2022-12-31": null,
-     "2023-12-31": null,
-     "2024-12-31": null,
-     "2025-12-31": null
+     "2020-12-31": {
+      "concept": "CashAndDueFromBanks",
+      "taxonomy": "us-gaap",
+      "unit": "USD",
+      "start": null,
+      "end": "2020-12-31",
+      "value": 24874000000,
+      "accession": "0000019617-22-000272",
+      "form": "10-K",
+      "filed": "2022-02-22",
+      "original_value": 24874000000,
+      "original_accession": "0000019617-21-000236",
+      "original_filed": "2021-02-23",
+      "versions_visible": 2,
+      "restated": false,
+      "amended": false,
+      "history": [
+       {
+        "value": 24874000000,
+        "accession": "0000019617-21-000236",
+        "form": "10-K",
+        "filed": "2021-02-23"
+       },
+       {
+        "value": 24874000000,
+        "accession": "0000019617-22-000272",
+        "form": "10-K",
+        "filed": "2022-02-22"
+       }
+      ]
+     },
+     "2021-12-31": {
+      "concept": "CashAndDueFromBanks",
+      "taxonomy": "us-gaap",
+      "unit": "USD",
+      "start": null,
+      "end": "2021-12-31",
+      "value": 26438000000,
+      "accession": "0000019617-23-000231",
+      "form": "10-K",
+      "filed": "2023-02-21",
+      "original_value": 26438000000,
+      "original_accession": "0000019617-22-000272",
+      "original_filed": "2022-02-22",
+      "versions_visible": 2,
+      "restated": false,
+      "amended": false,
+      "history": [
+       {
+        "value": 26438000000,
+        "accession": "0000019617-22-000272",
+        "form": "10-K",
+        "filed": "2022-02-22"
+       },
+       {
+        "value": 26438000000,
+        "accession": "0000019617-23-000231",
+        "form": "10-K",
+        "filed": "2023-02-21"
+       }
+      ]
+     },
+     "2022-12-31": {
+      "concept": "CashAndDueFromBanks",
+      "taxonomy": "us-gaap",
+      "unit": "USD",
+      "start": null,
+      "end": "2022-12-31",
+      "value": 27697000000,
+      "accession": "0000019617-24-000225",
+      "form": "10-K",
+      "filed": "2024-02-16",
+      "original_value": 27697000000,
+      "original_accession": "0000019617-23-000231",
+      "original_filed": "2023-02-21",
+      "versions_visible": 2,
+      "restated": false,
+      "amended": false,
+      "history": [
+       {
+        "value": 27697000000,
+        "accession": "0000019617-23-000231",
+        "form": "10-K",
+        "filed": "2023-02-21"
+       },
+       {
+        "value": 27697000000,
+        "accession": "0000019617-24-000225",
+        "form": "10-K",
+        "filed": "2024-02-16"
+       }
+      ]
+     },
+     "2023-12-31": {
+      "concept": "CashAndDueFromBanks",
+      "taxonomy": "us-gaap",
+      "unit": "USD",
+      "start": null,
+      "end": "2023-12-31",
+      "value": 29066000000,
+      "accession": "0000019617-25-000270",
+      "form": "10-K",
+      "filed": "2025-02-14",
+      "original_value": 29066000000,
+      "original_accession": "0000019617-24-000225",
+      "original_filed": "2024-02-16",
+      "versions_visible": 2,
+      "restated": false,
+      "amended": false,
+      "history": [
+       {
+        "value": 29066000000,
+        "accession": "0000019617-24-000225",
+        "form": "10-K",
+        "filed": "2024-02-16"
+       },
+       {
+        "value": 29066000000,
+        "accession": "0000019617-25-000270",
+        "form": "10-K",
+        "filed": "2025-02-14"
+       }
+      ]
+     },
+     "2024-12-31": {
+      "concept": "CashAndDueFromBanks",
+      "taxonomy": "us-gaap",
+      "unit": "USD",
+      "start": null,
+      "end": "2024-12-31",
+      "value": 23372000000,
+      "accession": "0001628280-26-008131",
+      "form": "10-K",
+      "filed": "2026-02-13",
+      "original_value": 23372000000,
+      "original_accession": "0000019617-25-000270",
+      "original_filed": "2025-02-14",
+      "versions_visible": 2,
+      "restated": false,
+      "amended": false,
+      "history": [
+       {
+        "value": 23372000000,
+        "accession": "0000019617-25-000270",
+        "form": "10-K",
+        "filed": "2025-02-14"
+       },
+       {
+        "value": 23372000000,
+        "accession": "0001628280-26-008131",
+        "form": "10-K",
+        "filed": "2026-02-13"
+       }
+      ]
+     },
+     "2025-12-31": {
+      "concept": "CashAndDueFromBanks",
+      "taxonomy": "us-gaap",
+      "unit": "USD",
+      "start": null,
+      "end": "2025-12-31",
+      "value": 21742000000,
+      "accession": "0001628280-26-008131",
+      "form": "10-K",
+      "filed": "2026-02-13",
+      "original_value": 21742000000,
+      "original_accession": "0001628280-26-008131",
+      "original_filed": "2026-02-13",
+      "versions_visible": 1,
+      "restated": false,
+      "amended": false,
+      "history": [
+       {
+        "value": 21742000000,
+        "accession": "0001628280-26-008131",
+        "form": "10-K",
+        "filed": "2026-02-13"
+       }
+      ]
+     }
     },
     "diluted_eps": {
      "2020-12-31": {
@@ -17203,12 +17380,186 @@
      }
     },
     "long_term_debt": {
-     "2020-12-31": null,
-     "2021-12-31": null,
-     "2022-12-31": null,
-     "2023-12-31": null,
-     "2024-12-31": null,
-     "2025-12-31": null
+     "2020-12-31": {
+      "concept": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+      "taxonomy": "us-gaap",
+      "unit": "USD",
+      "start": null,
+      "end": "2020-12-31",
+      "value": 281685000000,
+      "accession": "0000019617-22-000272",
+      "form": "10-K",
+      "filed": "2022-02-22",
+      "original_value": 281685000000,
+      "original_accession": "0000019617-21-000236",
+      "original_filed": "2021-02-23",
+      "versions_visible": 2,
+      "restated": false,
+      "amended": false,
+      "history": [
+       {
+        "value": 281685000000,
+        "accession": "0000019617-21-000236",
+        "form": "10-K",
+        "filed": "2021-02-23"
+       },
+       {
+        "value": 281685000000,
+        "accession": "0000019617-22-000272",
+        "form": "10-K",
+        "filed": "2022-02-22"
+       }
+      ]
+     },
+     "2021-12-31": {
+      "concept": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+      "taxonomy": "us-gaap",
+      "unit": "USD",
+      "start": null,
+      "end": "2021-12-31",
+      "value": 301005000000,
+      "accession": "0000019617-23-000231",
+      "form": "10-K",
+      "filed": "2023-02-21",
+      "original_value": 301005000000,
+      "original_accession": "0000019617-22-000272",
+      "original_filed": "2022-02-22",
+      "versions_visible": 2,
+      "restated": false,
+      "amended": false,
+      "history": [
+       {
+        "value": 301005000000,
+        "accession": "0000019617-22-000272",
+        "form": "10-K",
+        "filed": "2022-02-22"
+       },
+       {
+        "value": 301005000000,
+        "accession": "0000019617-23-000231",
+        "form": "10-K",
+        "filed": "2023-02-21"
+       }
+      ]
+     },
+     "2022-12-31": {
+      "concept": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+      "taxonomy": "us-gaap",
+      "unit": "USD",
+      "start": null,
+      "end": "2022-12-31",
+      "value": 295865000000,
+      "accession": "0000019617-24-000225",
+      "form": "10-K",
+      "filed": "2024-02-16",
+      "original_value": 295865000000,
+      "original_accession": "0000019617-23-000231",
+      "original_filed": "2023-02-21",
+      "versions_visible": 2,
+      "restated": false,
+      "amended": false,
+      "history": [
+       {
+        "value": 295865000000,
+        "accession": "0000019617-23-000231",
+        "form": "10-K",
+        "filed": "2023-02-21"
+       },
+       {
+        "value": 295865000000,
+        "accession": "0000019617-24-000225",
+        "form": "10-K",
+        "filed": "2024-02-16"
+       }
+      ]
+     },
+     "2023-12-31": {
+      "concept": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+      "taxonomy": "us-gaap",
+      "unit": "USD",
+      "start": null,
+      "end": "2023-12-31",
+      "value": 391825000000,
+      "accession": "0000019617-25-000270",
+      "form": "10-K",
+      "filed": "2025-02-14",
+      "original_value": 391825000000,
+      "original_accession": "0000019617-24-000225",
+      "original_filed": "2024-02-16",
+      "versions_visible": 2,
+      "restated": false,
+      "amended": false,
+      "history": [
+       {
+        "value": 391825000000,
+        "accession": "0000019617-24-000225",
+        "form": "10-K",
+        "filed": "2024-02-16"
+       },
+       {
+        "value": 391825000000,
+        "accession": "0000019617-25-000270",
+        "form": "10-K",
+        "filed": "2025-02-14"
+       }
+      ]
+     },
+     "2024-12-31": {
+      "concept": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+      "taxonomy": "us-gaap",
+      "unit": "USD",
+      "start": null,
+      "end": "2024-12-31",
+      "value": 401418000000,
+      "accession": "0001628280-26-008131",
+      "form": "10-K",
+      "filed": "2026-02-13",
+      "original_value": 401418000000,
+      "original_accession": "0000019617-25-000270",
+      "original_filed": "2025-02-14",
+      "versions_visible": 2,
+      "restated": false,
+      "amended": false,
+      "history": [
+       {
+        "value": 401418000000,
+        "accession": "0000019617-25-000270",
+        "form": "10-K",
+        "filed": "2025-02-14"
+       },
+       {
+        "value": 401418000000,
+        "accession": "0001628280-26-008131",
+        "form": "10-K",
+        "filed": "2026-02-13"
+       }
+      ]
+     },
+     "2025-12-31": {
+      "concept": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+      "taxonomy": "us-gaap",
+      "unit": "USD",
+      "start": null,
+      "end": "2025-12-31",
+      "value": 435206000000,
+      "accession": "0001628280-26-008131",
+      "form": "10-K",
+      "filed": "2026-02-13",
+      "original_value": 435206000000,
+      "original_accession": "0001628280-26-008131",
+      "original_filed": "2026-02-13",
+      "versions_visible": 1,
+      "restated": false,
+      "amended": false,
+      "history": [
+       {
+        "value": 435206000000,
+        "accession": "0001628280-26-008131",
+        "form": "10-K",
+        "filed": "2026-02-13"
+       }
+      ]
+     }
     }
    },
    "filing_links": {
@@ -18904,8 +19255,9 @@
     "model_detected": "corporate",
     "model_conflict": false
    },
-   "assessment_id": "0000320193-2026-11-13-d250c36b5b4d",
-   "input_hash": "d250c36b5b4d30861d231172995937837133039058529754595d0a18a16df70c",
+   "assessment_id": "0000320193-2026-11-13-95a2acc85a2e",
+   "input_hash": "95a2acc85a2ed8d39dacd8b0d00ce518baca7214ce86ca70e3b1051d64df8bdc",
+   "code_fingerprint": "ca60a05151ecae6ea05a9aa4409778da6ff75f5d75011fc266bb6c573d258168",
    "sources": {
     "companyfacts": {
      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
@@ -18922,7 +19274,7 @@
    },
    "counts": {
     "facts": 25604,
-    "facts_new_in_db": 25604,
+    "facts_new_in_db": 0,
     "filings_registered": 425,
     "ten_k": 33,
     "ten_q": 100,
@@ -26271,8 +26623,9 @@
     "model_detected": "corporate",
     "model_conflict": false
    },
-   "assessment_id": "0001018724-2026-11-13-3ae596fb704c",
-   "input_hash": "3ae596fb704cb29c5fca3c919e1515924683ebcdee4bbb9e2f45179c518b388e",
+   "assessment_id": "0001018724-2026-11-13-07826d234c6b",
+   "input_hash": "07826d234c6b0e95e70085a41dba64e0d8ef51a2a0c6ca0708aa36434f6af437",
+   "code_fingerprint": "ca60a05151ecae6ea05a9aa4409778da6ff75f5d75011fc266bb6c573d258168",
    "sources": {
     "companyfacts": {
      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
@@ -26289,7 +26642,7 @@
    },
    "counts": {
     "facts": 30289,
-    "facts_new_in_db": 30289,
+    "facts_new_in_db": 0,
     "filings_registered": 411,
     "ten_k": 27,
     "ten_q": 81,

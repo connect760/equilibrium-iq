@@ -43,7 +43,9 @@ BANK = {
     "provision_credit_losses": (True, "monetary", ["ProvisionForLoanLeaseAndOtherLosses", "ProvisionForLoanAndLeaseLosses", "ProvisionForCreditLossesExcludingAccruedInterest"]),
     "deposits": (False, "monetary", ["Deposits"]),
     "loans_net": (False, "monetary", ["LoansAndLeasesReceivableNetReportedAmount", "FinancingReceivableExcludingAccruedInterestAfterAllowanceForCreditLoss"]),
-    "long_term_debt": (False, "monetary", ["LongTermDebt"]),
+    "long_term_debt": (False, "monetary", ["LongTermDebt", "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities"]),
+    # banks report cash as cash and due from banks; interest-bearing deposits with banks are a separate line, not added here
+    "cash": (False, "monetary", ["CashAndDueFromBanks", "CashAndCashEquivalentsAtCarryingValue"]),
 }
 ANCHORS = ["Revenues", "RevenueFromContractWithCustomerExcludingAssessedTax", "NetIncomeLoss", "NetCashProvidedByUsedInOperatingActivities"]
 

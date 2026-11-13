@@ -1,6 +1,6 @@
 # C. Financial-data extraction report
 
-Assessment date 2026-11-13 · generated 2026-11-13T12:24:38Z · source: SEC EDGAR (data.sec.gov companyfacts + submissions)
+Assessment date 2026-11-13 · generated 2026-11-13T12:25:44Z · source: SEC EDGAR (data.sec.gov companyfacts + submissions)
 
 Values are USD millions as filed. '—' means the item was not reported for that period (never zero-filled). Concept = the us-gaap tag actually used.
 
@@ -135,14 +135,14 @@ SIC 6021 National Commercial Banks · fiscal year end 1231 · 55,228 XBRL facts 
 | total_assets | Assets | 3,384,757 ᴿ | 3,743,567 | 3,665,743 | 3,875,393 | 4,002,814 | 4,424,900 |
 | total_liabilities | Liabilities | 3,105,403 ᴿ | 3,449,440 | 3,373,411 | 3,547,515 | 3,658,056 | 4,062,462 |
 | equity | StockholdersEquity | 279,354 | 294,127 | 292,332 | 327,878 | 344,758 | 362,438 |
-| cash | — | — | — | — | — | — | — |
+| cash | CashAndDueFromBanks | 24,874 | 26,438 | 27,697 | 29,066 | 23,372 | 21,742 |
 | diluted_eps | EarningsPerShareDiluted | 8.88 | 15.36 | 12.09 | 16.23 | 19.75 | 20.02 |
 | net_interest_income | InterestIncomeExpenseNet | 54,563 | 52,311 | 66,710 | 89,267 | 92,583 | 95,443 |
 | noninterest_expense | NoninterestExpense | 66,656 | 71,343 | 76,140 | 87,172 | 91,797 | 95,640 |
 | provision_credit_losses | ProvisionForLoanLeaseAndOtherLosses | 17,480 | -9,256 | 6,389 | 9,320 | 10,678 | 14,212 |
 | deposits | Deposits | 2,144,257 | 2,462,303 | 2,340,179 | 2,400,688 | 2,406,032 | 2,559,320 |
 | loans_net | FinancingReceivableExcludingAccruedInterestAfterAllowanceForCreditLoss | 984,525 | 1,061,328 | 1,115,921 | 1,301,286 | 1,323,643 | 1,467,664 |
-| long_term_debt | — | — | — | — | — | — | — |
+| long_term_debt | LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities | 281,685 | 301,005 | 295,865 | 391,825 | 401,418 | 435,206 |
 
 ᴿ = value differs from the first-filed figure (restated or reclassified); both are kept.
 

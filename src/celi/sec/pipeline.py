@@ -17,6 +17,13 @@ from .store import add_assessment, add_company, add_facts, add_filings, add_sour
 SINCE = "2015-01-01"
 
 
+def code_fingerprint() -> str:
+    """sha256 of the extraction, metric and engine source, so a code change always yields a new assessment id."""
+    here = Path(__file__).resolve().parent
+    files = [here / f for f in ("facts.py", "statements.py", "metrics.py", "bridge.py")] + [here.parent / "methodology" / "v3_0.py"]
+    return sha256_hex("".join(f.read_text() for f in files))
+
+
 def load_registry(root: Path) -> list[dict]:
     return json.loads((root / "config" / "companies.json").read_text())["companies"]
 
@@ -74,7 +81,7 @@ def process(root: Path, raw: RawStore, db_path: Path, asof: str, out_dir: Path) 
         summ = summary(hist, mets)
         status = bridge.indicator_status(c["model"], mets)
         result = bridge.run_engine(c["model"], asof, status)
-        inputs = {"cik": prof["cik"], "asof": asof, "companyfacts_sha256": crec["sha256"], "submissions_sha256": srec["sha256"], "model": c["model"]}
+        inputs = {"cik": prof["cik"], "asof": asof, "companyfacts_sha256": crec["sha256"], "submissions_sha256": srec["sha256"], "model": c["model"], "code": code_fingerprint()}
         input_hash = sha256_hex(canonical_json(inputs))
         aid = f"{prof['cik']}-{asof}-{input_hash[:12]}"
         exists = db.execute("SELECT 1 FROM assessments WHERE id=?", (aid,)).fetchone()
@@ -84,7 +91,7 @@ def process(root: Path, raw: RawStore, db_path: Path, asof: str, out_dir: Path) 
         amendments = [f for f in filings if f["is_amendment"] and f["base_form"] in {"10-K", "10-Q"}]
         restated = [{"item": item, **s.as_dict()} for item, by in hist["items"].items() for s in by.values() if s is not None and s.restated]
         dataset["companies"].append({
-            "ticker": c["ticker"], "profile": prof, "assessment_id": aid, "input_hash": input_hash,
+            "ticker": c["ticker"], "profile": prof, "assessment_id": aid, "input_hash": input_hash, "code_fingerprint": inputs["code"],
             "sources": {"companyfacts": {k: crec[k] for k in ("url", "sha256", "fetched_at", "bytes")}, "submissions": {k: srec[k] for k in ("url", "sha256", "fetched_at", "bytes")}},
             "counts": {"facts": len(facts), "facts_new_in_db": new_facts, "filings_registered": len(filings),
                        "ten_k": sum(1 for f in filings if f["base_form"] == "10-K"), "ten_q": sum(1 for f in filings if f["base_form"] == "10-Q"),

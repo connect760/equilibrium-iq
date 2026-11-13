@@ -92,8 +92,6 @@ Assessment date 2026-11-13. No WACC, cost of equity, sector threshold or scoring
 | GEO_SUPPLY | unsupported_by_sec_xbrl | Geographic revenue is dimensional XBRL; supply-chain risk needs risk-factor extraction | — |
 | INNOV | unsupported_by_sec_xbrl | Not derivable from SEC XBRL | — |
 
-**Statement items not reported for at least one year:** cash, long_term_debt
-
 ## Apple Inc. (AAPL) · corporate model
 
 | Indicator | status | reason | evidence available |
