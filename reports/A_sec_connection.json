@@ -1,0 +1,10 @@
+{
+ "ok": true,
+ "url": "https://data.sec.gov/submissions/CIK0000789019.json",
+ "status": 200,
+ "bytes": 186640,
+ "sha256": "4d4ff98b1deea7b90123e2b99c059cdac4343de0dccbdfdc9855e788419f893e",
+ "fetched_at": "2026-11-13T12:23:53Z",
+ "entity": "MICROSOFT CORP",
+ "cik": "0000789019"
+}
