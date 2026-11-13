@@ -25,7 +25,7 @@ jobs:
       run:
         shell: bash -eo pipefail {0}
     env:
-      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}   # repository secret (required); masked in logs, never stored in the repo
+      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}   # optional secret override; config/sec_user_agent.txt is used otherwise
       PYTHONPATH: src
     steps:
       - uses: actions/checkout@v4
