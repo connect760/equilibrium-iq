@@ -375,3 +375,8 @@ def test_end_to_end_fetch_process_reports(server, tmp_path, monkeypatch):
     # re-processing the same inputs is idempotent
     ds2 = pipeline.process(root, raw, root / "e2.sqlite", "2026-03-01", root / "reports")
     assert ds2["companies"][0]["assessment_id"] == co["assessment_id"]
+    # a peer file (with tiny floats in exponent form) changes the input hash and must not break processing
+    (root / "data" / "peers").mkdir(parents=True, exist_ok=True)
+    (root / "data" / "peers" / "peer_inputs_2026-03-01.json").write_text(json.dumps({"peers": [{"cik": "1", "group": "X", "asof": "2026-03-01", "inputs": {"operating_margin_sd": 3.487358326070833e-05}}]}))
+    ds3 = pipeline.process(root, raw, root / "e2.sqlite", "2026-03-01", root / "reports")
+    assert ds3["companies"][0]["assessment_id"] != co["assessment_id"] and ds3["peers"]["count"] == 1

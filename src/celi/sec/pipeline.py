@@ -135,7 +135,7 @@ def process(root: Path, raw: RawStore, db_path: Path, asof: str, out_dir: Path) 
         archetype = prow["archetype"] if prow else None
         result = bridge.run_engine(c["model"], asof, status, archetype)
         inputs = {"cik": prof["cik"], "asof": asof, "companyfacts_sha256": crec["sha256"], "submissions_sha256": srec["sha256"], "model": c["model"], "code": code_fingerprint(),
-                  "peers_sha256": sha256_hex(canonical_json(peer_rows)) if peer_rows else None}
+                  "peers_sha256": sha256_hex(pf.read_text()) if peer_doc else None}  # exact bytes of the peer file
         input_hash = sha256_hex(canonical_json(inputs))
         aid = f"{prof['cik']}-{asof}-{input_hash[:12]}"
         exists = db.execute("SELECT 1 FROM assessments WHERE id=?", (aid,)).fetchone()
