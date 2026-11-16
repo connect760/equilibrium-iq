@@ -1,6 +1,6 @@
 # C. Financial-data extraction report
 
-Assessment date 2026-11-16 · generated 2026-11-16T05:11:48Z · source: SEC EDGAR (data.sec.gov companyfacts + submissions)
+Assessment date 2026-11-16 · generated 2026-11-16T15:47:03Z · source: SEC EDGAR (data.sec.gov companyfacts + submissions)
 
 Values are USD millions as filed. '—' means the item was not reported for that period (never zero-filled). Concept = the us-gaap tag actually used.
 
@@ -123,7 +123,7 @@ SIC 3674 Semiconductors & Related Devices · fiscal year end 0131 · 27,281 XBRL
 
 ## JPMORGAN CHASE & CO (JPM) · CIK 0000019617 · model: bank
 
-SIC 6021 National Commercial Banks · fiscal year end 1231 · 55,233 XBRL facts · 487 filings registered (12 10-K, 38 10-Q, 12 DEF 14A, 0 10-K/10-Q amendments)
+SIC 6021 National Commercial Banks · fiscal year end 1231 · 55,247 XBRL facts · 487 filings registered (12 10-K, 38 10-Q, 12 DEF 14A, 0 10-K/10-Q amendments)
 
 | Item | concept | 2020-12-31 | 2021-12-31 | 2022-12-31 | 2023-12-31 | 2024-12-31 | 2025-12-31 |
 |---|---|---:|---:|---:|---:|---:|---:|

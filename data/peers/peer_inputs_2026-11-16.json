@@ -1,6 +1,6 @@
 {
 "asof": "2026-11-16",
-"built_at": "2026-11-16T05:11:43Z",
+"built_at": "2026-11-16T15:46:58Z",
 "code": "bc7cf0f65c8cd9417b96033d21d5e477090c5c05dd8ed2bb31bf83f9e09c4f9b",
 "list": "config/peers_sp500.csv",
 "list_date": "2026-11-16",
@@ -9,7 +9,7 @@
 "asof": "2026-11-16",
 "cik": "0000066740",
 "companyfacts_sha256": "f386e2155c94359b4e3f3a688c4b1d008d8082be0f87279cea40c15d6a04d209",
-"fetched_at": "2026-11-16T05:08:23Z",
+"fetched_at": "2026-11-16T15:44:22Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 1.5992380952380953,
@@ -35,7 +35,7 @@
 "asof": "2026-11-16",
 "cik": "0000091142",
 "companyfacts_sha256": "a58dd019da32e0aaa23572a3ccdcd48bf625533ef33d74c1de7d440142d43f86",
-"fetched_at": "2026-11-16T05:08:23Z",
+"fetched_at": "2026-11-16T15:44:23Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.839406877834045,
@@ -61,7 +61,7 @@
 "asof": "2026-11-16",
 "cik": "0000001800",
 "companyfacts_sha256": "07c6a6a73334630e83560b643ca9721fbf092ef2c843cb8fb0d449ffb8bfacf8",
-"fetched_at": "2026-11-16T05:08:23Z",
+"fetched_at": "2026-11-16T15:44:23Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.924337362032352,
@@ -87,7 +87,7 @@
 "asof": "2026-11-16",
 "cik": "0001551152",
 "companyfacts_sha256": "6ec0b9f0faeeb8ec745ed192956acb87604fe695b36755173727c0c789411ff6",
-"fetched_at": "2026-11-16T05:08:24Z",
+"fetched_at": "2026-11-16T15:44:23Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 1.4237501712094234,
@@ -113,7 +113,7 @@
 "asof": "2026-11-16",
 "cik": "0001467373",
 "companyfacts_sha256": "83258e85f0e5ef6d55fe62cb43365d5bb764c3eb0786f05c13c57becd99d5fd8",
-"fetched_at": "2026-11-16T05:08:24Z",
+"fetched_at": "2026-11-16T15:44:24Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.9903685371755604,
@@ -139,7 +139,7 @@
 "asof": "2026-11-16",
 "cik": "0000796343",
 "companyfacts_sha256": "86a5689aa9aa7b0f9e95be21b48b0305376e014c8dbf3b8bb3b4b131f1b6a0c4",
-"fetched_at": "2026-11-16T05:08:24Z",
+"fetched_at": "2026-11-16T15:44:24Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 1.1455422537282702,
@@ -165,7 +165,7 @@
 "asof": "2026-11-16",
 "cik": "0000002488",
 "companyfacts_sha256": "4c29484ff062a77b0dde3a0d0b3439f807ccd2d44f9b568a52b5eabbc2b2464c",
-"fetched_at": "2026-11-16T05:08:25Z",
+"fetched_at": "2026-11-16T15:44:24Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 1.5215916383973596,
@@ -191,7 +191,7 @@
 "asof": "2026-11-16",
 "cik": "0000874761",
 "companyfacts_sha256": "007d8a1840ff2a0a646147c52c93f9656713e9b0475789497ed678f3bbbc7cb0",
-"fetched_at": "2026-11-16T05:08:25Z",
+"fetched_at": "2026-11-16T15:44:25Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -217,7 +217,7 @@
 "asof": "2026-11-16",
 "cik": "0001090872",
 "companyfacts_sha256": "c1dc449b186de4294c8dbdbb9e3b0f74eee3628c3fc5836652ff7ab8c2040ac9",
-"fetched_at": "2026-11-16T05:08:26Z",
+"fetched_at": "2026-11-16T15:44:25Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.8674814611370503,
@@ -243,7 +243,7 @@
 "asof": "2026-11-16",
 "cik": "0000002969",
 "companyfacts_sha256": "b950a51ccd6520b9874e8452b9be9d2a43736bf24b7ea2413c44d34cf72a623a",
-"fetched_at": "2026-11-16T05:08:26Z",
+"fetched_at": "2026-11-16T15:44:25Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -269,7 +269,7 @@
 "asof": "2026-11-16",
 "cik": "0001559720",
 "companyfacts_sha256": "84c3ff1f4d1c2a59b9ec83e7712f507ba202df8dab48dabd673a7856a5795b28",
-"fetched_at": "2026-11-16T05:08:26Z",
+"fetched_at": "2026-11-16T15:44:25Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -295,7 +295,7 @@
 "asof": "2026-11-16",
 "cik": "0001086222",
 "companyfacts_sha256": "a95d270abe638614e4bad75ddf18922cde37fc1f03091696a25f51e54e90a755",
-"fetched_at": "2026-11-16T05:08:27Z",
+"fetched_at": "2026-11-16T15:44:25Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 1.6074651678153586,
@@ -321,7 +321,7 @@
 "asof": "2026-11-16",
 "cik": "0000915913",
 "companyfacts_sha256": "ad660babec3a033d70547f3b90e731fba965a837926e7f47d5de508534f3d0c7",
-"fetched_at": "2026-11-16T05:08:27Z",
+"fetched_at": "2026-11-16T15:44:26Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": -0.7927041061284318,
@@ -347,7 +347,7 @@
 "asof": "2026-11-16",
 "cik": "0001097149",
 "companyfacts_sha256": "6b2cc56278b81b8f379ce2e42268246a6be0766956f2cc7c58f748250888ac50",
-"fetched_at": "2026-11-16T05:08:28Z",
+"fetched_at": "2026-11-16T15:44:26Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.8108891371530889,
@@ -373,7 +373,7 @@
 "asof": "2026-11-16",
 "cik": "0001579241",
 "companyfacts_sha256": "c20f19d1f86a5b090d2b6aaea7535d73d798313b49a695deafd630e85d2cc704",
-"fetched_at": "2026-11-16T05:08:28Z",
+"fetched_at": "2026-11-16T15:44:26Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.7571568740621032,
@@ -399,7 +399,7 @@
 "asof": "2026-11-16",
 "cik": "0000352541",
 "companyfacts_sha256": "2eee728dad8e851ef616fdf1c725bc0a0002cbc44ce1c7e50c184f5fa1ca69de",
-"fetched_at": "2026-11-16T05:08:28Z",
+"fetched_at": "2026-11-16T15:44:27Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -425,7 +425,7 @@
 "asof": "2026-11-16",
 "cik": "0001652044",
 "companyfacts_sha256": "f87bc183f74b45ecf9a0933e0e0a1b6b97ead51a9d29367a7dae436574e1c1d0",
-"fetched_at": "2026-11-16T05:08:29Z",
+"fetched_at": "2026-11-16T15:44:27Z",
 "group": "Communication Services",
 "inputs": {
 "fcf_conversion_cum": 0.7147146332608633,
@@ -451,7 +451,7 @@
 "asof": "2026-11-16",
 "cik": "0001652044",
 "companyfacts_sha256": "f87bc183f74b45ecf9a0933e0e0a1b6b97ead51a9d29367a7dae436574e1c1d0",
-"fetched_at": "2026-11-16T05:08:29Z",
+"fetched_at": "2026-11-16T15:44:27Z",
 "group": "Communication Services",
 "inputs": {
 "fcf_conversion_cum": 0.7147146332608633,
@@ -477,7 +477,7 @@
 "asof": "2026-11-16",
 "cik": "0000764180",
 "companyfacts_sha256": "2c194634e0179023c99350e13ead15781d92091708f1886a3755f1eea70a01ad",
-"fetched_at": "2026-11-16T05:08:29Z",
+"fetched_at": "2026-11-16T15:44:27Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.7667093971441797,
@@ -503,7 +503,7 @@
 "asof": "2026-11-16",
 "cik": "0001018724",
 "companyfacts_sha256": "acddb7c0a6973a1fd08372de3b292298a34eae7f42a7eedc4bdebd3ac659c8fd",
-"fetched_at": "2026-11-16T05:08:30Z",
+"fetched_at": "2026-11-16T15:44:27Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.18499912378059466,
@@ -529,7 +529,7 @@
 "asof": "2026-11-16",
 "cik": "0001748790",
 "companyfacts_sha256": "a417158eabc91330eac86336f6fc81d9c31e9880d4e7e6adc4e5280c653ca5f4",
-"fetched_at": "2026-11-16T05:08:30Z",
+"fetched_at": "2026-11-16T15:44:28Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": 0.6699665162323483,
@@ -555,7 +555,7 @@
 "asof": "2026-11-16",
 "cik": "0001002910",
 "companyfacts_sha256": "1dbf62097916304fd1cdbef2625d004955010f316703d92adc9f8acda2d3fa4c",
-"fetched_at": "2026-11-16T05:08:30Z",
+"fetched_at": "2026-11-16T15:44:28Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": -0.7888777050830398,
@@ -581,7 +581,7 @@
 "asof": "2026-11-16",
 "cik": "0000004904",
 "companyfacts_sha256": "c9040e99381d768142f28e73688dbd888766a5619dd7f701d653a7905d17b84d",
-"fetched_at": "2026-11-16T05:08:30Z",
+"fetched_at": "2026-11-16T15:44:28Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": 1.1194324303816678,
@@ -607,7 +607,7 @@
 "asof": "2026-11-16",
 "cik": "0001410636",
 "companyfacts_sha256": "4e6cceeeacd74fb03ced2b13209a913336a001826722cec211b9cd742db904af",
-"fetched_at": "2026-11-16T05:08:31Z",
+"fetched_at": "2026-11-16T15:44:29Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": -0.5404227212681638,
@@ -633,7 +633,7 @@
 "asof": "2026-11-16",
 "cik": "0001037868",
 "companyfacts_sha256": "730763a95f514d688fb859ce2c0265b29b1920b324d1d0a02de89efdc180456b",
-"fetched_at": "2026-11-16T05:08:31Z",
+"fetched_at": "2026-11-16T15:44:29Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.8569204430526277,
@@ -659,7 +659,7 @@
 "asof": "2026-11-16",
 "cik": "0000318154",
 "companyfacts_sha256": "fc0346d9b99fb7e42d6d7a4c1f2c674c89a41002ee7c7bc3656e980b3d8d0c75",
-"fetched_at": "2026-11-16T05:08:32Z",
+"fetched_at": "2026-11-16T15:44:29Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 1.0381032818532818,
@@ -685,7 +685,7 @@
 "asof": "2026-11-16",
 "cik": "0000820313",
 "companyfacts_sha256": "e2f254c81670b79471a615be4fd7b602663d737f96164bfdca03d226353aff3c",
-"fetched_at": "2026-11-16T05:08:32Z",
+"fetched_at": "2026-11-16T15:44:29Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.7160113049889407,
@@ -711,7 +711,7 @@
 "asof": "2026-11-16",
 "cik": "0000006281",
 "companyfacts_sha256": "f468425da29412efbec29798ecd0f9cc719edd5766d734c5c3fc1092a3fe237c",
-"fetched_at": "2026-11-16T05:08:33Z",
+"fetched_at": "2026-11-16T15:44:29Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 1.2445666049896262,
@@ -737,7 +737,7 @@
 "asof": "2026-11-16",
 "cik": "0001841666",
 "companyfacts_sha256": "edbdd61cba1d64adb82269d6e2a1851b9261f1c1108f2ee69d381bd698aa81ca",
-"fetched_at": "2026-11-16T05:08:33Z",
+"fetched_at": "2026-11-16T15:44:30Z",
 "group": "Energy",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -763,7 +763,7 @@
 "asof": "2026-11-16",
 "cik": "0000320193",
 "companyfacts_sha256": "f085735b4d08fb116ade18d24247ffabe11df8eb52eae6556b165831f15ef1ad",
-"fetched_at": "2026-11-16T05:08:33Z",
+"fetched_at": "2026-11-16T15:44:30Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.8558636684170001,
@@ -789,7 +789,7 @@
 "asof": "2026-11-16",
 "cik": "0000006951",
 "companyfacts_sha256": "65ecfedd5bfd3768d30286b52badee080c655cc8d1077524bdb6ca8928380fa7",
-"fetched_at": "2026-11-16T05:08:34Z",
+"fetched_at": "2026-11-16T15:44:30Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.783771143503001,
@@ -815,7 +815,7 @@
 "asof": "2026-11-16",
 "cik": "0001751008",
 "companyfacts_sha256": "5a74cbf4b23978e7967e78dc9fff11def18a0b96af2315f4c81bb4891fdf1789",
-"fetched_at": "2026-11-16T05:08:34Z",
+"fetched_at": "2026-11-16T15:44:30Z",
 "group": "Communication Services",
 "inputs": {
 "fcf_conversion_cum": 1.4087027102317928,
@@ -841,7 +841,7 @@
 "asof": "2026-11-16",
 "cik": "0001521332",
 "companyfacts_sha256": "44383c5cca03ff214c59dd69ef200cde9206f70dc382860df4ee6fc4dfe2e475",
-"fetched_at": "2026-11-16T05:08:34Z",
+"fetched_at": "2026-11-16T15:44:31Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.7339775472502487,
@@ -867,7 +867,7 @@
 "asof": "2026-11-16",
 "cik": "0000007084",
 "companyfacts_sha256": "147bc815eca3608ebd4be6fb40c6f4ec365d95b556d1c4a3a62543df769e1554",
-"fetched_at": "2026-11-16T05:08:34Z",
+"fetched_at": "2026-11-16T15:44:31Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -893,7 +893,7 @@
 "asof": "2026-11-16",
 "cik": "0001596532",
 "companyfacts_sha256": "3c6e88dae7c6ee8891f2c4eacdfff23599876320021bb2c568754ace3015a457",
-"fetched_at": "2026-11-16T05:08:35Z",
+"fetched_at": "2026-11-16T15:44:31Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.9841565199183829,
@@ -919,7 +919,7 @@
 "asof": "2026-11-16",
 "cik": "0000732717",
 "companyfacts_sha256": "438d1c67733ab15339da5b9b964e209f8a496c484c62246af68d726c0b78285f",
-"fetched_at": "2026-11-16T05:08:35Z",
+"fetched_at": "2026-11-16T15:44:32Z",
 "group": "Communication Services",
 "inputs": {
 "fcf_conversion_cum": 0.916321878814722,
@@ -945,7 +945,7 @@
 "asof": "2026-11-16",
 "cik": "0000731802",
 "companyfacts_sha256": "ab9c90cd4e4c4de311ef879fbf83d7cf62e705d22ca5f00276635bfbee0407ca",
-"fetched_at": "2026-11-16T05:08:35Z",
+"fetched_at": "2026-11-16T15:44:33Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": -1.1332053590796871,
@@ -971,7 +971,7 @@
 "asof": "2026-11-16",
 "cik": "0000769397",
 "companyfacts_sha256": "4ee4631abb3cf3cb502a212c2a96745aea77cf4ba857a702f6dd5d6f39d0c991",
-"fetched_at": "2026-11-16T05:08:36Z",
+"fetched_at": "2026-11-16T15:44:33Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 1.5464972648667725,
@@ -997,7 +997,7 @@
 "asof": "2026-11-16",
 "cik": "0000008670",
 "companyfacts_sha256": "07750ac1435f5c4569011de779d0c4e42bd293b9355eba6b28d62fac77c68a6d",
-"fetched_at": "2026-11-16T05:08:36Z",
+"fetched_at": "2026-11-16T15:44:33Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -1023,7 +1023,7 @@
 "asof": "2026-11-16",
 "cik": "0000866787",
 "companyfacts_sha256": "c6061b68ff1a580126db4831d3d7de364eccd57e9f8dc6b019b763b4bf441758",
-"fetched_at": "2026-11-16T05:08:37Z",
+"fetched_at": "2026-11-16T15:44:33Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.5720023621342558,
@@ -1049,7 +1049,7 @@
 "asof": "2026-11-16",
 "cik": "0000008818",
 "companyfacts_sha256": "3e67c2dbdb5e797f3794910b62dd3438e836862513789e95b3e07b8041318b4e",
-"fetched_at": "2026-11-16T05:08:37Z",
+"fetched_at": "2026-11-16T15:44:34Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -1075,7 +1075,7 @@
 "asof": "2026-11-16",
 "cik": "0001069183",
 "companyfacts_sha256": "26c59c6d23e394a33f8f3c4d7e9a9a7e57974900fe18ee90dd9b045ac0c03abc",
-"fetched_at": "2026-11-16T05:08:38Z",
+"fetched_at": "2026-11-16T15:44:34Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 10.086523207614759,
@@ -1101,7 +1101,7 @@
 "asof": "2026-11-16",
 "cik": "0001701605",
 "companyfacts_sha256": "847066a66b2d2f5ae769dcb854315a70b9539c4075df62f4088bb29634572d19",
-"fetched_at": "2026-11-16T05:08:38Z",
+"fetched_at": "2026-11-16T15:44:35Z",
 "group": "Energy",
 "inputs": {
 "fcf_conversion_cum": 0.7993158494868872,
@@ -1127,7 +1127,7 @@
 "asof": "2026-11-16",
 "cik": "0000009389",
 "companyfacts_sha256": "2f05c914613781de32f880389dc92eb1e3ee9421a716a29b49ce44ad781b04e4",
-"fetched_at": "2026-11-16T05:08:38Z",
+"fetched_at": "2026-11-16T15:44:35Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": -0.13181577554261514,
@@ -1153,7 +1153,7 @@
 "asof": "2026-11-16",
 "cik": "0000070858",
 "companyfacts_sha256": "4ecc4c94505758af8d96f87b0f9a7ff006d739a592843ceedb6b1873d13aac2c",
-"fetched_at": "2026-11-16T05:08:39Z",
+"fetched_at": "2026-11-16T15:44:35Z",
 "group": "Banks",
 "inputs": {
 "latest_period": "2025-12-31",
@@ -1175,7 +1175,7 @@
 "asof": "2026-11-16",
 "cik": "0000010456",
 "companyfacts_sha256": "85e24f003ab1700a62f81d0481b482becf2c74f1d6c56b26ee9561c274fd531c",
-"fetched_at": "2026-11-16T05:08:40Z",
+"fetched_at": "2026-11-16T15:44:36Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -1201,7 +1201,7 @@
 "asof": "2026-11-16",
 "cik": "0000010795",
 "companyfacts_sha256": "2412ff584fd74aa61f919bc5813a0bb523fdf03f20d6104f3167cc19c3ba84b9",
-"fetched_at": "2026-11-16T05:08:40Z",
+"fetched_at": "2026-11-16T15:44:36Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -1227,7 +1227,7 @@
 "asof": "2026-11-16",
 "cik": "0000764478",
 "companyfacts_sha256": "c9cd833d8edc99921ff5d5fb26d6b5b7ef2a2109ebbba7107fb1a4127c3c7149",
-"fetched_at": "2026-11-16T05:08:41Z",
+"fetched_at": "2026-11-16T15:44:36Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.7433491555359312,
@@ -1253,7 +1253,7 @@
 "asof": "2026-11-16",
 "cik": "0000842023",
 "companyfacts_sha256": "84aa3576e5069f22390e3d5cea00af801a76b1f4d9700629c9ba6b502b5d11fb",
-"fetched_at": "2026-11-16T05:08:41Z",
+"fetched_at": "2026-11-16T15:44:37Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 1.083040389496396,
@@ -1279,7 +1279,7 @@
 "asof": "2026-11-16",
 "cik": "0000875045",
 "companyfacts_sha256": "61389e4963242629c5440129978761851e52624625fecff6fa504cf852b1fc5e",
-"fetched_at": "2026-11-16T05:08:41Z",
+"fetched_at": "2026-11-16T15:44:37Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -1305,7 +1305,7 @@
 "asof": "2026-11-16",
 "cik": "0001664703",
 "companyfacts_sha256": "7680d329aec9de53ab3ee6c1cf50ee373d586c21d9e719244bc1a6c00ccf6bf9",
-"fetched_at": "2026-11-16T05:08:42Z",
+"fetched_at": "2026-11-16T15:44:37Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -1331,7 +1331,7 @@
 "asof": "2026-11-16",
 "cik": "0000012927",
 "companyfacts_sha256": "794d5fb4c83e163b258afbc6828a6d9ce6657f3dae28d5fce0c29623619a957d",
-"fetched_at": "2026-11-16T05:08:42Z",
+"fetched_at": "2026-11-16T15:44:38Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -1357,7 +1357,7 @@
 "asof": "2026-11-16",
 "cik": "0001075531",
 "companyfacts_sha256": "1206610ebae819504bc302b900be11414aeedcd065a313b1140b71183f37b742",
-"fetched_at": "2026-11-16T05:08:43Z",
+"fetched_at": "2026-11-16T15:44:39Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 1.0962331868647905,
@@ -1383,7 +1383,7 @@
 "asof": "2026-11-16",
 "cik": "0000885725",
 "companyfacts_sha256": "4e2975ef764f80a328e119f48ecb517fc804233c0b11264f2154d2f645d0bdfe",
-"fetched_at": "2026-11-16T05:08:43Z",
+"fetched_at": "2026-11-16T15:44:39Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.9072499342508986,
@@ -1409,7 +1409,7 @@
 "asof": "2026-11-16",
 "cik": "0000014272",
 "companyfacts_sha256": "6f5d8ef98f7142e3ee53f4559aa773a4265f795075575fb6fddc8bfb02168b90",
-"fetched_at": "2026-11-16T05:08:44Z",
+"fetched_at": "2026-11-16T15:44:39Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -1435,7 +1435,7 @@
 "asof": "2026-11-16",
 "cik": "0001730168",
 "companyfacts_sha256": "3bdb6644c12addf1e63c4dc861008d7804fbf3d3f5aa6eb9b97f72c0e89a7adf",
-"fetched_at": "2026-11-16T05:08:44Z",
+"fetched_at": "2026-11-16T15:44:39Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 1.2014942617268736,
@@ -1461,7 +1461,7 @@
 "asof": "2026-11-16",
 "cik": "0001383312",
 "companyfacts_sha256": "d8bbb40eb99ba7d4f5e64ed90dd98038a7562398a95351f2d02227c3391db2bf",
-"fetched_at": "2026-11-16T05:08:44Z",
+"fetched_at": "2026-11-16T15:44:40Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.8849613654711106,
@@ -1487,7 +1487,7 @@
 "asof": "2026-11-16",
 "cik": "0000014693",
 "companyfacts_sha256": "5402ce319d3908f1d4d972a33dae5983c0f2b7f1f713df64c0ec7995200ebfbf",
-"fetched_at": "2026-11-16T05:08:45Z",
+"fetched_at": "2026-11-16T15:44:40Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.5122159576285665,
@@ -1513,7 +1513,7 @@
 "asof": "2026-11-16",
 "cik": "0001996862",
 "companyfacts_sha256": "b7cb9530f0308a00f633c18b8ebc9b5e333a08a5e51fe86bc9b346eb995c023e",
-"fetched_at": "2026-11-16T05:08:45Z",
+"fetched_at": "2026-11-16T15:44:40Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -1537,7 +1537,7 @@
 "asof": "2026-11-16",
 "cik": "0001043277",
 "companyfacts_sha256": "724c395e56039da1faf5ed15859f2df924a756c654abe07ff2c4192e9be1b6d7",
-"fetched_at": "2026-11-16T05:08:45Z",
+"fetched_at": "2026-11-16T15:44:41Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.8624396576485021,
@@ -1563,7 +1563,7 @@
 "asof": "2026-11-16",
 "cik": "0000813672",
 "companyfacts_sha256": "977d8d6f1e734ae36782942fe5dcd7a2428633ae81589c7777d1ea88af5b44da",
-"fetched_at": "2026-11-16T05:08:46Z",
+"fetched_at": "2026-11-16T15:44:41Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 1.0267861481921805,
@@ -1589,7 +1589,7 @@
 "asof": "2026-11-16",
 "cik": "0000721371",
 "companyfacts_sha256": "d168e51953229a391e05371284220984cc69a5adb96b8a5ae986fae667ec3c6a",
-"fetched_at": "2026-11-16T05:08:46Z",
+"fetched_at": "2026-11-16T15:44:41Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 2.354525175270873,
@@ -1615,7 +1615,7 @@
 "asof": "2026-11-16",
 "cik": "0000815097",
 "companyfacts_sha256": "c207466469f69d3af50817c174fb9dc501bb65e4d2f64fdd51f2b3a3b9f3e5c9",
-"fetched_at": "2026-11-16T05:08:47Z",
+"fetched_at": "2026-11-16T15:44:42Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -1641,7 +1641,7 @@
 "asof": "2026-11-16",
 "cik": "0001783180",
 "companyfacts_sha256": "29bbfcd8eeb00a5f1cdbb1dcc87a23b8a9fd5e19327297a2c9cb044aa61842ef",
-"fetched_at": "2026-11-16T05:08:47Z",
+"fetched_at": "2026-11-16T15:44:42Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.5623576100536488,
@@ -1667,7 +1667,7 @@
 "asof": "2026-11-16",
 "cik": "0001690820",
 "companyfacts_sha256": "5d7a23edc938f08a6cf634b710bcde0aa6a583ef3cf11c4c20c0553e5c068aab",
-"fetched_at": "2026-11-16T05:08:47Z",
+"fetched_at": "2026-11-16T15:44:42Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 1.3545454545454545,
@@ -1693,7 +1693,7 @@
 "asof": "2026-11-16",
 "cik": "0000726958",
 "companyfacts_sha256": "a80c69a562fedc9e79672d3b2a22718517aa87ec757510374778eb95e8b1d505",
-"fetched_at": "2026-11-16T05:08:48Z",
+"fetched_at": "2026-11-16T15:44:42Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -1719,7 +1719,7 @@
 "asof": "2026-11-16",
 "cik": "0000018230",
 "companyfacts_sha256": "0fe50d57bf90ee91f2997ca309353b4b86c2adc192ba9c469623ea7c2f52cfb7",
-"fetched_at": "2026-11-16T05:08:48Z",
+"fetched_at": "2026-11-16T15:44:43Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.8240749648842624,
@@ -1745,7 +1745,7 @@
 "asof": "2026-11-16",
 "cik": "0001402057",
 "companyfacts_sha256": "b2af9df23455df5608379c082784d59870917207ff1b865024964232e1abd6b0",
-"fetched_at": "2026-11-16T05:08:49Z",
+"fetched_at": "2026-11-16T15:44:43Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.686072218128224,
@@ -1771,7 +1771,7 @@
 "asof": "2026-11-16",
 "cik": "0001140859",
 "companyfacts_sha256": "3dc134357c7d7cb1acfe534c4f2086a82e61b4c9367c091507c66b9efb8c863c",
-"fetched_at": "2026-11-16T05:08:49Z",
+"fetched_at": "2026-11-16T15:44:43Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 1.1877437599640495,
@@ -1797,7 +1797,7 @@
 "asof": "2026-11-16",
 "cik": "0001071739",
 "companyfacts_sha256": "4f2b4099952ac1e179fa542f6b7e740ac8beabab1993f499d158ce0f90412d58",
-"fetched_at": "2026-11-16T05:08:49Z",
+"fetched_at": "2026-11-16T15:44:43Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 12.39709595959596,
@@ -1823,7 +1823,7 @@
 "asof": "2026-11-16",
 "cik": "0001130310",
 "companyfacts_sha256": "c8c789fb5a1d3d93597f2ef22738086bba6d36fa68ef1e2eb6a3fa368a82d399",
-"fetched_at": "2026-11-16T05:08:50Z",
+"fetched_at": "2026-11-16T15:44:44Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": -1.2553191489361701,
@@ -1849,7 +1849,7 @@
 "asof": "2026-11-16",
 "cik": "0001324404",
 "companyfacts_sha256": "8a761a6287236f6ce2b97f9658baf64224b11ce2cd2729ffa579dc91ccc36069",
-"fetched_at": "2026-11-16T05:08:50Z",
+"fetched_at": "2026-11-16T15:44:44Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": 0.8636024473959111,
@@ -1875,7 +1875,7 @@
 "asof": "2026-11-16",
 "cik": "0001100682",
 "companyfacts_sha256": "1aa2beb466c6aba7cfc3b04dd0355ec703b33d785addcd433d6f6cda3cdb4928",
-"fetched_at": "2026-11-16T05:08:51Z",
+"fetched_at": "2026-11-16T15:44:44Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 1.0482330438589467,
@@ -1901,7 +1901,7 @@
 "asof": "2026-11-16",
 "cik": "0001091667",
 "companyfacts_sha256": "d1f58b3bb3351166a6c1876517d75cdf7e89f9b8a028d482ab628280883e5a36",
-"fetched_at": "2026-11-16T05:08:51Z",
+"fetched_at": "2026-11-16T15:44:44Z",
 "group": "Communication Services",
 "inputs": {
 "fcf_conversion_cum": 0.410164884646243,
@@ -1927,7 +1927,7 @@
 "asof": "2026-11-16",
 "cik": "0000093410",
 "companyfacts_sha256": "43eaec6a9fa044700a81b6c2283acf92d0e29e710c1c33150429ef5e68e70336",
-"fetched_at": "2026-11-16T05:08:51Z",
+"fetched_at": "2026-11-16T15:44:44Z",
 "group": "Energy",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -1953,7 +1953,7 @@
 "asof": "2026-11-16",
 "cik": "0001058090",
 "companyfacts_sha256": "f5fd6d411e43d180a358ef5dd9f380bc7d224dd2c7e03e54609e3f3eed7a80b4",
-"fetched_at": "2026-11-16T05:08:51Z",
+"fetched_at": "2026-11-16T15:44:45Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.7952812702958121,
@@ -1979,7 +1979,7 @@
 "asof": "2026-11-16",
 "cik": "0000313927",
 "companyfacts_sha256": "812667819bcd18f13c2f87b65548b882ad260044a1a84517771ec1b0083b9324",
-"fetched_at": "2026-11-16T05:08:52Z",
+"fetched_at": "2026-11-16T15:44:45Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.9651223208486686,
@@ -2005,7 +2005,7 @@
 "asof": "2026-11-16",
 "cik": "0000936395",
 "companyfacts_sha256": "c95eb9e60c5c9006bfad60dd19c37339ec735221282656ac782c5f4a04daef05",
-"fetched_at": "2026-11-16T05:08:52Z",
+"fetched_at": "2026-11-16T15:44:45Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.9090069361054605,
@@ -2031,7 +2031,7 @@
 "asof": "2026-11-16",
 "cik": "0001739940",
 "companyfacts_sha256": "2e6c78570c378432a9447c8fd21829962747fd7df221af96a5c30f06a99ecc82",
-"fetched_at": "2026-11-16T05:08:52Z",
+"fetched_at": "2026-11-16T15:44:45Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -2057,7 +2057,7 @@
 "asof": "2026-11-16",
 "cik": "0000723254",
 "companyfacts_sha256": "676c90f6d174ea10925855beffde187c19954cb8efec5116fafc7c309368b989",
-"fetched_at": "2026-11-16T05:08:53Z",
+"fetched_at": "2026-11-16T15:44:45Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.7529372210106471,
@@ -2083,7 +2083,7 @@
 "asof": "2026-11-16",
 "cik": "0000858877",
 "companyfacts_sha256": "69ccd0bc491edf4ef2191e8813ebc1766c0daf00c9e3d1aaa182d24b2e39e0df",
-"fetched_at": "2026-11-16T05:08:53Z",
+"fetched_at": "2026-11-16T15:44:46Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.9962230452795385,
@@ -2109,7 +2109,7 @@
 "asof": "2026-11-16",
 "cik": "0000831001",
 "companyfacts_sha256": "9a6e75dd71e49c93a3db68b2f62cd6f11ed73431b0d7815cbaa4017801a51342",
-"fetched_at": "2026-11-16T05:08:54Z",
+"fetched_at": "2026-11-16T15:44:46Z",
 "group": "Banks",
 "inputs": {
 "latest_period": "2025-12-31",
@@ -2131,7 +2131,7 @@
 "asof": "2026-11-16",
 "cik": "0000759944",
 "companyfacts_sha256": "49196d068d53439f397075aee3b9554a989492e39baf5514ffecc464227c0cea",
-"fetched_at": "2026-11-16T05:08:54Z",
+"fetched_at": "2026-11-16T15:44:47Z",
 "group": "Banks",
 "inputs": {
 "latest_period": "2025-12-31",
@@ -2153,7 +2153,7 @@
 "asof": "2026-11-16",
 "cik": "0000021076",
 "companyfacts_sha256": "f9b61f8b3fed2f3b2a75c062d778ff639e9a9467fbd186d3c1bf3d23d90ce5ce",
-"fetched_at": "2026-11-16T05:08:55Z",
+"fetched_at": "2026-11-16T15:44:47Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -2179,7 +2179,7 @@
 "asof": "2026-11-16",
 "cik": "0000811156",
 "companyfacts_sha256": "7e3f60918eb21168e7a5bbbd2815db917cd3d5ae41202df9440aa6bcd45f767c",
-"fetched_at": "2026-11-16T05:08:55Z",
+"fetched_at": "2026-11-16T15:44:47Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -2205,7 +2205,7 @@
 "asof": "2026-11-16",
 "cik": "0000021344",
 "companyfacts_sha256": "87a4173fcd3d662d18d19e0e885095aa5e3812b74c54d1ee55808ff1540a8081",
-"fetched_at": "2026-11-16T05:08:55Z",
+"fetched_at": "2026-11-16T15:44:48Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.7209409758004335,
@@ -2231,7 +2231,7 @@
 "asof": "2026-11-16",
 "cik": "0001058290",
 "companyfacts_sha256": "832bc2e6327c8c9ed73ebbe3533623836b085231c7c2df6a1f41c1e9e87f4e16",
-"fetched_at": "2026-11-16T05:08:56Z",
+"fetched_at": "2026-11-16T15:44:48Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.7374017881332973,
@@ -2257,7 +2257,7 @@
 "asof": "2026-11-16",
 "cik": "0000820318",
 "companyfacts_sha256": "d755d49b1067037e8bd7500cdeb8fdc8df53923f988690696c4e4110148d23c2",
-"fetched_at": "2026-11-16T05:08:56Z",
+"fetched_at": "2026-11-16T15:44:48Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 1.0477186532712157,
@@ -2283,7 +2283,7 @@
 "asof": "2026-11-16",
 "cik": "0000021665",
 "companyfacts_sha256": "334b53709b5e5d67c058029e4f6c27a8a6395c46b4e707b248e1f5b0b8fb49b2",
-"fetched_at": "2026-11-16T05:08:56Z",
+"fetched_at": "2026-11-16T15:44:48Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.8343923972333127,
@@ -2309,7 +2309,7 @@
 "asof": "2026-11-16",
 "cik": "0001166691",
 "companyfacts_sha256": "15b8f34974b7b4ff6884981e4dceebab446c7db663a5fdfa9ee0075dc3decbb9",
-"fetched_at": "2026-11-16T05:08:57Z",
+"fetched_at": "2026-11-16T15:44:48Z",
 "group": "Communication Services",
 "inputs": {
 "fcf_conversion_cum": 0.8752900402384939,
@@ -2335,7 +2335,7 @@
 "asof": "2026-11-16",
 "cik": "0001035983",
 "companyfacts_sha256": "7d6c19138261bfae55c46e7affd1597e9e15c49ded87b4d7b8d108608821bfdc",
-"fetched_at": "2026-11-16T05:08:57Z",
+"fetched_at": "2026-11-16T15:44:49Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.9317962287917835,
@@ -2361,7 +2361,7 @@
 "asof": "2026-11-16",
 "cik": "0001163165",
 "companyfacts_sha256": "ff9fe5718463fb92148c7a1c1d8d55118337258af6533d896723d4935729b4c2",
-"fetched_at": "2026-11-16T05:08:58Z",
+"fetched_at": "2026-11-16T15:44:49Z",
 "group": "Energy",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -2387,7 +2387,7 @@
 "asof": "2026-11-16",
 "cik": "0001047862",
 "companyfacts_sha256": "08e4d176b8d6b9ab617ca70545aa07da2b0df7224519a72015c7fdc96f0ea7ae",
-"fetched_at": "2026-11-16T05:08:58Z",
+"fetched_at": "2026-11-16T15:44:49Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -2413,7 +2413,7 @@
 "asof": "2026-11-16",
 "cik": "0000016918",
 "companyfacts_sha256": "353e727136ceadadc684b9c5e2a2a452acd9ee01b6e0b6a48a6afe74f90d7a1c",
-"fetched_at": "2026-11-16T05:08:59Z",
+"fetched_at": "2026-11-16T15:44:49Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.7567991173843756,
@@ -2439,7 +2439,7 @@
 "asof": "2026-11-16",
 "cik": "0001868275",
 "companyfacts_sha256": "a8687375ee9f368b8d024f1541f8aafbb4f082c1f0b27dfea8abf79fa7e16a08",
-"fetched_at": "2026-11-16T05:08:59Z",
+"fetched_at": "2026-11-16T15:44:49Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": -1.6248559153306088,
@@ -2464,7 +2464,7 @@
 "asof": "2026-11-16",
 "cik": "0000711404",
 "companyfacts_sha256": "6afb43201133dcb934decf48b1a099835969d31c57f5c77aee2cfddab0f0caa4",
-"fetched_at": "2026-11-16T05:08:59Z",
+"fetched_at": "2026-11-16T15:44:50Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.6512214234608702,
@@ -2490,7 +2490,7 @@
 "asof": "2026-11-16",
 "cik": "0000900075",
 "companyfacts_sha256": "d8c1f5ac87b382d000a16a94a38f90e45df83a739f56328bf6310362b86ce06f",
-"fetched_at": "2026-11-16T05:09:00Z",
+"fetched_at": "2026-11-16T15:44:50Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.661228671652045,
@@ -2516,7 +2516,7 @@
 "asof": "2026-11-16",
 "cik": "0000024741",
 "companyfacts_sha256": "76e82ad0d8b2fcae3cd6b14cf5d75f950c0f5be54a6cb744127592faa8cc93fb",
-"fetched_at": "2026-11-16T05:09:00Z",
+"fetched_at": "2026-11-16T15:44:50Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -2542,7 +2542,7 @@
 "asof": "2026-11-16",
 "cik": "0000909832",
 "companyfacts_sha256": "b675ced201b27ede2b0d26ca6fd873befe96a1afa9679339a2d0b964187dcdff",
-"fetched_at": "2026-11-16T05:09:01Z",
+"fetched_at": "2026-11-16T15:44:50Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.7214134574693186,
@@ -2568,7 +2568,7 @@
 "asof": "2026-11-16",
 "cik": "0000849395",
 "companyfacts_sha256": "7ba4ecc12e7bdb75be4b2d992f72c6645b1bda4fd42f68eba4224f84449b40fc",
-"fetched_at": "2026-11-16T05:09:01Z",
+"fetched_at": "2026-11-16T15:44:50Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": 0.5857329393168854,
@@ -2592,7 +2592,7 @@
 "asof": "2026-11-16",
 "cik": "0001535527",
 "companyfacts_sha256": "a71a92f1f11bd3032271ca55be7a7770a96a846ec809f925829ef952fd5f3fa1",
-"fetched_at": "2026-11-16T05:09:01Z",
+"fetched_at": "2026-11-16T15:44:51Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -2618,7 +2618,7 @@
 "asof": "2026-11-16",
 "cik": "0000277948",
 "companyfacts_sha256": "59e87be010209bd73b7ca64b02c3be02b607eafd0b899c4fc33f733c308fabfa",
-"fetched_at": "2026-11-16T05:09:02Z",
+"fetched_at": "2026-11-16T15:44:51Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.5373139894827136,
@@ -2644,7 +2644,7 @@
 "asof": "2026-11-16",
 "cik": "0000026172",
 "companyfacts_sha256": "1ed2cf4f4734876ae16db0f19431cf8e0d62534b76d10443ac6428753b111449",
-"fetched_at": "2026-11-16T05:09:02Z",
+"fetched_at": "2026-11-16T15:44:51Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.5263990508206446,
@@ -2670,7 +2670,7 @@
 "asof": "2026-11-16",
 "cik": "0000064803",
 "companyfacts_sha256": "e2151290dfbb08cd7846cdaae3910d145e6181d2dba3320e0fa67461ae013589",
-"fetched_at": "2026-11-16T05:09:03Z",
+"fetched_at": "2026-11-16T15:44:52Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 1.114978311852728,
@@ -2696,7 +2696,7 @@
 "asof": "2026-11-16",
 "cik": "0000313616",
 "companyfacts_sha256": "490c60712f8b9aafe5ad232e8d053a26205b5517f8f4679432503f7768574efb",
-"fetched_at": "2026-11-16T05:09:03Z",
+"fetched_at": "2026-11-16T15:44:52Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 1.076322031533417,
@@ -2722,7 +2722,7 @@
 "asof": "2026-11-16",
 "cik": "0000940944",
 "companyfacts_sha256": "2b3918ae3c88dafaaa29e36675a06ff6f460f720322ba549f29e6484d2f42211",
-"fetched_at": "2026-11-16T05:09:03Z",
+"fetched_at": "2026-11-16T15:44:52Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -2748,7 +2748,7 @@
 "asof": "2026-11-16",
 "cik": "0001561550",
 "companyfacts_sha256": "fb081a2414449772b46ce0ff959acb927a0945b160f2b100b567a32b811583d9",
-"fetched_at": "2026-11-16T05:09:04Z",
+"fetched_at": "2026-11-16T15:44:53Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -2774,7 +2774,7 @@
 "asof": "2026-11-16",
 "cik": "0000927066",
 "companyfacts_sha256": "d5869356de208fcbbbdedb3bd0fbdf7d1c6127ab62db147e33072ed1842182a2",
-"fetched_at": "2026-11-16T05:09:04Z",
+"fetched_at": "2026-11-16T15:44:53Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.7346555075138781,
@@ -2800,7 +2800,7 @@
 "asof": "2026-11-16",
 "cik": "0000910521",
 "companyfacts_sha256": "1b12d2ca83a74f796726decba28a56bfaa31378a005d9216bbfda326baa701f0",
-"fetched_at": "2026-11-16T05:09:04Z",
+"fetched_at": "2026-11-16T15:44:53Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.7798695739472292,
@@ -2826,7 +2826,7 @@
 "asof": "2026-11-16",
 "cik": "0000315189",
 "companyfacts_sha256": "b845478ca3e2c2a83471cfb92524b33d83ec47fd3c1c68614f3f2487f1606b6c",
-"fetched_at": "2026-11-16T05:09:05Z",
+"fetched_at": "2026-11-16T15:44:54Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.635802312928613,
@@ -2852,7 +2852,7 @@
 "asof": "2026-11-16",
 "cik": "0001571996",
 "companyfacts_sha256": "6e91eb4af5e3e0bd3885e0d93f3590846e6f78a14c6403138d171f762fe9160d",
-"fetched_at": "2026-11-16T05:09:05Z",
+"fetched_at": "2026-11-16T15:44:54Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.8076884904224699,
@@ -2878,7 +2878,7 @@
 "asof": "2026-11-16",
 "cik": "0000027904",
 "companyfacts_sha256": "08a05d5964c562d66d720308669e646ae9c84b3cacb5b467c59b9db1947e04ba",
-"fetched_at": "2026-11-16T05:09:06Z",
+"fetched_at": "2026-11-16T15:44:54Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.3444614376228971,
@@ -2904,7 +2904,7 @@
 "asof": "2026-11-16",
 "cik": "0001090012",
 "companyfacts_sha256": "7f6f48f01f3e2ba5851095ad5e1c080e2767d8db0f8c1215a49d17692389fd95",
-"fetched_at": "2026-11-16T05:09:06Z",
+"fetched_at": "2026-11-16T15:44:54Z",
 "group": "Energy",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -2930,7 +2930,7 @@
 "asof": "2026-11-16",
 "cik": "0001093557",
 "companyfacts_sha256": "df15465e89f092e6b10c1ef309d5c529b07c13961153a7319b3ac1d84e926472",
-"fetched_at": "2026-11-16T05:09:06Z",
+"fetched_at": "2026-11-16T15:44:54Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.9317910717513104,
@@ -2956,7 +2956,7 @@
 "asof": "2026-11-16",
 "cik": "0001539838",
 "companyfacts_sha256": "c879b269a1a2e3efc3e97bc4b34537ac9fa5bb7656839cd6f32989d3a3e16ab2",
-"fetched_at": "2026-11-16T05:09:07Z",
+"fetched_at": "2026-11-16T15:44:55Z",
 "group": "Energy",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -2982,7 +2982,7 @@
 "asof": "2026-11-16",
 "cik": "0000029534",
 "companyfacts_sha256": "16157a14c6c91f04a8b3e89ccedfc91ee0d5ea6978f8c6ed1d25d8cfe73541cf",
-"fetched_at": "2026-11-16T05:09:07Z",
+"fetched_at": "2026-11-16T15:44:55Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.5413462181074774,
@@ -3008,7 +3008,7 @@
 "asof": "2026-11-16",
 "cik": "0000935703",
 "companyfacts_sha256": "e848ce86b0df51740450fc079721862fb958621c0c62a59a739af96ff8bdb5ab",
-"fetched_at": "2026-11-16T05:09:07Z",
+"fetched_at": "2026-11-16T15:44:55Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.5060156195032717,
@@ -3034,7 +3034,7 @@
 "asof": "2026-11-16",
 "cik": "0000715957",
 "companyfacts_sha256": "09d685b457ae23698c3e2bf5beb0cd3540b905a2008f6b6008282d23f6cc59ec",
-"fetched_at": "2026-11-16T05:09:08Z",
+"fetched_at": "2026-11-16T15:44:55Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -3060,7 +3060,7 @@
 "asof": "2026-11-16",
 "cik": "0001286681",
 "companyfacts_sha256": "e115762cca3f1ac00a9b1fcf7bd7ee7c1cf80343e230647936431c783dc1c8aa",
-"fetched_at": "2026-11-16T05:09:08Z",
+"fetched_at": "2026-11-16T15:44:55Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.6229969113209906,
@@ -3086,7 +3086,7 @@
 "asof": "2026-11-16",
 "cik": "0001792789",
 "companyfacts_sha256": "7d0e4e8f4132bbe2a2546386b03cd778b93274953f56271152e616f55da42aab",
-"fetched_at": "2026-11-16T05:09:08Z",
+"fetched_at": "2026-11-16T15:44:56Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -3112,7 +3112,7 @@
 "asof": "2026-11-16",
 "cik": "0000029905",
 "companyfacts_sha256": "8390be6428f137ceedf65142a76a027053c178f806f7dec9ab88375404378cb2",
-"fetched_at": "2026-11-16T05:09:08Z",
+"fetched_at": "2026-11-16T15:44:56Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.7120721684417016,
@@ -3138,7 +3138,7 @@
 "asof": "2026-11-16",
 "cik": "0001751788",
 "companyfacts_sha256": "1c64351d4eafc2c9595fbef8317df11583f0fb0271763186cf6eb1f2ce92195f",
-"fetched_at": "2026-11-16T05:09:09Z",
+"fetched_at": "2026-11-16T15:44:56Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -3164,7 +3164,7 @@
 "asof": "2026-11-16",
 "cik": "0000882184",
 "companyfacts_sha256": "d354326179bcea875450e68de79204f60b14ba93a6fb679d0ed9c8b70e3322f7",
-"fetched_at": "2026-11-16T05:09:09Z",
+"fetched_at": "2026-11-16T15:44:57Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -3190,7 +3190,7 @@
 "asof": "2026-11-16",
 "cik": "0000936340",
 "companyfacts_sha256": "f35763759debdf4c5c3f30325dddb98d7c76e2b341a3bbccfae32e732c823fb8",
-"fetched_at": "2026-11-16T05:09:09Z",
+"fetched_at": "2026-11-16T15:44:57Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -3216,7 +3216,7 @@
 "asof": "2026-11-16",
 "cik": "0001326160",
 "companyfacts_sha256": "1e94bb53863e9fef2f5554a229aa7e0ebc197e06c759b5879db6137d8f1b1b3d",
-"fetched_at": "2026-11-16T05:09:10Z",
+"fetched_at": "2026-11-16T15:44:57Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": -0.3198326407468549,
@@ -3242,7 +3242,7 @@
 "asof": "2026-11-16",
 "cik": "0001666700",
 "companyfacts_sha256": "6378506e1f207a8d0ee88b63280497130963c84d2f72277f7d7c526e50798613",
-"fetched_at": "2026-11-16T05:09:10Z",
+"fetched_at": "2026-11-16T15:44:58Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -3268,7 +3268,7 @@
 "asof": "2026-11-16",
 "cik": "0001551182",
 "companyfacts_sha256": "c1ef3cbb7cc1226ff23bdd5c364f0923c23121844efb9d82d188fe2a667b2761",
-"fetched_at": "2026-11-16T05:09:11Z",
+"fetched_at": "2026-11-16T15:44:58Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -3294,7 +3294,7 @@
 "asof": "2026-11-16",
 "cik": "0001065088",
 "companyfacts_sha256": "371b87340f99c6a666c5a1cb6d74fe332cbbf779e7f1809af0e433ced1572a9a",
-"fetched_at": "2026-11-16T05:09:11Z",
+"fetched_at": "2026-11-16T15:44:59Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.7941400626640698,
@@ -3320,7 +3320,7 @@
 "asof": "2026-11-16",
 "cik": "0001415404",
 "companyfacts_sha256": "100552fb682b621e48f108c4653b26dd5494dcf930a62f6addb0ff247f1ec08c",
-"fetched_at": "2026-11-16T05:09:11Z",
+"fetched_at": "2026-11-16T15:44:59Z",
 "group": "Communication Services",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -3346,7 +3346,7 @@
 "asof": "2026-11-16",
 "cik": "0000031462",
 "companyfacts_sha256": "2e70dce750294cadaabba4ff96b04c9774d29050442107417aac334c83de4986",
-"fetched_at": "2026-11-16T05:09:11Z",
+"fetched_at": "2026-11-16T15:44:59Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": 0.7345839489778742,
@@ -3372,7 +3372,7 @@
 "asof": "2026-11-16",
 "cik": "0000827052",
 "companyfacts_sha256": "09629d6d15fe1dd4e4fb03cda6a1d0efbacdf4e835c56b6db35491cd27f80809",
-"fetched_at": "2026-11-16T05:09:12Z",
+"fetched_at": "2026-11-16T15:45:00Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": -0.7374119154388212,
@@ -3398,7 +3398,7 @@
 "asof": "2026-11-16",
 "cik": "0001099800",
 "companyfacts_sha256": "e195d299388898d8dbc3b66bce5b16ff07cad4f2b35b2858b36e508af640e025",
-"fetched_at": "2026-11-16T05:09:12Z",
+"fetched_at": "2026-11-16T15:45:00Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.6508787900007003,
@@ -3424,7 +3424,7 @@
 "asof": "2026-11-16",
 "cik": "0001156039",
 "companyfacts_sha256": "92363eeffac02977276492b72bbc9bf1a53fdaaca4dcb0d53588eb613be92f8f",
-"fetched_at": "2026-11-16T05:09:13Z",
+"fetched_at": "2026-11-16T15:45:01Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.7363839399015278,
@@ -3450,7 +3450,7 @@
 "asof": "2026-11-16",
 "cik": "0000105634",
 "companyfacts_sha256": "2ab9e9658f3209dfc07ca67cf10cf02930f5208e01d300b09ca76eb7afcd585c",
-"fetched_at": "2026-11-16T05:09:13Z",
+"fetched_at": "2026-11-16T15:45:01Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.8101408946910301,
@@ -3476,7 +3476,7 @@
 "asof": "2026-11-16",
 "cik": "0000032604",
 "companyfacts_sha256": "516aba0bb970685d2b11a13bf25f08e6f6929fb4c7df421b74f6a2239dda51f5",
-"fetched_at": "2026-11-16T05:09:14Z",
+"fetched_at": "2026-11-16T15:45:02Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -3502,7 +3502,7 @@
 "asof": "2026-11-16",
 "cik": "0000065984",
 "companyfacts_sha256": "3cdbcdab9c4a521e3553beabfe831051557f6e8d8ca564305e945f1a6da04a7c",
-"fetched_at": "2026-11-16T05:09:14Z",
+"fetched_at": "2026-11-16T15:45:02Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": -0.2731016262949815,
@@ -3528,7 +3528,7 @@
 "asof": "2026-11-16",
 "cik": "0000821189",
 "companyfacts_sha256": "fa2e9b2550a36481305e3a627fcc9e4540a9387f8c8e8249ba6e5b0c499d5786",
-"fetched_at": "2026-11-16T05:09:14Z",
+"fetched_at": "2026-11-16T15:45:02Z",
 "group": "Energy",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -3554,7 +3554,7 @@
 "asof": "2026-11-16",
 "cik": "0000033213",
 "companyfacts_sha256": "b06f02151b263f2dca8ae6592eeafb378661ae79358f5d12328608edc7e91985",
-"fetched_at": "2026-11-16T05:09:15Z",
+"fetched_at": "2026-11-16T15:45:03Z",
 "group": "Energy",
 "inputs": {
 "fcf_conversion_cum": 0.9522363425917405,
@@ -3580,7 +3580,7 @@
 "asof": "2026-11-16",
 "cik": "0000033185",
 "companyfacts_sha256": "fa133e3ed2ee80a4aee1b4d0377dc8dfe7d245533c3b9a9fab2a71df6f5a43d7",
-"fetched_at": "2026-11-16T05:09:15Z",
+"fetched_at": "2026-11-16T15:45:03Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.6574103971585405,
@@ -3606,7 +3606,7 @@
 "asof": "2026-11-16",
 "cik": "0001001250",
 "companyfacts_sha256": "5d8ff3b5833547b39bb54e9bf9c0c2ebfeb93de52dacd4b90d1c3c93fb74316e",
-"fetched_at": "2026-11-16T05:09:15Z",
+"fetched_at": "2026-11-16T15:45:03Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 1.0905386250885896,
@@ -3632,7 +3632,7 @@
 "asof": "2026-11-16",
 "cik": "0001711269",
 "companyfacts_sha256": "307342a0a7d889af23eae44a88cfb33e984796cc11320de68af7f078da1c46e2",
-"fetched_at": "2026-11-16T05:09:16Z",
+"fetched_at": "2026-11-16T15:45:04Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": -0.35389695021287687,
@@ -3658,7 +3658,7 @@
 "asof": "2026-11-16",
 "cik": "0001474432",
 "companyfacts_sha256": "ca3fa3e8251fe0c670cbe836be5a3965e36a75cba5ecc28e1a923793a07083d3",
-"fetched_at": "2026-11-16T05:09:16Z",
+"fetched_at": "2026-11-16T15:45:04Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 10.648018765183883,
@@ -3684,7 +3684,7 @@
 "asof": "2026-11-16",
 "cik": "0000072741",
 "companyfacts_sha256": "e188d2e3ec734e7bf2f7e3a2e3d8480ccb2e9ea02ac405e33bc2bc16b6680ad5",
-"fetched_at": "2026-11-16T05:09:16Z",
+"fetched_at": "2026-11-16T15:45:04Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": -0.6097389179343397,
@@ -3710,7 +3710,7 @@
 "asof": "2026-11-16",
 "cik": "0001109357",
 "companyfacts_sha256": "ef3c1307410a62e1ab5b578fd3fece7a0a2fb431b8e0af8227be6d23df3328c2",
-"fetched_at": "2026-11-16T05:09:17Z",
+"fetched_at": "2026-11-16T15:45:04Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": -0.7058038692461641,
@@ -3736,7 +3736,7 @@
 "asof": "2026-11-16",
 "cik": "0000895126",
 "companyfacts_sha256": "a7c52b7b1e343ac88b75eacf9ba4f51aab143bbc112301118deb9a6b66fa5dfc",
-"fetched_at": "2026-11-16T05:09:17Z",
+"fetched_at": "2026-11-16T15:45:05Z",
 "group": "Energy",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -3762,7 +3762,7 @@
 "asof": "2026-11-16",
 "cik": "0001324424",
 "companyfacts_sha256": "9750f86952d20e12f9c8a4d0516c37d4be37a5737e783897d61504b612fc3afe",
-"fetched_at": "2026-11-16T05:09:17Z",
+"fetched_at": "2026-11-16T15:45:06Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 2.390971969421187,
@@ -3788,7 +3788,7 @@
 "asof": "2026-11-16",
 "cik": "0000746515",
 "companyfacts_sha256": "0deec8f0c84f8a47f24c5fe90ba109246a42ad09319e5316f8b627580bdef4b9",
-"fetched_at": "2026-11-16T05:09:18Z",
+"fetched_at": "2026-11-16T15:45:06Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.8164419381517456,
@@ -3814,7 +3814,7 @@
 "asof": "2026-11-16",
 "cik": "0001048695",
 "companyfacts_sha256": "9cc393aa5c19a2d23f818bb88f381d7437acaeb5863409226daf44a2d60b9a92",
-"fetched_at": "2026-11-16T05:09:18Z",
+"fetched_at": "2026-11-16T15:45:06Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 1.221254765902576,
@@ -3840,7 +3840,7 @@
 "asof": "2026-11-16",
 "cik": "0000814547",
 "companyfacts_sha256": "9c68dc7d4e26e3dc00fa95420e15a8444a50bef0bd79321b70ca078e156a0894",
-"fetched_at": "2026-11-16T05:09:19Z",
+"fetched_at": "2026-11-16T15:45:06Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.8351522855918492,
@@ -3866,7 +3866,7 @@
 "asof": "2026-11-16",
 "cik": "0000815556",
 "companyfacts_sha256": "4b49d6f2199b5a4a558d808ddd14e97773606885631f81e1b6a5c8c93d9f75da",
-"fetched_at": "2026-11-16T05:09:19Z",
+"fetched_at": "2026-11-16T15:45:07Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.6297010345670296,
@@ -3892,7 +3892,7 @@
 "asof": "2026-11-16",
 "cik": "0001048911",
 "companyfacts_sha256": "2d6033b0ba4434bb71d5eb31f4e118ebff1f1152e181694d4aac8efd258816b8",
-"fetched_at": "2026-11-16T05:09:19Z",
+"fetched_at": "2026-11-16T15:45:07Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.6196525040151847,
@@ -3918,7 +3918,7 @@
 "asof": "2026-11-16",
 "cik": "0000035527",
 "companyfacts_sha256": "787381ab6f1dbedc72ce929344c5294105f8dc763d2d2a1de9ca33fb666566c3",
-"fetched_at": "2026-11-16T05:09:20Z",
+"fetched_at": "2026-11-16T15:45:07Z",
 "group": "Banks",
 "inputs": {
 "latest_period": "2025-12-31",
@@ -3940,7 +3940,7 @@
 "asof": "2026-11-16",
 "cik": "0001274494",
 "companyfacts_sha256": "f06c3b11399700b05057db8a105b3417c4503c2a4db88d2f67e115f7f20d5244",
-"fetched_at": "2026-11-16T05:09:21Z",
+"fetched_at": "2026-11-16T15:45:08Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": -0.05406680709109326,
@@ -3966,7 +3966,7 @@
 "asof": "2026-11-16",
 "cik": "0001031296",
 "companyfacts_sha256": "3c032f349ac4260e1e9db9975c79010b2ae9b690edd6f1a95322586742c1605e",
-"fetched_at": "2026-11-16T05:09:21Z",
+"fetched_at": "2026-11-16T15:45:08Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": -0.3771821043594391,
@@ -3992,7 +3992,7 @@
 "asof": "2026-11-16",
 "cik": "0000866374",
 "companyfacts_sha256": "67c6235672c998d42cf063b663ee8ab22f704e9a0526549cfdcbca45372e7524",
-"fetched_at": "2026-11-16T05:09:22Z",
+"fetched_at": "2026-11-16T15:45:08Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.7194638474608269,
@@ -4018,7 +4018,7 @@
 "asof": "2026-11-16",
 "cik": "0000037996",
 "companyfacts_sha256": "a572be781d554ea39f47c7b478d31b137f91b87d769f044ce2cb922ac7d36189",
-"fetched_at": "2026-11-16T05:09:22Z",
+"fetched_at": "2026-11-16T15:45:08Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 2.8792557081335826,
@@ -4044,7 +4044,7 @@
 "asof": "2026-11-16",
 "cik": "0001262039",
 "companyfacts_sha256": "b29f9cfd9dc88b77b7ee4e957ac36599da40d1923ff1102ae0c82f3c2c78f1ae",
-"fetched_at": "2026-11-16T05:09:23Z",
+"fetched_at": "2026-11-16T15:45:08Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 1.257867599122859,
@@ -4070,7 +4070,7 @@
 "asof": "2026-11-16",
 "cik": "0001659166",
 "companyfacts_sha256": "1f3171bbb098c949b52fbf53a65e476d349ef85d60f1b12b4fc4f722e072184e",
-"fetched_at": "2026-11-16T05:09:23Z",
+"fetched_at": "2026-11-16T15:45:09Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 1.525257826646023,
@@ -4096,7 +4096,7 @@
 "asof": "2026-11-16",
 "cik": "0001754301",
 "companyfacts_sha256": "b7642e9635c53c3956992b620e19be8393d79e7e7b74d8b4ee71a12ab051797d",
-"fetched_at": "2026-11-16T05:09:23Z",
+"fetched_at": "2026-11-16T15:45:09Z",
 "group": "Communication Services",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -4122,7 +4122,7 @@
 "asof": "2026-11-16",
 "cik": "0001754301",
 "companyfacts_sha256": "b7642e9635c53c3956992b620e19be8393d79e7e7b74d8b4ee71a12ab051797d",
-"fetched_at": "2026-11-16T05:09:23Z",
+"fetched_at": "2026-11-16T15:45:09Z",
 "group": "Communication Services",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -4148,7 +4148,7 @@
 "asof": "2026-11-16",
 "cik": "0000831259",
 "companyfacts_sha256": "f05706467b417185e1d3642922d33ecdfc84f6feda5c69fecb3ac1e84b436bb6",
-"fetched_at": "2026-11-16T05:09:24Z",
+"fetched_at": "2026-11-16T15:45:09Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": 0.31970865467009424,
@@ -4174,7 +4174,7 @@
 "asof": "2026-11-16",
 "cik": "0001121788",
 "companyfacts_sha256": "567204c4d80bc5faa014f1f2b9c5c89b0b2caa81943bea46678c5b72d4854171",
-"fetched_at": "2026-11-16T05:09:24Z",
+"fetched_at": "2026-11-16T15:45:10Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.7392472419457767,
@@ -4200,7 +4200,7 @@
 "asof": "2026-11-16",
 "cik": "0000749251",
 "companyfacts_sha256": "29dee6ddf7f9d827dc0f8cbc9867cabb6e1c346dd261fa5c85c448cbe811c0cf",
-"fetched_at": "2026-11-16T05:09:24Z",
+"fetched_at": "2026-11-16T15:45:10Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -4226,7 +4226,7 @@
 "asof": "2026-11-16",
 "cik": "0000040545",
 "companyfacts_sha256": "95ed2ee4383e17c8c50ea84b475a90b8172dc9d1728a330787ec0b7fada60216",
-"fetched_at": "2026-11-16T05:09:25Z",
+"fetched_at": "2026-11-16T15:45:10Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -4252,7 +4252,7 @@
 "asof": "2026-11-16",
 "cik": "0001932393",
 "companyfacts_sha256": "5941140207ff0fc3427a9a31b20115cee6ca7eb8b3dac715a2b95af4d7e2183b",
-"fetched_at": "2026-11-16T05:09:26Z",
+"fetched_at": "2026-11-16T15:45:11Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -4276,7 +4276,7 @@
 "asof": "2026-11-16",
 "cik": "0000849399",
 "companyfacts_sha256": "55d27dd6328ee1bd8fabb9ced2458578d0a4628c285e26961348ac8c6bd4f335",
-"fetched_at": "2026-11-16T05:09:26Z",
+"fetched_at": "2026-11-16T15:45:11Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.9207204651822437,
@@ -4302,7 +4302,7 @@
 "asof": "2026-11-16",
 "cik": "0001474735",
 "companyfacts_sha256": "b1dfa4d14c2e3dc30589fcfb096903c3f869b867a38b28a3cf8aa5057c1ea9e3",
-"fetched_at": "2026-11-16T05:09:27Z",
+"fetched_at": "2026-11-16T15:45:11Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.6156181914051779,
@@ -4328,7 +4328,7 @@
 "asof": "2026-11-16",
 "cik": "0000040533",
 "companyfacts_sha256": "83cb3ecff7ec6855f24d2198a1ae9e4e4963bf61c4d6af223a88db413eb15afa",
-"fetched_at": "2026-11-16T05:09:27Z",
+"fetched_at": "2026-11-16T15:45:11Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.7821351719292082,
@@ -4354,7 +4354,7 @@
 "asof": "2026-11-16",
 "cik": "0000040704",
 "companyfacts_sha256": "3dd0552f7e909fcef40d3d99b413e9fa360fd1110ebbce0ce507ed71e611aeda",
-"fetched_at": "2026-11-16T05:09:28Z",
+"fetched_at": "2026-11-16T15:45:12Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.7765123624577653,
@@ -4380,7 +4380,7 @@
 "asof": "2026-11-16",
 "cik": "0001467858",
 "companyfacts_sha256": "e62161d8f058c3b37c42fd90f779e6bf9945a54c71e384e3e6a3ddab68fc6c49",
-"fetched_at": "2026-11-16T05:09:28Z",
+"fetched_at": "2026-11-16T15:45:12Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 1.1496078870714765,
@@ -4406,7 +4406,7 @@
 "asof": "2026-11-16",
 "cik": "0000040987",
 "companyfacts_sha256": "956bf62f8f6a8b2b2d1a3728de57c5937a7ca28a5d2c7af95ec098e67fa11a0b",
-"fetched_at": "2026-11-16T05:09:29Z",
+"fetched_at": "2026-11-16T15:45:13Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -4432,7 +4432,7 @@
 "asof": "2026-11-16",
 "cik": "0000882095",
 "companyfacts_sha256": "1c6c241ddb137215b2d1c2496e64895b3287ae59ae2fe963cf4fa725d0856e3d",
-"fetched_at": "2026-11-16T05:09:29Z",
+"fetched_at": "2026-11-16T15:45:13Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 1.2680570380709966,
@@ -4458,7 +4458,7 @@
 "asof": "2026-11-16",
 "cik": "0001609711",
 "companyfacts_sha256": "7b92f306f816554dc29ebd98595e8546b58223893a6cab1353eb5602c332baf2",
-"fetched_at": "2026-11-16T05:09:29Z",
+"fetched_at": "2026-11-16T15:45:13Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 1.6063320866312951,
@@ -4484,7 +4484,7 @@
 "asof": "2026-11-16",
 "cik": "0000045012",
 "companyfacts_sha256": "ab1e3695455db5eff9863c3bc49deb01932753b1ddec1d00cbacd4d129f0f13e",
-"fetched_at": "2026-11-16T05:09:30Z",
+"fetched_at": "2026-11-16T15:45:13Z",
 "group": "Energy",
 "inputs": {
 "fcf_conversion_cum": 0.5804934569247546,
@@ -4510,7 +4510,7 @@
 "asof": "2026-11-16",
 "cik": "0000046080",
 "companyfacts_sha256": "30d3e0f50432c374da4aa0c841c67dd8689f4eb9c8d9d165fc618b36cc1ceeb0",
-"fetched_at": "2026-11-16T05:09:30Z",
+"fetched_at": "2026-11-16T15:45:13Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 9.331233123312332,
@@ -4536,7 +4536,7 @@
 "asof": "2026-11-16",
 "cik": "0000860730",
 "companyfacts_sha256": "5895f10c36e6da57e73c5a7354bcb97449c46b6de882a1106b2abd4907e53274",
-"fetched_at": "2026-11-16T05:09:30Z",
+"fetched_at": "2026-11-16T15:45:14Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -4562,7 +4562,7 @@
 "asof": "2026-11-16",
 "cik": "0001000228",
 "companyfacts_sha256": "2d06103449d4536e0bbe9c13243ea12802cbb23a6c21ca84169e54ffb62f8749",
-"fetched_at": "2026-11-16T05:09:31Z",
+"fetched_at": "2026-11-16T15:45:15Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.792144495412844,
@@ -4588,7 +4588,7 @@
 "asof": "2026-11-16",
 "cik": "0000047111",
 "companyfacts_sha256": "eda9c4b82fe8dfa45bce49e7c37d28940fd5f7496cfb8b37e3e6bb93ca61f9e3",
-"fetched_at": "2026-11-16T05:09:31Z",
+"fetched_at": "2026-11-16T15:45:15Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.7760586752360703,
@@ -4614,7 +4614,7 @@
 "asof": "2026-11-16",
 "cik": "0001645590",
 "companyfacts_sha256": "e2800dcac4b3530c289f7494e3fcf9be38378fba1ef9172483f50976ae0568d1",
-"fetched_at": "2026-11-16T05:09:32Z",
+"fetched_at": "2026-11-16T15:45:16Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 1.5707088255733148,
@@ -4640,7 +4640,7 @@
 "asof": "2026-11-16",
 "cik": "0001585689",
 "companyfacts_sha256": "c27897718118767822c0a30ce049d6d8bdc207543270beb95df541b02bec3dd1",
-"fetched_at": "2026-11-16T05:09:32Z",
+"fetched_at": "2026-11-16T15:45:16Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.7174749807544265,
@@ -4666,7 +4666,7 @@
 "asof": "2026-11-16",
 "cik": "0000354950",
 "companyfacts_sha256": "aaf03befa1695d87ce1252bc08ca278b65be63782e46dc0b2858aab7a32c1be2",
-"fetched_at": "2026-11-16T05:09:33Z",
+"fetched_at": "2026-11-16T15:45:16Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.65133472442078,
@@ -4692,7 +4692,7 @@
 "asof": "2026-11-16",
 "cik": "0000773840",
 "companyfacts_sha256": "ef98dc309c39aebcf0b47b11a618b20d812b226b0c709bc4ef7f838e803aab68",
-"fetched_at": "2026-11-16T05:09:33Z",
+"fetched_at": "2026-11-16T15:45:16Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.6295611714841136,
@@ -4718,7 +4718,7 @@
 "asof": "2026-11-16",
 "cik": "0000048465",
 "companyfacts_sha256": "bc5b56b2f0760d26b7c4c348e3ad6bad5f5fb9895066a0336d7ea47107c9a8cb",
-"fetched_at": "2026-11-16T05:09:33Z",
+"fetched_at": "2026-11-16T15:45:17Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.7457532764351872,
@@ -4744,7 +4744,7 @@
 "asof": "2026-11-16",
 "cik": "0000004281",
 "companyfacts_sha256": "efb7515e04b3b23ecffca457a089bee7d554020bd6bb4e6aad539b9637ba1ec5",
-"fetched_at": "2026-11-16T05:09:34Z",
+"fetched_at": "2026-11-16T15:45:18Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.5924568636433043,
@@ -4770,7 +4770,7 @@
 "asof": "2026-11-16",
 "cik": "0000047217",
 "companyfacts_sha256": "351d1874f2847fe331549968693423be2a4374a7731422f86687ac66da7af5f4",
-"fetched_at": "2026-11-16T05:09:34Z",
+"fetched_at": "2026-11-16T15:45:18Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.9064126485318669,
@@ -4796,7 +4796,7 @@
 "asof": "2026-11-16",
 "cik": "0000048898",
 "companyfacts_sha256": "f000f6d6d946646ac30f474ba7936c0fe09f588082cdace8379a79ad15903e2f",
-"fetched_at": "2026-11-16T05:09:35Z",
+"fetched_at": "2026-11-16T15:45:18Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.7210524734929264,
@@ -4822,7 +4822,7 @@
 "asof": "2026-11-16",
 "cik": "0000049071",
 "companyfacts_sha256": "dbcb26838f1989b01eb88689b3a05b886d700bb8cf8ab0c70cd060228699b0e9",
-"fetched_at": "2026-11-16T05:09:35Z",
+"fetched_at": "2026-11-16T15:45:18Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.6232205583287114,
@@ -4848,7 +4848,7 @@
 "asof": "2026-11-16",
 "cik": "0000049196",
 "companyfacts_sha256": "67d0c435fd385a098e353981e7d68f77e1ce47e291381f2bc90d7627ca9fecb3",
-"fetched_at": "2026-11-16T05:09:36Z",
+"fetched_at": "2026-11-16T15:45:19Z",
 "group": "Banks",
 "inputs": {
 "latest_period": "2025-12-31",
@@ -4870,7 +4870,7 @@
 "asof": "2026-11-16",
 "cik": "0001501585",
 "companyfacts_sha256": "09121cdf98f002a6e7d6a9049eb5f8061e5b0ec5e16e158c89eea09f193738f8",
-"fetched_at": "2026-11-16T05:09:36Z",
+"fetched_at": "2026-11-16T15:45:19Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.7895771878072763,
@@ -4896,7 +4896,7 @@
 "asof": "2026-11-16",
 "cik": "0000051143",
 "companyfacts_sha256": "10fa1fafa25440b2159e2054dfe47628ba4ed353a258f526704cf9beda432bb8",
-"fetched_at": "2026-11-16T05:09:37Z",
+"fetched_at": "2026-11-16T15:45:19Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -4922,7 +4922,7 @@
 "asof": "2026-11-16",
 "cik": "0000832101",
 "companyfacts_sha256": "9e6a0ba7a9e03f23fc37937badab1fa02b1c00f4dc3574f8a99a12ea6c55774b",
-"fetched_at": "2026-11-16T05:09:37Z",
+"fetched_at": "2026-11-16T15:45:20Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.8087722308000229,
@@ -4948,7 +4948,7 @@
 "asof": "2026-11-16",
 "cik": "0000874716",
 "companyfacts_sha256": "7744c87025441e0703b0778d4f80a6690661522e03fd5a0cb7b4f9347dae3ce1",
-"fetched_at": "2026-11-16T05:09:37Z",
+"fetched_at": "2026-11-16T15:45:20Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.6772589128829721,
@@ -4974,7 +4974,7 @@
 "asof": "2026-11-16",
 "cik": "0000049826",
 "companyfacts_sha256": "849bbcb9ef5868b505ee92e7e87e427eced4fced4dbb4db6d931fc507a581833",
-"fetched_at": "2026-11-16T05:09:38Z",
+"fetched_at": "2026-11-16T15:45:21Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.6485065952392985,
@@ -5000,7 +5000,7 @@
 "asof": "2026-11-16",
 "cik": "0001110803",
 "companyfacts_sha256": "cf3644fa4d3398dbff32695db7b422a8ade2169b9442aeb9f9a0b368a5c8d47a",
-"fetched_at": "2026-11-16T05:09:38Z",
+"fetched_at": "2026-11-16T15:45:22Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -5026,7 +5026,7 @@
 "asof": "2026-11-16",
 "cik": "0000879169",
 "companyfacts_sha256": "80127d44b7d5d00650869f6b7f89d6622040dd95e916cd49b40a0a4de5f92140",
-"fetched_at": "2026-11-16T05:09:39Z",
+"fetched_at": "2026-11-16T15:45:22Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -5052,7 +5052,7 @@
 "asof": "2026-11-16",
 "cik": "0001699150",
 "companyfacts_sha256": "5b52a2c88f1aae1e9d12cb551ede19f92fc59581267c82b30528a2c3141a0ba9",
-"fetched_at": "2026-11-16T05:09:39Z",
+"fetched_at": "2026-11-16T15:45:23Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 1.0362150180105292,
@@ -5078,7 +5078,7 @@
 "asof": "2026-11-16",
 "cik": "0001145197",
 "companyfacts_sha256": "ec5298b9bf1cff30e1d47e37f1fd91791c48944b5a1cb2f60deba7104d5fa28a",
-"fetched_at": "2026-11-16T05:09:39Z",
+"fetched_at": "2026-11-16T15:45:23Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.487997256515775,
@@ -5104,7 +5104,7 @@
 "asof": "2026-11-16",
 "cik": "0000050863",
 "companyfacts_sha256": "9c568557a91cfbc234c999183d6434f8bbf7b8ebf2f29577f28d761a9becb59d",
-"fetched_at": "2026-11-16T05:09:40Z",
+"fetched_at": "2026-11-16T15:45:23Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": -4.201226379677137,
@@ -5130,7 +5130,7 @@
 "asof": "2026-11-16",
 "cik": "0000051253",
 "companyfacts_sha256": "b851711cffac9c08bab1fb59d51f7185f6cd4a1f466a4b9cc78defad6bf00efa",
-"fetched_at": "2026-11-16T05:09:40Z",
+"fetched_at": "2026-11-16T15:45:24Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -5156,7 +5156,7 @@
 "asof": "2026-11-16",
 "cik": "0000051434",
 "companyfacts_sha256": "f275d7b0302d7945198de128259ac2c0b45ff963df0e1812bf79ff9295c7e083",
-"fetched_at": "2026-11-16T05:09:40Z",
+"fetched_at": "2026-11-16T15:45:24Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -5182,7 +5182,7 @@
 "asof": "2026-11-16",
 "cik": "0000896878",
 "companyfacts_sha256": "456f89ae1757bb5a6ee0990f8b759e3d694222b0107c33ee4b163ee85a478d8a",
-"fetched_at": "2026-11-16T05:09:41Z",
+"fetched_at": "2026-11-16T15:45:24Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 1.3919797508561218,
@@ -5208,7 +5208,7 @@
 "asof": "2026-11-16",
 "cik": "0001035267",
 "companyfacts_sha256": "3419d6820891488e2d57eb100dd14e3a3cd21f7eae1564b8307540b2c91f5953",
-"fetched_at": "2026-11-16T05:09:41Z",
+"fetched_at": "2026-11-16T15:45:24Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.6933924832445766,
@@ -5234,7 +5234,7 @@
 "asof": "2026-11-16",
 "cik": "0001478242",
 "companyfacts_sha256": "3b9e8281bf95caea639823eb1308ea0eaffa9262b5b0a1ddb2efd4824830bdb1",
-"fetched_at": "2026-11-16T05:09:42Z",
+"fetched_at": "2026-11-16T15:45:24Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 1.0,
@@ -5260,7 +5260,7 @@
 "asof": "2026-11-16",
 "cik": "0000728535",
 "companyfacts_sha256": "485ba42ec13e72c37aec5b7d83b50bfef69044f84aacf9c38f6da366fe800762",
-"fetched_at": "2026-11-16T05:09:42Z",
+"fetched_at": "2026-11-16T15:45:25Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.38684451995461233,
@@ -5286,7 +5286,7 @@
 "asof": "2026-11-16",
 "cik": "0000898293",
 "companyfacts_sha256": "5d5a27e3c27c45ba7012d9b885949ac94aa2c4aa58435c60c7ccc068cfba5ef1",
-"fetched_at": "2026-11-16T05:09:42Z",
+"fetched_at": "2026-11-16T15:45:25Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.5681440797036659,
@@ -5312,7 +5312,7 @@
 "asof": "2026-11-16",
 "cik": "0000052988",
 "companyfacts_sha256": "de8c69f98fd5a68a912ec3d765f1f4d086bb0e5ca1ebc9fef2b80358c9b28343",
-"fetched_at": "2026-11-16T05:09:43Z",
+"fetched_at": "2026-11-16T15:45:26Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.9706221046678728,
@@ -5338,7 +5338,7 @@
 "asof": "2026-11-16",
 "cik": "0000200406",
 "companyfacts_sha256": "9ce98e50414e9a6704eaf485e1868c2298c6ae36acc85a82c0a3737485303be7",
-"fetched_at": "2026-11-16T05:09:43Z",
+"fetched_at": "2026-11-16T15:45:26Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -5364,7 +5364,7 @@
 "asof": "2026-11-16",
 "cik": "0000833444",
 "companyfacts_sha256": "c4174c72694a2b49d62f3c8965dda4a3505fa5ccfb29b670193e9caeb51526c4",
-"fetched_at": "2026-11-16T05:09:44Z",
+"fetched_at": "2026-11-16T15:45:26Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -5389,8 +5389,8 @@
 {
 "asof": "2026-11-16",
 "cik": "0000019617",
-"companyfacts_sha256": "5c6e52a9e2a27ec66dafa43b7b31d23f09d6fbca9487937ce98d1d499220e3a0",
-"fetched_at": "2026-11-16T05:09:45Z",
+"companyfacts_sha256": "99a6b9f60dc402c5eec8125f008961d15dccbcd6a6ae0b525c9a5e336702bbe2",
+"fetched_at": "2026-11-16T15:45:26Z",
 "group": "Banks",
 "inputs": {
 "latest_period": "2025-12-31",
@@ -5411,8 +5411,8 @@
 {
 "asof": "2026-11-16",
 "cik": "0001418135",
-"companyfacts_sha256": "cc02bd910ab256552e9fc61a8eff91d2d9dd2e860e91cf838b7019e43aa8675e",
-"fetched_at": "2026-11-16T05:09:45Z",
+"companyfacts_sha256": "8508d47fed5d73c411d926c851c29d677244a5d13f3f51b2ea12da02e13a6e30",
+"fetched_at": "2026-11-16T15:45:27Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.60577505552938,
@@ -5438,7 +5438,7 @@
 "asof": "2026-11-16",
 "cik": "0000091576",
 "companyfacts_sha256": "930210fdbdb19bdc1b5ae901d446d9b3018b114b871c11d77cd086c44b57bb50",
-"fetched_at": "2026-11-16T05:09:45Z",
+"fetched_at": "2026-11-16T15:45:27Z",
 "group": "Banks",
 "inputs": {
 "latest_period": "2025-12-31",
@@ -5460,7 +5460,7 @@
 "asof": "2026-11-16",
 "cik": "0001601046",
 "companyfacts_sha256": "fc20f41fcc4d4de7f2e33ed60fcffa45e3da2e4f2222876522fbe5e9eed35b51",
-"fetched_at": "2026-11-16T05:09:46Z",
+"fetched_at": "2026-11-16T15:45:27Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 1.0029191753329685,
@@ -5486,7 +5486,7 @@
 "asof": "2026-11-16",
 "cik": "0000055785",
 "companyfacts_sha256": "1017f427c12ec6bab41cfa7a0ca09c7b47af1410aae13397a649b394109f2686",
-"fetched_at": "2026-11-16T05:09:46Z",
+"fetched_at": "2026-11-16T15:45:27Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.8598314376892234,
@@ -5512,7 +5512,7 @@
 "asof": "2026-11-16",
 "cik": "0001506307",
 "companyfacts_sha256": "5ed99f3559ea50200ac7c0d1302ee5e42c8e16a47be5839802df893577f475f3",
-"fetched_at": "2026-11-16T05:09:47Z",
+"fetched_at": "2026-11-16T15:45:28Z",
 "group": "Energy",
 "inputs": {
 "fcf_conversion_cum": 0.8767688679245284,
@@ -5538,7 +5538,7 @@
 "asof": "2026-11-16",
 "cik": "0000319201",
 "companyfacts_sha256": "8ea6c6f7736584ef70736dfcaea371bcad8d442708a590ad93332f13cff9125f",
-"fetched_at": "2026-11-16T05:09:47Z",
+"fetched_at": "2026-11-16T15:45:28Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -5564,7 +5564,7 @@
 "asof": "2026-11-16",
 "cik": "0001637459",
 "companyfacts_sha256": "0f08734d95cc07e9bd0c1869a2307448ed8c0bdd1a74f53e6e4267607231b4de",
-"fetched_at": "2026-11-16T05:09:47Z",
+"fetched_at": "2026-11-16T15:45:28Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 1.819815668202765,
@@ -5590,7 +5590,7 @@
 "asof": "2026-11-16",
 "cik": "0000056873",
 "companyfacts_sha256": "f960cd5977a109fbba07f6fbb5da02280c3c4b71e4f89e01f7e46bd4610fe1a0",
-"fetched_at": "2026-11-16T05:09:48Z",
+"fetched_at": "2026-11-16T15:45:28Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.7977247840369874,
@@ -5616,7 +5616,7 @@
 "asof": "2026-11-16",
 "cik": "0000202058",
 "companyfacts_sha256": "1ad218fa34b3618900cbe3758bb0efce217de5260bbcf0a7f43f26dbf2f278c0",
-"fetched_at": "2026-11-16T05:09:48Z",
+"fetched_at": "2026-11-16T15:45:29Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 1.234867663981588,
@@ -5642,7 +5642,7 @@
 "asof": "2026-11-16",
 "cik": "0000920148",
 "companyfacts_sha256": "024c2cf75688e055ad5622fdc92a79e3bcd20a8dab40b5cfe8ede52c0e1cd73f",
-"fetched_at": "2026-11-16T05:09:48Z",
+"fetched_at": "2026-11-16T15:45:29Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.9620676637898491,
@@ -5668,7 +5668,7 @@
 "asof": "2026-11-16",
 "cik": "0000707549",
 "companyfacts_sha256": "46289dd93caeb9cf61ad8a0884f51999549c8179f17ad7b0ef9bdadfe9aff626",
-"fetched_at": "2026-11-16T05:09:49Z",
+"fetched_at": "2026-11-16T15:45:29Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.7534894799891485,
@@ -5694,7 +5694,7 @@
 "asof": "2026-11-16",
 "cik": "0001300514",
 "companyfacts_sha256": "0e1cc74137108f134eca0c0e3b4f5fe5491ac5e834c838ddce1213325b07869e",
-"fetched_at": "2026-11-16T05:09:49Z",
+"fetched_at": "2026-11-16T15:45:29Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.7569361476171512,
@@ -5720,7 +5720,7 @@
 "asof": "2026-11-16",
 "cik": "0001336920",
 "companyfacts_sha256": "d9c65470cd9e859454f4753563d7567e7e0d59d700ca92156fee2b72e5a18ff0",
-"fetched_at": "2026-11-16T05:09:49Z",
+"fetched_at": "2026-11-16T15:45:30Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.8361041636015889,
@@ -5746,7 +5746,7 @@
 "asof": "2026-11-16",
 "cik": "0000920760",
 "companyfacts_sha256": "91a7d0faa8e12a36a3fe382149ef599e14da99ab91ef7af12ae2bafc86b7aa8a",
-"fetched_at": "2026-11-16T05:09:49Z",
+"fetched_at": "2026-11-16T15:45:30Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -5772,7 +5772,7 @@
 "asof": "2026-11-16",
 "cik": "0001069202",
 "companyfacts_sha256": "abc8d16c9593f72f2188411880a614a7a9abfbae98aab207f7f2cacf2f96b5d6",
-"fetched_at": "2026-11-16T05:09:50Z",
+"fetched_at": "2026-11-16T15:45:31Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.6108886138013059,
@@ -5798,7 +5798,7 @@
 "asof": "2026-11-16",
 "cik": "0000059478",
 "companyfacts_sha256": "72ec001637e16887021c76251eaf05056bdaaf9a4e68ef62316b9be99861dbdc",
-"fetched_at": "2026-11-16T05:09:50Z",
+"fetched_at": "2026-11-16T15:45:31Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -5824,7 +5824,7 @@
 "asof": "2026-11-16",
 "cik": "0001707925",
 "companyfacts_sha256": "faeccf860ecf8f18af89c7f059191b0aa900d00645f1a0168b8511b1cbbe1b9f",
-"fetched_at": "2026-11-16T05:09:50Z",
+"fetched_at": "2026-11-16T15:45:31Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": 0.7753721998052039,
@@ -5850,7 +5850,7 @@
 "asof": "2026-11-16",
 "cik": "0001335258",
 "companyfacts_sha256": "0562fdd0c89666b7854fe9f9cb7546158849b89470502f2259f3659f41e197c9",
-"fetched_at": "2026-11-16T05:09:50Z",
+"fetched_at": "2026-11-16T15:45:32Z",
 "group": "Communication Services",
 "inputs": {
 "fcf_conversion_cum": 1.573581468428637,
@@ -5876,7 +5876,7 @@
 "asof": "2026-11-16",
 "cik": "0000936468",
 "companyfacts_sha256": "4cb5d1418e5c1b20be5d26085998d96bf1eef45015395fa49df6bac2ac0ffad5",
-"fetched_at": "2026-11-16T05:09:51Z",
+"fetched_at": "2026-11-16T15:45:32Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.7920779922400668,
@@ -5902,7 +5902,7 @@
 "asof": "2026-11-16",
 "cik": "0000060667",
 "companyfacts_sha256": "7912551d61433f5e7e863ac602ebf24ee1484699e10aa556534f0055fff2ea7d",
-"fetched_at": "2026-11-16T05:09:51Z",
+"fetched_at": "2026-11-16T15:45:32Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.6714374954067759,
@@ -5928,7 +5928,7 @@
 "asof": "2026-11-16",
 "cik": "0001397187",
 "companyfacts_sha256": "89f7c4fd2ad8016bb521a2a2999da6515819d628d61ea81c773d838ba2addfaf",
-"fetched_at": "2026-11-16T05:09:51Z",
+"fetched_at": "2026-11-16T15:45:33Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.5753349025749912,
@@ -5954,7 +5954,7 @@
 "asof": "2026-11-16",
 "cik": "0001633978",
 "companyfacts_sha256": "eba01ff45ebf4ee4c93d52c30d8d467b1d384e4516ac65ddb919dbea2fb350ed",
-"fetched_at": "2026-11-16T05:09:52Z",
+"fetched_at": "2026-11-16T15:45:33Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 5.152594099694812,
@@ -5980,7 +5980,7 @@
 "asof": "2026-11-16",
 "cik": "0001489393",
 "companyfacts_sha256": "a7dccdac1a57250e0f11f25532bee770d3e726c838b056337e6e385d8fc32cc5",
-"fetched_at": "2026-11-16T05:09:52Z",
+"fetched_at": "2026-11-16T15:45:33Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": 0.9778219544014413,
@@ -6006,7 +6006,7 @@
 "asof": "2026-11-16",
 "cik": "0000036270",
 "companyfacts_sha256": "6a66e2337559b7bee16e321507854117d17150649ab2604753853aa3283ab483",
-"fetched_at": "2026-11-16T05:09:52Z",
+"fetched_at": "2026-11-16T15:45:33Z",
 "group": "Banks",
 "inputs": {
 "latest_period": "2025-12-31",
@@ -6028,7 +6028,7 @@
 "asof": "2026-11-16",
 "cik": "0001510295",
 "companyfacts_sha256": "b70c0bdd5687638ae19151d8d52cf18ffac7f4c9af124e7e48e0ba1ae6779027",
-"fetched_at": "2026-11-16T05:09:53Z",
+"fetched_at": "2026-11-16T15:45:34Z",
 "group": "Energy",
 "inputs": {
 "fcf_conversion_cum": 0.7217446270543616,
@@ -6054,7 +6054,7 @@
 "asof": "2026-11-16",
 "cik": "0001048286",
 "companyfacts_sha256": "c616767908efc003b27a5d1cfc3695330effb981849fcf5fdb0daf99bf38a31c",
-"fetched_at": "2026-11-16T05:09:53Z",
+"fetched_at": "2026-11-16T15:45:34Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.6093970796043335,
@@ -6080,7 +6080,7 @@
 "asof": "2026-11-16",
 "cik": "0000916076",
 "companyfacts_sha256": "fbad1f9d43e7ff50c30e2b08151f7f2b7e31437ec349feccb768806a1ba4afe0",
-"fetched_at": "2026-11-16T05:09:54Z",
+"fetched_at": "2026-11-16T15:45:34Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": 0.4957872351880266,
@@ -6106,7 +6106,7 @@
 "asof": "2026-11-16",
 "cik": "0001835632",
 "companyfacts_sha256": "2190d7525c2749e96636b0f95376c5f7d73d9cb47a7452b3a94f70e156ec1169",
-"fetched_at": "2026-11-16T05:09:54Z",
+"fetched_at": "2026-11-16T15:45:34Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -6132,7 +6132,7 @@
 "asof": "2026-11-16",
 "cik": "0000062996",
 "companyfacts_sha256": "96b6d405e5298e6a07a80226ef655717a09ce3a41cac07bf97a1fc994f36937a",
-"fetched_at": "2026-11-16T05:09:54Z",
+"fetched_at": "2026-11-16T15:45:35Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.6547065005254467,
@@ -6158,7 +6158,7 @@
 "asof": "2026-11-16",
 "cik": "0000063754",
 "companyfacts_sha256": "4512b6af93c37526ee245f356c5867ef2822a185a8bacf8e487f6a954dd6b308",
-"fetched_at": "2026-11-16T05:09:54Z",
+"fetched_at": "2026-11-16T15:45:35Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.663730694980695,
@@ -6184,7 +6184,7 @@
 "asof": "2026-11-16",
 "cik": "0000063908",
 "companyfacts_sha256": "426688e51562a0bf08a4ede782fbaa7ff97eed5c18477bcffab165b3d5743359",
-"fetched_at": "2026-11-16T05:09:55Z",
+"fetched_at": "2026-11-16T15:45:35Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.6074821103480597,
@@ -6210,7 +6210,7 @@
 "asof": "2026-11-16",
 "cik": "0000927653",
 "companyfacts_sha256": "e6d67430aae92b8cbc7bf08e0b5df96c5af533fc85947fa5a74e9d99c31b9604",
-"fetched_at": "2026-11-16T05:09:55Z",
+"fetched_at": "2026-11-16T15:45:36Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 1.1432592309894094,
@@ -6236,7 +6236,7 @@
 "asof": "2026-11-16",
 "cik": "0001613103",
 "companyfacts_sha256": "38fb8ec4139e6db2fa9bcd6cce1c3de5d9fcb3838ad9a63a2e3c74a7afc79b27",
-"fetched_at": "2026-11-16T05:09:56Z",
+"fetched_at": "2026-11-16T15:45:36Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.9154949137242648,
@@ -6262,7 +6262,7 @@
 "asof": "2026-11-16",
 "cik": "0000310158",
 "companyfacts_sha256": "b8c8442de6a33be22bd258e1649763fc3cd7f0dd9ed678e77f0f0ce982706358",
-"fetched_at": "2026-11-16T05:09:56Z",
+"fetched_at": "2026-11-16T15:45:36Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -6288,7 +6288,7 @@
 "asof": "2026-11-16",
 "cik": "0001326801",
 "companyfacts_sha256": "f8e539cea9d363752df2f9bb33078c19ae897ff7f34d49fe4d9a732d032b94f7",
-"fetched_at": "2026-11-16T05:09:57Z",
+"fetched_at": "2026-11-16T15:45:36Z",
 "group": "Communication Services",
 "inputs": {
 "fcf_conversion_cum": 0.7361979469582413,
@@ -6314,7 +6314,7 @@
 "asof": "2026-11-16",
 "cik": "0001037646",
 "companyfacts_sha256": "430556682a6b4cb1203c82e19f514044589d63a7dc91193899eaa0ceeb85eb22",
-"fetched_at": "2026-11-16T05:09:57Z",
+"fetched_at": "2026-11-16T15:45:37Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -6340,7 +6340,7 @@
 "asof": "2026-11-16",
 "cik": "0000789570",
 "companyfacts_sha256": "e58b883e06b1112114ea8614f09b0761534f5b4e08f181972aa489103ec2cefe",
-"fetched_at": "2026-11-16T05:09:57Z",
+"fetched_at": "2026-11-16T15:45:37Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.7782762950078772,
@@ -6366,7 +6366,7 @@
 "asof": "2026-11-16",
 "cik": "0000827054",
 "companyfacts_sha256": "c6af8d449e954a6864ce1f968885d311f2cb2fd8c30558aa00dd28843e7cbc57",
-"fetched_at": "2026-11-16T05:09:57Z",
+"fetched_at": "2026-11-16T15:45:37Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 1.1844407064760303,
@@ -6392,7 +6392,7 @@
 "asof": "2026-11-16",
 "cik": "0000723125",
 "companyfacts_sha256": "162439f31208eaf4cd1a33939d80fd40479a559735b9488d32ac43d5516ff7bf",
-"fetched_at": "2026-11-16T05:09:58Z",
+"fetched_at": "2026-11-16T15:45:37Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.5049269482648574,
@@ -6418,7 +6418,7 @@
 "asof": "2026-11-16",
 "cik": "0000789019",
 "companyfacts_sha256": "8c1903c041f5c27e86ed15f37debb1f41882b7904bba129ef9edc76478b1e8ea",
-"fetched_at": "2026-11-16T05:09:58Z",
+"fetched_at": "2026-11-16T15:45:37Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.596868894929075,
@@ -6444,7 +6444,7 @@
 "asof": "2026-11-16",
 "cik": "0001682852",
 "companyfacts_sha256": "bd7e019c7861dc6435c40fd42f45394902666dbc1532f2d71437bbc6620d4888",
-"fetched_at": "2026-11-16T05:09:58Z",
+"fetched_at": "2026-11-16T15:45:38Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.6957584220631873,
@@ -6470,7 +6470,7 @@
 "asof": "2026-11-16",
 "cik": "0001103982",
 "companyfacts_sha256": "5b1da475f3941c1bd5d2c07d1909f0d73a3b83d06bd5546cb0541c0cadf53a4b",
-"fetched_at": "2026-11-16T05:09:59Z",
+"fetched_at": "2026-11-16T15:45:38Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.7012975998643033,
@@ -6496,7 +6496,7 @@
 "asof": "2026-11-16",
 "cik": "0001280452",
 "companyfacts_sha256": "40108f7c8e34dc73f41152eed82cd4326c115ed44b56dc1f1c2411018f7f6608",
-"fetched_at": "2026-11-16T05:09:59Z",
+"fetched_at": "2026-11-16T15:45:38Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.9068919529944087,
@@ -6522,7 +6522,7 @@
 "asof": "2026-11-16",
 "cik": "0000865752",
 "companyfacts_sha256": "8c146f270b02f9524d76c29ff719339cf38c134ee9b1ed5b36c9a047a9942382",
-"fetched_at": "2026-11-16T05:10:00Z",
+"fetched_at": "2026-11-16T15:45:38Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.7163030651641253,
@@ -6548,7 +6548,7 @@
 "asof": "2026-11-16",
 "cik": "0001285785",
 "companyfacts_sha256": "800981760034225703e3f5133acd90caf8aeba1c7a976b71b8c77bc9040ad809",
-"fetched_at": "2026-11-16T05:10:00Z",
+"fetched_at": "2026-11-16T15:45:39Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": 0.40902251143509155,
@@ -6574,7 +6574,7 @@
 "asof": "2026-11-16",
 "cik": "0000068505",
 "companyfacts_sha256": "638927485cb4ee563e18fc325d6d0408ff5975a669967edd885b052d3ff697dc",
-"fetched_at": "2026-11-16T05:10:01Z",
+"fetched_at": "2026-11-16T15:45:40Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.8548415648787396,
@@ -6600,7 +6600,7 @@
 "asof": "2026-11-16",
 "cik": "0001002047",
 "companyfacts_sha256": "544e1e648485597c97423e20161c693df3b6ee55c6a2d38a1e8e2539bedfbfdb",
-"fetched_at": "2026-11-16T05:10:01Z",
+"fetched_at": "2026-11-16T15:45:40Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 1.0296875,
@@ -6626,7 +6626,7 @@
 "asof": "2026-11-16",
 "cik": "0001065280",
 "companyfacts_sha256": "fd31bc147b36495f6912e063188aea71434077236f4e995268620b47fda99e61",
-"fetched_at": "2026-11-16T05:10:01Z",
+"fetched_at": "2026-11-16T15:45:40Z",
 "group": "Communication Services",
 "inputs": {
 "fcf_conversion_cum": 0.5830653611616167,
@@ -6652,7 +6652,7 @@
 "asof": "2026-11-16",
 "cik": "0001164727",
 "companyfacts_sha256": "26775f107d7e26532edfb2fee083de83a64de460b2a7490699253eef02f2e69a",
-"fetched_at": "2026-11-16T05:10:02Z",
+"fetched_at": "2026-11-16T15:45:40Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -6678,7 +6678,7 @@
 "asof": "2026-11-16",
 "cik": "0001564708",
 "companyfacts_sha256": "81055c4a271aa44e32c168a8a192bf36523370e4128d0c8805420488dfe194be",
-"fetched_at": "2026-11-16T05:10:02Z",
+"fetched_at": "2026-11-16T15:45:41Z",
 "group": "Communication Services",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -6704,7 +6704,7 @@
 "asof": "2026-11-16",
 "cik": "0001564708",
 "companyfacts_sha256": "81055c4a271aa44e32c168a8a192bf36523370e4128d0c8805420488dfe194be",
-"fetched_at": "2026-11-16T05:10:02Z",
+"fetched_at": "2026-11-16T15:45:41Z",
 "group": "Communication Services",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -6730,7 +6730,7 @@
 "asof": "2026-11-16",
 "cik": "0000753308",
 "companyfacts_sha256": "99e84510f602363147dc6c83321aa76859e185d0807019d1efc9e0da60491954",
-"fetched_at": "2026-11-16T05:10:03Z",
+"fetched_at": "2026-11-16T15:45:41Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -6756,7 +6756,7 @@
 "asof": "2026-11-16",
 "cik": "0000320187",
 "companyfacts_sha256": "d7aeceae21e6649e163d195729849349b27d909ab1a6eb4630a7c0c227acd890",
-"fetched_at": "2026-11-16T05:10:03Z",
+"fetched_at": "2026-11-16T15:45:41Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -6782,7 +6782,7 @@
 "asof": "2026-11-16",
 "cik": "0001111711",
 "companyfacts_sha256": "aa6789c8777e9f58597c2067c40f459b2ab871f5de77691368f8c5bd9dee8258",
-"fetched_at": "2026-11-16T05:10:04Z",
+"fetched_at": "2026-11-16T15:45:42Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": -0.4923458230062691,
@@ -6808,7 +6808,7 @@
 "asof": "2026-11-16",
 "cik": "0000072331",
 "companyfacts_sha256": "9782d1eab6bdd78c49f6ab6de3749a577fe54cd33d3afd29bd105474f124eb2e",
-"fetched_at": "2026-11-16T05:10:04Z",
+"fetched_at": "2026-11-16T15:45:42Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.8083367940629874,
@@ -6834,7 +6834,7 @@
 "asof": "2026-11-16",
 "cik": "0000702165",
 "companyfacts_sha256": "1e39cce9e1272a8703da3a11c2df8133f844bedd381ae72257d2f6aef6934c8c",
-"fetched_at": "2026-11-16T05:10:05Z",
+"fetched_at": "2026-11-16T15:45:43Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.474286549138015,
@@ -6860,7 +6860,7 @@
 "asof": "2026-11-16",
 "cik": "0001133421",
 "companyfacts_sha256": "4b2d23018cc5e052fe2453ec6c8607d0bf198997ee6a77cf1fd7eaf4b361cd2f",
-"fetched_at": "2026-11-16T05:10:05Z",
+"fetched_at": "2026-11-16T15:45:43Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.5634252539912917,
@@ -6886,7 +6886,7 @@
 "asof": "2026-11-16",
 "cik": "0001513761",
 "companyfacts_sha256": "1f27ce5be4f0a30dd72a3a2865f022a1a92f585cc512ad533544224b3f3b0fbf",
-"fetched_at": "2026-11-16T05:10:05Z",
+"fetched_at": "2026-11-16T15:45:43Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -6912,7 +6912,7 @@
 "asof": "2026-11-16",
 "cik": "0001013871",
 "companyfacts_sha256": "e6c3a79986c8c58b21fb882ccc6dc669c11d5b82bb173df1283da9bf54b57c68",
-"fetched_at": "2026-11-16T05:10:06Z",
+"fetched_at": "2026-11-16T15:45:44Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": 0.1995605273671594,
@@ -6938,7 +6938,7 @@
 "asof": "2026-11-16",
 "cik": "0000073309",
 "companyfacts_sha256": "7a8ed4a66082eb2d497764f546f99a4ce5238e6d6155508da84d359dd0f6113e",
-"fetched_at": "2026-11-16T05:10:06Z",
+"fetched_at": "2026-11-16T15:45:44Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -6964,7 +6964,7 @@
 "asof": "2026-11-16",
 "cik": "0001045810",
 "companyfacts_sha256": "19ef503a5770f5660964b3c3aea6937579d9b359da344afe6a9adf59c63d26ff",
-"fetched_at": "2026-11-16T05:10:07Z",
+"fetched_at": "2026-11-16T15:45:44Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.7584231714895572,
@@ -6990,7 +6990,7 @@
 "asof": "2026-11-16",
 "cik": "0000906163",
 "companyfacts_sha256": "efd9c7ccb7f1e87202804d8c38692949292498c98ce0d34eee627032e3585f6f",
-"fetched_at": "2026-11-16T05:10:07Z",
+"fetched_at": "2026-11-16T15:45:44Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -7016,7 +7016,7 @@
 "asof": "2026-11-16",
 "cik": "0001413447",
 "companyfacts_sha256": "1993126ee402d59f6b21eaf43559a9b86dc6b62db080fc2d771542a89d0e4d86",
-"fetched_at": "2026-11-16T05:10:08Z",
+"fetched_at": "2026-11-16T15:45:44Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.7455922447743109,
@@ -7042,7 +7042,7 @@
 "asof": "2026-11-16",
 "cik": "0000898173",
 "companyfacts_sha256": "d8455ae8b64585f733c464df366495c4dd2a4ba99e323437a357fe1ce2e1e69e",
-"fetched_at": "2026-11-16T05:10:08Z",
+"fetched_at": "2026-11-16T15:45:45Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.6973169736288416,
@@ -7068,7 +7068,7 @@
 "asof": "2026-11-16",
 "cik": "0000797468",
 "companyfacts_sha256": "e619e346707090702d29bef82bec25e59a97905bdd05fa29d0381cf01471e32d",
-"fetched_at": "2026-11-16T05:10:08Z",
+"fetched_at": "2026-11-16T15:45:45Z",
 "group": "Energy",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -7094,7 +7094,7 @@
 "asof": "2026-11-16",
 "cik": "0001660134",
 "companyfacts_sha256": "ce9d8dc684e7e95b8ab313f731115188cc90b20d383e32a0725832de18cef1d7",
-"fetched_at": "2026-11-16T05:10:09Z",
+"fetched_at": "2026-11-16T15:45:45Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -7120,7 +7120,7 @@
 "asof": "2026-11-16",
 "cik": "0000878927",
 "companyfacts_sha256": "4913d926755a3f9f843db8ed171ef3e223a89d0ee3b9319f437387886151cee4",
-"fetched_at": "2026-11-16T05:10:09Z",
+"fetched_at": "2026-11-16T15:45:45Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.5443404753180465,
@@ -7146,7 +7146,7 @@
 "asof": "2026-11-16",
 "cik": "0000029989",
 "companyfacts_sha256": "51cefbf639f8e8453b2cb0a1304bd4f17a61e3d078407f7630386fa6ed08c3ce",
-"fetched_at": "2026-11-16T05:10:09Z",
+"fetched_at": "2026-11-16T15:45:46Z",
 "group": "Communication Services",
 "inputs": {
 "fcf_conversion_cum": 0.862441242366999,
@@ -7172,7 +7172,7 @@
 "asof": "2026-11-16",
 "cik": "0001097864",
 "companyfacts_sha256": "034ea39734b6dc0a8ec0d32e5356e54cb827a07e5c6fde67aca515c39a0b6881",
-"fetched_at": "2026-11-16T05:10:10Z",
+"fetched_at": "2026-11-16T15:45:46Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.7469209524520415,
@@ -7198,7 +7198,7 @@
 "asof": "2026-11-16",
 "cik": "0001039684",
 "companyfacts_sha256": "d6d8401ab409287ad60d8a7ffe810a62c058121784a2146f45d627505d0e57ba",
-"fetched_at": "2026-11-16T05:10:10Z",
+"fetched_at": "2026-11-16T15:45:46Z",
 "group": "Energy",
 "inputs": {
 "fcf_conversion_cum": 0.5787181390744865,
@@ -7224,7 +7224,7 @@
 "asof": "2026-11-16",
 "cik": "0001341439",
 "companyfacts_sha256": "fe93b258bc0ba8f3076ddebb5d8bb91c46deaa1f7b06d2ff2e3eaed85fee8a63",
-"fetched_at": "2026-11-16T05:10:10Z",
+"fetched_at": "2026-11-16T15:45:46Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.01577469867106212,
@@ -7250,7 +7250,7 @@
 "asof": "2026-11-16",
 "cik": "0001781335",
 "companyfacts_sha256": "e1ef2765cab170993e8edeab60c457a6bedd8e650f28562ad6897a1a5f905072",
-"fetched_at": "2026-11-16T05:10:11Z",
+"fetched_at": "2026-11-16T15:45:47Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.707776079480321,
@@ -7276,7 +7276,7 @@
 "asof": "2026-11-16",
 "cik": "0000075362",
 "companyfacts_sha256": "175b5d91142bbefcd93dde4e72eba7c09cad99aaadb2fdce31da70a4a91b87f0",
-"fetched_at": "2026-11-16T05:10:11Z",
+"fetched_at": "2026-11-16T15:45:47Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -7302,7 +7302,7 @@
 "asof": "2026-11-16",
 "cik": "0000075677",
 "companyfacts_sha256": "57264bed3cdbf4c1c90e4892d2ead5c8acf1d9e0e6be39c4bb443562f399e20a",
-"fetched_at": "2026-11-16T05:10:11Z",
+"fetched_at": "2026-11-16T15:45:47Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": 0.5475233369775461,
@@ -7328,7 +7328,7 @@
 "asof": "2026-11-16",
 "cik": "0001321655",
 "companyfacts_sha256": "2065b0809667e777bd4d328054beef84f271da4ec2f29481765a63009f19f7f8",
-"fetched_at": "2026-11-16T05:10:12Z",
+"fetched_at": "2026-11-16T15:45:47Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 3.4931968805246605,
@@ -7354,7 +7354,7 @@
 "asof": "2026-11-16",
 "cik": "0001327567",
 "companyfacts_sha256": "881c1ced47689b87bd0d5c5cad9c8365c90cd2ba4e167bcfe78ba7504e8b9896",
-"fetched_at": "2026-11-16T05:10:12Z",
+"fetched_at": "2026-11-16T15:45:47Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 5.355823435561071,
@@ -7380,7 +7380,7 @@
 "asof": "2026-11-16",
 "cik": "0000076334",
 "companyfacts_sha256": "a5cfe8c9b3de17b8376cab3fa20a3b8645511ae2b313aeefa17592a74d336390",
-"fetched_at": "2026-11-16T05:10:12Z",
+"fetched_at": "2026-11-16T15:45:48Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.7572199313951771,
@@ -7406,7 +7406,7 @@
 "asof": "2026-11-16",
 "cik": "0000723531",
 "companyfacts_sha256": "c14cf3666260c537a546e8e471039bf0b28c1cf9200eb2a1365668647b8c8328",
-"fetched_at": "2026-11-16T05:10:13Z",
+"fetched_at": "2026-11-16T15:45:48Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.8161610344251027,
@@ -7432,7 +7432,7 @@
 "asof": "2026-11-16",
 "cik": "0000077360",
 "companyfacts_sha256": "718bdaaaa4dbb773f15f8beb0bbfb4ec85f7c58095a6688bb6ee80faa362dd5f",
-"fetched_at": "2026-11-16T05:10:13Z",
+"fetched_at": "2026-11-16T15:45:49Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.774245051889779,
@@ -7458,7 +7458,7 @@
 "asof": "2026-11-16",
 "cik": "0000077476",
 "companyfacts_sha256": "4a734cc934f3cf9f129fc15657589d4c6c82138f1bd889023c11170d97990d8d",
-"fetched_at": "2026-11-16T05:10:14Z",
+"fetched_at": "2026-11-16T15:45:49Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.5992039969514776,
@@ -7484,7 +7484,7 @@
 "asof": "2026-11-16",
 "cik": "0000078003",
 "companyfacts_sha256": "8f379293683cf844f7305fbf11e15716090a9cfe2a2af9cc0ef35bb4d77c6bce",
-"fetched_at": "2026-11-16T05:10:14Z",
+"fetched_at": "2026-11-16T15:45:49Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -7510,7 +7510,7 @@
 "asof": "2026-11-16",
 "cik": "0001004980",
 "companyfacts_sha256": "d93dbac689a7ffa7aee181522d98656237d07e111cb17eaaaab910dd66b56b3c",
-"fetched_at": "2026-11-16T05:10:15Z",
+"fetched_at": "2026-11-16T15:45:49Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": -1.3886787614590679,
@@ -7536,7 +7536,7 @@
 "asof": "2026-11-16",
 "cik": "0001413329",
 "companyfacts_sha256": "f58cd15a2dadd8202ce34e64dbba0b73ab8710032a0b52ea973cb241a6138709",
-"fetched_at": "2026-11-16T05:10:15Z",
+"fetched_at": "2026-11-16T15:45:50Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.7724639240214535,
@@ -7562,7 +7562,7 @@
 "asof": "2026-11-16",
 "cik": "0001534701",
 "companyfacts_sha256": "02eb06ab4e8ee39f1e46400ead103eeee7f158ca19a0ae956e749430498c97a8",
-"fetched_at": "2026-11-16T05:10:16Z",
+"fetched_at": "2026-11-16T15:45:50Z",
 "group": "Energy",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -7588,7 +7588,7 @@
 "asof": "2026-11-16",
 "cik": "0000764622",
 "companyfacts_sha256": "2bbd6ff6824e75117f2214df4da5d0cbf8c9d69206b3f97174581d4c6e62c074",
-"fetched_at": "2026-11-16T05:10:16Z",
+"fetched_at": "2026-11-16T15:45:50Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": -0.7153077503954697,
@@ -7614,7 +7614,7 @@
 "asof": "2026-11-16",
 "cik": "0000713676",
 "companyfacts_sha256": "738b9dfc707d87b6e7effa7165c8137a6a575a76fa003ec9f4d87eab2a140343",
-"fetched_at": "2026-11-16T05:10:16Z",
+"fetched_at": "2026-11-16T15:45:51Z",
 "group": "Banks",
 "inputs": {
 "latest_period": "2025-12-31",
@@ -7636,7 +7636,7 @@
 "asof": "2026-11-16",
 "cik": "0000079879",
 "companyfacts_sha256": "b4630cc7bd7a453a39b4e2365dd217310c7f51458fc0f0d8f7afa77b861f4ac1",
-"fetched_at": "2026-11-16T05:10:17Z",
+"fetched_at": "2026-11-16T15:45:52Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": 0.5172764227642277,
@@ -7662,7 +7662,7 @@
 "asof": "2026-11-16",
 "cik": "0000922224",
 "companyfacts_sha256": "39e8ec896ba6f9d6ffae55e9c8d4449a5cd7bd7d5471cca5f57d78dc362c3dd5",
-"fetched_at": "2026-11-16T05:10:17Z",
+"fetched_at": "2026-11-16T15:45:52Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": -0.31649993973725443,
@@ -7688,7 +7688,7 @@
 "asof": "2026-11-16",
 "cik": "0000080424",
 "companyfacts_sha256": "c6ae61e012a2b4aadeaa49400847842dd637a4a4a03cbdf4dfff27dffd78f8d1",
-"fetched_at": "2026-11-16T05:10:18Z",
+"fetched_at": "2026-11-16T15:45:52Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.7716467246095193,
@@ -7714,7 +7714,7 @@
 "asof": "2026-11-16",
 "cik": "0000857005",
 "companyfacts_sha256": "a2ce7ebeaf349e3c93b00781b9fc3c58a2fcd983917dc1fa9fa7561e2491bd7b",
-"fetched_at": "2026-11-16T05:10:18Z",
+"fetched_at": "2026-11-16T15:45:52Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 1.0287837268829074,
@@ -7740,7 +7740,7 @@
 "asof": "2026-11-16",
 "cik": "0000788784",
 "companyfacts_sha256": "d63a70dfd11f43969b625bc9a89f64fdd855e05c6e31abfe2d4ad4c01d77d288",
-"fetched_at": "2026-11-16T05:10:18Z",
+"fetched_at": "2026-11-16T15:45:52Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": -0.32568374724929267,
@@ -7766,7 +7766,7 @@
 "asof": "2026-11-16",
 "cik": "0000822416",
 "companyfacts_sha256": "17025e7329aa829a6e793d63006b00178e179b40e818afd2934a8e68f4a2c063",
-"fetched_at": "2026-11-16T05:10:19Z",
+"fetched_at": "2026-11-16T15:45:53Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -7792,7 +7792,7 @@
 "asof": "2026-11-16",
 "cik": "0000804328",
 "companyfacts_sha256": "8815957bbed4b0e3fedfd885ab4f8eba03cecf735a67aca37f6e7c0467541fbe",
-"fetched_at": "2026-11-16T05:10:19Z",
+"fetched_at": "2026-11-16T15:45:53Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.9010268216034495,
@@ -7818,7 +7818,7 @@
 "asof": "2026-11-16",
 "cik": "0001050915",
 "companyfacts_sha256": "3209aeb6ae940090ef8f4908a9c1c057b4e2d1ed747f602207de61785878a868",
-"fetched_at": "2026-11-16T05:10:20Z",
+"fetched_at": "2026-11-16T15:45:53Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.9140396247855567,
@@ -7844,7 +7844,7 @@
 "asof": "2026-11-16",
 "cik": "0001022079",
 "companyfacts_sha256": "09c4c56d1f8e8f97aee78bbd00f9c541df50228d673371597e4b01925dde28b9",
-"fetched_at": "2026-11-16T05:10:20Z",
+"fetched_at": "2026-11-16T15:45:53Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.7871566537062586,
@@ -7870,7 +7870,7 @@
 "asof": "2026-11-16",
 "cik": "0001037038",
 "companyfacts_sha256": "660fec696166b17059697399699b3369d41fc7a63160e1209e86032c675a2f8b",
-"fetched_at": "2026-11-16T05:10:20Z",
+"fetched_at": "2026-11-16T15:45:54Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.8355426028642161,
@@ -7896,7 +7896,7 @@
 "asof": "2026-11-16",
 "cik": "0000872589",
 "companyfacts_sha256": "15f402dcbc7d066a31ac9abcebbac6a09876f651b16e9f93398f16d4b95c5832",
-"fetched_at": "2026-11-16T05:10:21Z",
+"fetched_at": "2026-11-16T15:45:54Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.8922312599302805,
@@ -7922,7 +7922,7 @@
 "asof": "2026-11-16",
 "cik": "0001281761",
 "companyfacts_sha256": "1c1e0d7c91e8afe729c6e46e71f02e4d36e96ba8f2d588971708c3c290888736",
-"fetched_at": "2026-11-16T05:10:22Z",
+"fetched_at": "2026-11-16T15:45:55Z",
 "group": "Banks",
 "inputs": {
 "latest_period": "2025-12-31",
@@ -7944,7 +7944,7 @@
 "asof": "2026-11-16",
 "cik": "0001060391",
 "companyfacts_sha256": "9496c83cf52613db5e8668ca4c0d01862df32e104d52a78bd2c180f046e23d5e",
-"fetched_at": "2026-11-16T05:10:22Z",
+"fetched_at": "2026-11-16T15:45:55Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.704441954867527,
@@ -7970,7 +7970,7 @@
 "asof": "2026-11-16",
 "cik": "0000943819",
 "companyfacts_sha256": "df65211e9a4ea9289379502c66216d83781cea80bd3649a111e0637d998695c7",
-"fetched_at": "2026-11-16T05:10:23Z",
+"fetched_at": "2026-11-16T15:45:55Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.7692066545484365,
@@ -7996,7 +7996,7 @@
 "asof": "2026-11-16",
 "cik": "0000031791",
 "companyfacts_sha256": "322a824a1e793fa7adb869a4c71ae9df6512729dcbcd06050d3ee351fcded01f",
-"fetched_at": "2026-11-16T05:10:23Z",
+"fetched_at": "2026-11-16T15:45:55Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.991607583656285,
@@ -8022,7 +8022,7 @@
 "asof": "2026-11-16",
 "cik": "0001024478",
 "companyfacts_sha256": "7189abd0ee674664fee4547a6e1cab7d4a0235cbf7fc23cc96491c30be785fc8",
-"fetched_at": "2026-11-16T05:10:24Z",
+"fetched_at": "2026-11-16T15:45:55Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.6142146546776354,
@@ -8048,7 +8048,7 @@
 "asof": "2026-11-16",
 "cik": "0000084839",
 "companyfacts_sha256": "51d2c2a13616dc72cb7a0bb899210968f61b9febc70ff619b2cf97048abbcdd7",
-"fetched_at": "2026-11-16T05:10:24Z",
+"fetched_at": "2026-11-16T15:45:56Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.872185509272093,
@@ -8074,7 +8074,7 @@
 "asof": "2026-11-16",
 "cik": "0000882835",
 "companyfacts_sha256": "ece9f67c61024d8355401cb9145e7f787215cb5d7d7f765b11c25e2c27b61121",
-"fetched_at": "2026-11-16T05:10:24Z",
+"fetched_at": "2026-11-16T15:45:56Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -8100,7 +8100,7 @@
 "asof": "2026-11-16",
 "cik": "0000745732",
 "companyfacts_sha256": "6310bb034c7b7b228799f757b5117d1e6a173af3ff6304b656e851f492ccfaf9",
-"fetched_at": "2026-11-16T05:10:25Z",
+"fetched_at": "2026-11-16T15:45:56Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.6914311917594704,
@@ -8126,7 +8126,7 @@
 "asof": "2026-11-16",
 "cik": "0000884887",
 "companyfacts_sha256": "deb91409d270b8cb379468e4067bdaf7407618e406237a092fcd36e27ce60720",
-"fetched_at": "2026-11-16T05:10:25Z",
+"fetched_at": "2026-11-16T15:45:56Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": -0.34775420225957565,
@@ -8152,7 +8152,7 @@
 "asof": "2026-11-16",
 "cik": "0000101829",
 "companyfacts_sha256": "24494083f9c3c39826a9fe6ce29da4dcd4777701e72c59b507e8e2dd15d15ed5",
-"fetched_at": "2026-11-16T05:10:26Z",
+"fetched_at": "2026-11-16T15:45:57Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.9164357707906677,
@@ -8178,7 +8178,7 @@
 "asof": "2026-11-16",
 "cik": "0001108524",
 "companyfacts_sha256": "a89be8715e056f1cadffdcd9616676ec1949107233b11f430a8183f88ca4ae15",
-"fetched_at": "2026-11-16T05:10:26Z",
+"fetched_at": "2026-11-16T15:45:57Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 2.1663276836158194,
@@ -8204,7 +8204,7 @@
 "asof": "2026-11-16",
 "cik": "0000087347",
 "companyfacts_sha256": "d5b4b3ed52883c18109b18edb7c44e71cd2e963b7fd6b8e1a6ccdd09e8a306f6",
-"fetched_at": "2026-11-16T05:10:27Z",
+"fetched_at": "2026-11-16T15:45:58Z",
 "group": "Energy",
 "inputs": {
 "fcf_conversion_cum": 0.6919927511913552,
@@ -8230,7 +8230,7 @@
 "asof": "2026-11-16",
 "cik": "0001137789",
 "companyfacts_sha256": "427554dd43058a9b743b8cfabff1e59f481448c3bd99927b100a87c403955829",
-"fetched_at": "2026-11-16T05:10:27Z",
+"fetched_at": "2026-11-16T15:45:58Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.806187103988073,
@@ -8256,7 +8256,7 @@
 "asof": "2026-11-16",
 "cik": "0001032208",
 "companyfacts_sha256": "f7e87ebb996c534892ab4c214373b88cb828346e2a732371a209b3bec01b49af",
-"fetched_at": "2026-11-16T05:10:28Z",
+"fetched_at": "2026-11-16T15:45:58Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -8282,7 +8282,7 @@
 "asof": "2026-11-16",
 "cik": "0001373715",
 "companyfacts_sha256": "427e2a9a58b944b34e0c7bb9560fdb7183de326e4fa9d880b5957e3025a0687e",
-"fetched_at": "2026-11-16T05:10:28Z",
+"fetched_at": "2026-11-16T15:45:58Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 3.2150372643577376,
@@ -8308,7 +8308,7 @@
 "asof": "2026-11-16",
 "cik": "0000089800",
 "companyfacts_sha256": "736f5bac1390cbeee698eeb7d7dd6bd7037470e5e8ce88a9c70cb0370bf04e5a",
-"fetched_at": "2026-11-16T05:10:29Z",
+"fetched_at": "2026-11-16T15:45:59Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": 0.5432413132129367,
@@ -8334,7 +8334,7 @@
 "asof": "2026-11-16",
 "cik": "0000004127",
 "companyfacts_sha256": "19d4019e53d42dd8b457d2911434fccd6e38ebe0771da6fda281f4a0b3013f43",
-"fetched_at": "2026-11-16T05:10:29Z",
+"fetched_at": "2026-11-16T15:45:59Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 1.393899303562068,
@@ -8360,7 +8360,7 @@
 "asof": "2026-11-16",
 "cik": "0000091419",
 "companyfacts_sha256": "61d6e06730d187ecb04ff6f4645810dc5bef6b6df0dca9754bc3afcd664503ab",
-"fetched_at": "2026-11-16T05:10:30Z",
+"fetched_at": "2026-11-16T15:46:00Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 1.8641299346645808,
@@ -8386,7 +8386,7 @@
 "asof": "2026-11-16",
 "cik": "0000091440",
 "companyfacts_sha256": "a58d7ce09df62f8347063499fb4484e1f43d66f393882a7bfd0ca2664b3395f7",
-"fetched_at": "2026-11-16T05:10:31Z",
+"fetched_at": "2026-11-16T15:46:00Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -8412,7 +8412,7 @@
 "asof": "2026-11-16",
 "cik": "0000092122",
 "companyfacts_sha256": "018f20266a7e64fcfc41bf1775aa5d8c12acd1043f3ccab2ac9e0395f156d2db",
-"fetched_at": "2026-11-16T05:10:31Z",
+"fetched_at": "2026-11-16T15:46:01Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": -0.22846787704721852,
@@ -8438,7 +8438,7 @@
 "asof": "2026-11-16",
 "cik": "0000092380",
 "companyfacts_sha256": "1d6503344364d624931047a53450e85a668b6f7f7b94295c24ee624320756033",
-"fetched_at": "2026-11-16T05:10:32Z",
+"fetched_at": "2026-11-16T15:46:01Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": -0.2953381837779574,
@@ -8464,7 +8464,7 @@
 "asof": "2026-11-16",
 "cik": "0000093556",
 "companyfacts_sha256": "396b3d84f5494a6498c8e3c15fcf819cd8a2c9d9fdb86204f96fe285109f68e5",
-"fetched_at": "2026-11-16T05:10:32Z",
+"fetched_at": "2026-11-16T15:46:01Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -8490,7 +8490,7 @@
 "asof": "2026-11-16",
 "cik": "0000829224",
 "companyfacts_sha256": "0deec882c9ad1727f308f0279acd19cbfa52669bb724fdcd1ce75d970d67015e",
-"fetched_at": "2026-11-16T05:10:33Z",
+"fetched_at": "2026-11-16T15:46:01Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.6977105540041998,
@@ -8516,7 +8516,7 @@
 "asof": "2026-11-16",
 "cik": "0001022671",
 "companyfacts_sha256": "7189ceb2a99f88caa8e5491d1a158fc26d01ba10a79db6a0f3ba5d578f57a9ef",
-"fetched_at": "2026-11-16T05:10:33Z",
+"fetched_at": "2026-11-16T15:46:02Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": 0.4441125616271645,
@@ -8542,7 +8542,7 @@
 "asof": "2026-11-16",
 "cik": "0001757898",
 "companyfacts_sha256": "31662bb2d28f49164fa3547e04a1031902a5f81754718dc53cfdb59c6f5d9194",
-"fetched_at": "2026-11-16T05:10:33Z",
+"fetched_at": "2026-11-16T15:46:02Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.7746878786748027,
@@ -8568,7 +8568,7 @@
 "asof": "2026-11-16",
 "cik": "0000310764",
 "companyfacts_sha256": "2ff28133788bce8e3978865aae39c56b504011bb3b9cff99bd1fa98d9330f34e",
-"fetched_at": "2026-11-16T05:10:34Z",
+"fetched_at": "2026-11-16T15:46:02Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.8764183108825666,
@@ -8594,7 +8594,7 @@
 "asof": "2026-11-16",
 "cik": "0001375365",
 "companyfacts_sha256": "604122b3f2f7cf4e7d1d0e1a8f0721d2127220622ac965226354af16ac593c7a",
-"fetched_at": "2026-11-16T05:10:34Z",
+"fetched_at": "2026-11-16T15:46:03Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": -1.2493394347390587,
@@ -8620,7 +8620,7 @@
 "asof": "2026-11-16",
 "cik": "0000883241",
 "companyfacts_sha256": "7e9b6e13ac2481586b56f1db93af14b9b014a1b7f92af2a09075d7cbd51526d4",
-"fetched_at": "2026-11-16T05:10:35Z",
+"fetched_at": "2026-11-16T15:46:04Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 1.3139869856197677,
@@ -8646,7 +8646,7 @@
 "asof": "2026-11-16",
 "cik": "0000096021",
 "companyfacts_sha256": "5c1381fa84d410bd2f4ed1af6ab8184886f3dd037b8ca9146b8c25d02eabca2a",
-"fetched_at": "2026-11-16T05:10:35Z",
+"fetched_at": "2026-11-16T15:46:04Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.604739336492891,
@@ -8672,7 +8672,7 @@
 "asof": "2026-11-16",
 "cik": "0001283699",
 "companyfacts_sha256": "37c19bd2a568588477360bbc93987a1e5e1f50a132c6e52c556c4003a0d60bc4",
-"fetched_at": "2026-11-16T05:10:36Z",
+"fetched_at": "2026-11-16T15:46:04Z",
 "group": "Communication Services",
 "inputs": {
 "fcf_conversion_cum": 0.6971089232692608,
@@ -8698,7 +8698,7 @@
 "asof": "2026-11-16",
 "cik": "0000946581",
 "companyfacts_sha256": "cd0eb49c1e2ec26a189ea7d7b14fd93d1480548f2600ab2084b2afda47419409",
-"fetched_at": "2026-11-16T05:10:36Z",
+"fetched_at": "2026-11-16T15:46:05Z",
 "group": "Communication Services",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -8724,7 +8724,7 @@
 "asof": "2026-11-16",
 "cik": "0001116132",
 "companyfacts_sha256": "4d165f7517b02359551200aa5225a495a12cb91006f3a1174595904142c258e4",
-"fetched_at": "2026-11-16T05:10:36Z",
+"fetched_at": "2026-11-16T15:46:05Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.9631641370300978,
@@ -8750,7 +8750,7 @@
 "asof": "2026-11-16",
 "cik": "0001389170",
 "companyfacts_sha256": "7e9329408950ebe51686c98904cda86840452a14dd5c0954790748cd18aa1d4e",
-"fetched_at": "2026-11-16T05:10:37Z",
+"fetched_at": "2026-11-16T15:46:05Z",
 "group": "Energy",
 "inputs": {
 "fcf_conversion_cum": 0.43911048672487685,
@@ -8776,7 +8776,7 @@
 "asof": "2026-11-16",
 "cik": "0000027419",
 "companyfacts_sha256": "eb15a2cd524e99ff27675db78840d039ec4a68b9cc2dcb10accbcb299933a487",
-"fetched_at": "2026-11-16T05:10:37Z",
+"fetched_at": "2026-11-16T15:46:05Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.5035978618421053,
@@ -8802,7 +8802,7 @@
 "asof": "2026-11-16",
 "cik": "0001385157",
 "companyfacts_sha256": "4f4c8b4bb32a88b48045000e125c2311ab2f4037c10e678e97817dc1f6265b5b",
-"fetched_at": "2026-11-16T05:10:38Z",
+"fetched_at": "2026-11-16T15:46:06Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.8967326338159118,
@@ -8828,7 +8828,7 @@
 "asof": "2026-11-16",
 "cik": "0001094285",
 "companyfacts_sha256": "ba42c8659f9a867fcb919ff291febfc5d7b5459f34f480bfcd66074ab98d1a46",
-"fetched_at": "2026-11-16T05:10:38Z",
+"fetched_at": "2026-11-16T15:46:06Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.8429637705467964,
@@ -8854,7 +8854,7 @@
 "asof": "2026-11-16",
 "cik": "0000097210",
 "companyfacts_sha256": "2fd91361ee3902917c0a1e3d72dfae1c4113bc809c0f4f375a302b7a965119fb",
-"fetched_at": "2026-11-16T05:10:38Z",
+"fetched_at": "2026-11-16T15:46:07Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.7228580519837376,
@@ -8880,7 +8880,7 @@
 "asof": "2026-11-16",
 "cik": "0001318605",
 "companyfacts_sha256": "c951e0ae2402dd8cf8f39319928adccc4196b997941fe40b0d4d6b8060802db1",
-"fetched_at": "2026-11-16T05:10:38Z",
+"fetched_at": "2026-11-16T15:46:07Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.6602059208414607,
@@ -8906,7 +8906,7 @@
 "asof": "2026-11-16",
 "cik": "0000097476",
 "companyfacts_sha256": "5ac0e3044f2368fe3dcce665440317bda9ce766feb27fd382e563593192ee80d",
-"fetched_at": "2026-11-16T05:10:39Z",
+"fetched_at": "2026-11-16T15:46:07Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.4659141855006725,
@@ -8932,7 +8932,7 @@
 "asof": "2026-11-16",
 "cik": "0001811074",
 "companyfacts_sha256": "e2b97277647fb13e21caa8e160a784b61d87789d29f0228e1de2f5c7c1dc4a4b",
-"fetched_at": "2026-11-16T05:10:39Z",
+"fetched_at": "2026-11-16T15:46:07Z",
 "group": "Energy",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -8958,7 +8958,7 @@
 "asof": "2026-11-16",
 "cik": "0000217346",
 "companyfacts_sha256": "00e3e23a2dcdf24f16701cef75d6bff63b120fc48bc0db447cf9c8d6d3b0a727",
-"fetched_at": "2026-11-16T05:10:39Z",
+"fetched_at": "2026-11-16T15:46:07Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -8984,7 +8984,7 @@
 "asof": "2026-11-16",
 "cik": "0000097745",
 "companyfacts_sha256": "c1702c20855e7f135eaea324dd0f46468bcd51f5a4f6846cc3f62e36cc71cf69",
-"fetched_at": "2026-11-16T05:10:40Z",
+"fetched_at": "2026-11-16T15:46:08Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.8469885786487625,
@@ -9010,7 +9010,7 @@
 "asof": "2026-11-16",
 "cik": "0000109198",
 "companyfacts_sha256": "1b8f7be3fed954f682ae56ebe9c56a245f4df3640b92181a2d44d6e086a4905b",
-"fetched_at": "2026-11-16T05:10:40Z",
+"fetched_at": "2026-11-16T15:46:08Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -9036,7 +9036,7 @@
 "asof": "2026-11-16",
 "cik": "0001973266",
 "companyfacts_sha256": "21101e992bc50c84b4a02bd6fc2249dedefa45880035c0c72ec4a271969b7d38",
-"fetched_at": "2026-11-16T05:10:40Z",
+"fetched_at": "2026-11-16T15:46:08Z",
 "group": "Communication Services",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -9060,7 +9060,7 @@
 "asof": "2026-11-16",
 "cik": "0000916365",
 "companyfacts_sha256": "ca98edc4a5cbbfd95c4d2a25b12f151929153496e810f065202e1d17c89e69f3",
-"fetched_at": "2026-11-16T05:10:41Z",
+"fetched_at": "2026-11-16T15:46:08Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.42643240685382966,
@@ -9086,7 +9086,7 @@
 "asof": "2026-11-16",
 "cik": "0001466258",
 "companyfacts_sha256": "de22dd94633abf600208e753e8143de51ee3c7f5962fec12b65a27171a2e2859",
-"fetched_at": "2026-11-16T05:10:41Z",
+"fetched_at": "2026-11-16T15:46:09Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.692590365922033,
@@ -9112,7 +9112,7 @@
 "asof": "2026-11-16",
 "cik": "0001260221",
 "companyfacts_sha256": "b7274fecc041af37f5255baa597d6889f52e35e82854009010704e12e1dcab3c",
-"fetched_at": "2026-11-16T05:10:42Z",
+"fetched_at": "2026-11-16T15:46:09Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.43491073958628507,
@@ -9138,7 +9138,7 @@
 "asof": "2026-11-16",
 "cik": "0000864749",
 "companyfacts_sha256": "023b19668214050b8d488d40e2aa2af062bd18f7d6fefedc61e4933009b16bbb",
-"fetched_at": "2026-11-16T05:10:42Z",
+"fetched_at": "2026-11-16T15:46:09Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.958343048107562,
@@ -9164,7 +9164,7 @@
 "asof": "2026-11-16",
 "cik": "0000092230",
 "companyfacts_sha256": "1a02be35eefd2e3c0ce33d01f37d85c097211ad31f11189c2480b2414f8cb42b",
-"fetched_at": "2026-11-16T05:10:42Z",
+"fetched_at": "2026-11-16T15:46:10Z",
 "group": "Banks",
 "inputs": {
 "latest_period": "2025-12-31",
@@ -9186,7 +9186,7 @@
 "asof": "2026-11-16",
 "cik": "0001447669",
 "companyfacts_sha256": "584c5665529ddb70e15b97e5b4a3f1b76d8091d9d8ad5c9116e138638d25102d",
-"fetched_at": "2026-11-16T05:10:43Z",
+"fetched_at": "2026-11-16T15:46:10Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -9212,7 +9212,7 @@
 "asof": "2026-11-16",
 "cik": "0000860731",
 "companyfacts_sha256": "a6869f8b01dfd86de5bcb8490d37d86432b278eb81b8ea990f4132a9de6e2aec",
-"fetched_at": "2026-11-16T05:10:43Z",
+"fetched_at": "2026-11-16T15:46:11Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 1.8086608961984634,
@@ -9237,24 +9237,24 @@
 {
 "asof": "2026-11-16",
 "cik": "0000100493",
-"companyfacts_sha256": "24a6a5c4789b2f7a7b07b229d2158838c030e4cccd2ff08f8158ec56c35b96b1",
-"fetched_at": "2026-11-16T05:10:43Z",
+"companyfacts_sha256": "19c77b26a46bb8dd1e45adf264a21bd00039a3fe2726918406a7dd12c407594f",
+"fetched_at": "2026-11-16T15:46:11Z",
 "group": "Consumer Staples",
 "inputs": {
-"fcf_conversion_cum": 0.5384685839897417,
-"interest_cover": 2.44543429844098,
-"latest_period": "2025-09-27",
+"fcf_conversion_cum": 0.6443190763579113,
+"interest_cover": 2.70935960591133,
+"latest_period": "2026-10-03",
 "net_debt_to_ebitda": null,
-"operating_margin_sd": 0.03864721230646304,
+"operating_margin_sd": 0.02964199858482281,
 "periods": [
-"2021-10-02",
 "2022-10-01",
 "2023-09-30",
 "2024-09-28",
-"2025-09-27"
+"2025-09-27",
+"2026-10-03"
 ],
 "revenue_drawdown_worst": 0.007525993769002648,
-"revenue_growth_sd": 0.05337811534638721,
+"revenue_growth_sd": 0.049349871598273476,
 "roic_mean": null
 },
 "model": "corporate",
@@ -9264,7 +9264,7 @@
 "asof": "2026-11-16",
 "cik": "0000036104",
 "companyfacts_sha256": "1df5791ec51d4fd35612d6908d319272fc0fdc9b914b6c93a97d9ec49f9809bc",
-"fetched_at": "2026-11-16T05:10:43Z",
+"fetched_at": "2026-11-16T15:46:11Z",
 "group": "Banks",
 "inputs": {
 "latest_period": "2025-12-31",
@@ -9286,7 +9286,7 @@
 "asof": "2026-11-16",
 "cik": "0001543151",
 "companyfacts_sha256": "0bab135a40ee6e9c564e1eab82b9951bce782bdaa4cb13eacdc091f251ed8529",
-"fetched_at": "2026-11-16T05:10:44Z",
+"fetched_at": "2026-11-16T15:46:11Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 5.164653361344538,
@@ -9312,7 +9312,7 @@
 "asof": "2026-11-16",
 "cik": "0001403568",
 "companyfacts_sha256": "61331566ead1af34f46eabe3278cb4d986819bf8c6c06c60e41b11e80365c69f",
-"fetched_at": "2026-11-16T05:10:44Z",
+"fetched_at": "2026-11-16T15:46:11Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.6651842333373746,
@@ -9338,7 +9338,7 @@
 "asof": "2026-11-16",
 "cik": "0000100885",
 "companyfacts_sha256": "0ad87b2eccbaeb0c2685e9aa7de2d79142b3885986a3a94ee64de2e3eb1b5d6f",
-"fetched_at": "2026-11-16T05:10:44Z",
+"fetched_at": "2026-11-16T15:46:12Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.5846834808752297,
@@ -9364,7 +9364,7 @@
 "asof": "2026-11-16",
 "cik": "0000100517",
 "companyfacts_sha256": "101840ea02f81817974e0ef31a52eb7ad0f28185ec8057063f9f103b5a9471e0",
-"fetched_at": "2026-11-16T05:10:45Z",
+"fetched_at": "2026-11-16T15:46:12Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.478252363873492,
@@ -9390,7 +9390,7 @@
 "asof": "2026-11-16",
 "cik": "0001090727",
 "companyfacts_sha256": "fae9ab510b51d90a294d7a1e769c35012ef39127d87ecd36ed99ea60146dce1e",
-"fetched_at": "2026-11-16T05:10:45Z",
+"fetched_at": "2026-11-16T15:46:12Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.7046710782405605,
@@ -9416,7 +9416,7 @@
 "asof": "2026-11-16",
 "cik": "0001067701",
 "companyfacts_sha256": "79e2ce1d675e620c256486b2f00c9601f2ea80ee3943dc56cfe5ab6677794ccb",
-"fetched_at": "2026-11-16T05:10:45Z",
+"fetched_at": "2026-11-16T15:46:13Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.1858070293261697,
@@ -9442,7 +9442,7 @@
 "asof": "2026-11-16",
 "cik": "0000731766",
 "companyfacts_sha256": "d75b31039d2282ac4c9725f96571a0acab3742ca8a34c034f625adaabdebe63b",
-"fetched_at": "2026-11-16T05:10:46Z",
+"fetched_at": "2026-11-16T15:46:13Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.7775302542385343,
@@ -9468,7 +9468,7 @@
 "asof": "2026-11-16",
 "cik": "0000352915",
 "companyfacts_sha256": "db2fd9343474d4964e34d336884f61f3fc500cafd4b42fd526044cad70cf1dd8",
-"fetched_at": "2026-11-16T05:10:46Z",
+"fetched_at": "2026-11-16T15:46:13Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.38617213220707136,
@@ -9494,7 +9494,7 @@
 "asof": "2026-11-16",
 "cik": "0001035002",
 "companyfacts_sha256": "ba9baadcf9568df5228d6340a7308e4c5d9252d5a98542b2f4302927c97a9e6a",
-"fetched_at": "2026-11-16T05:10:46Z",
+"fetched_at": "2026-11-16T15:46:13Z",
 "group": "Energy",
 "inputs": {
 "fcf_conversion_cum": 0.7530583555170042,
@@ -9520,7 +9520,7 @@
 "asof": "2026-11-16",
 "cik": "0001393052",
 "companyfacts_sha256": "c2624d24b7f8e7939be966eb22c27d2d0b6f1b361bf51656bff51b88a4588804",
-"fetched_at": "2026-11-16T05:10:47Z",
+"fetched_at": "2026-11-16T15:46:14Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -9546,7 +9546,7 @@
 "asof": "2026-11-16",
 "cik": "0001967680",
 "companyfacts_sha256": "cea924f6c24f5a777d601a032963b4199cffa50c351b153b4d1ccb88eff75c10",
-"fetched_at": "2026-11-16T05:10:47Z",
+"fetched_at": "2026-11-16T15:46:14Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.7566896551724138,
@@ -9570,7 +9570,7 @@
 "asof": "2026-11-16",
 "cik": "0001014473",
 "companyfacts_sha256": "05e685f8317fb5b3ada932917c10491ea152a49c34b18c87ecc807183c3925c6",
-"fetched_at": "2026-11-16T05:10:47Z",
+"fetched_at": "2026-11-16T15:46:14Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.8635188488285869,
@@ -9596,7 +9596,7 @@
 "asof": "2026-11-16",
 "cik": "0001442145",
 "companyfacts_sha256": "0d742f95fa1dc7bc670e899eaa682eda2550dea9be39c5a822af934f2b32ab39",
-"fetched_at": "2026-11-16T05:10:48Z",
+"fetched_at": "2026-11-16T15:46:14Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.7630221252108345,
@@ -9622,7 +9622,7 @@
 "asof": "2026-11-16",
 "cik": "0000732712",
 "companyfacts_sha256": "2c96d7090f7f3461177ad2d2dc84806d057380b1efe87a3129e1de9a845b6422",
-"fetched_at": "2026-11-16T05:10:48Z",
+"fetched_at": "2026-11-16T15:46:15Z",
 "group": "Communication Services",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -9648,7 +9648,7 @@
 "asof": "2026-11-16",
 "cik": "0000875320",
 "companyfacts_sha256": "f945af214c4a738f8210c12cd72e3aeedd9257f77a8e0c060a23262ac1ae4e25",
-"fetched_at": "2026-11-16T05:10:49Z",
+"fetched_at": "2026-11-16T15:46:15Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.8124196771610629,
@@ -9674,7 +9674,7 @@
 "asof": "2026-11-16",
 "cik": "0001674101",
 "companyfacts_sha256": "0577f6f8237c923220fb909046a8354e87c0cecaa57b8a10245d02c31e80a263",
-"fetched_at": "2026-11-16T05:10:49Z",
+"fetched_at": "2026-11-16T15:46:15Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.8134692263761367,
@@ -9700,7 +9700,7 @@
 "asof": "2026-11-16",
 "cik": "0001792044",
 "companyfacts_sha256": "d604630f1fd66ec4129e97525f8d1bfe5de16dd94505b2570550e07ac6e6af2f",
-"fetched_at": "2026-11-16T05:10:49Z",
+"fetched_at": "2026-11-16T15:46:16Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -9726,7 +9726,7 @@
 "asof": "2026-11-16",
 "cik": "0001692819",
 "companyfacts_sha256": "4d2345d460a729356565747520cc82ee318f4e33f0525eb8d98f0a906d257308",
-"fetched_at": "2026-11-16T05:10:50Z",
+"fetched_at": "2026-11-16T15:46:16Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": 0.9276359973136333,
@@ -9752,7 +9752,7 @@
 "asof": "2026-11-16",
 "cik": "0001396009",
 "companyfacts_sha256": "f21a0a7b057ed607b28fca5394bcb8bbbad4d1c1b2e59d059f24c6dc8593e14c",
-"fetched_at": "2026-11-16T05:10:50Z",
+"fetched_at": "2026-11-16T15:46:16Z",
 "group": "Materials",
 "inputs": {
 "fcf_conversion_cum": 0.5807929460125202,
@@ -9778,7 +9778,7 @@
 "asof": "2026-11-16",
 "cik": "0000277135",
 "companyfacts_sha256": "782706ee47b27a93f356d229fb32c963543e3a12ae9dab9203e68c2ed8da510c",
-"fetched_at": "2026-11-16T05:10:51Z",
+"fetched_at": "2026-11-16T15:46:17Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.5450737411641504,
@@ -9804,7 +9804,7 @@
 "asof": "2026-11-16",
 "cik": "0000943452",
 "companyfacts_sha256": "0eb026df94883da614dc2dca61103a361bc47302f407a4eb5ca03f02c3c63fc6",
-"fetched_at": "2026-11-16T05:10:51Z",
+"fetched_at": "2026-11-16T15:46:17Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.9112128146453089,
@@ -9830,7 +9830,7 @@
 "asof": "2026-11-16",
 "cik": "0000104169",
 "companyfacts_sha256": "49330f98609f70fcef4054edc90bc811398a58c4bf26dc0b218d607967a8dbe4",
-"fetched_at": "2026-11-16T05:10:52Z",
+"fetched_at": "2026-11-16T15:46:17Z",
 "group": "Consumer Staples",
 "inputs": {
 "fcf_conversion_cum": 0.49611104824412505,
@@ -9856,7 +9856,7 @@
 "asof": "2026-11-16",
 "cik": "0001744489",
 "companyfacts_sha256": "f737e2272b6fb76cda801a8a5d493621a917ad4f73e0752b4ab14ffda694a57b",
-"fetched_at": "2026-11-16T05:10:52Z",
+"fetched_at": "2026-11-16T15:46:17Z",
 "group": "Communication Services",
 "inputs": {
 "fcf_conversion_cum": 0.511420189068782,
@@ -9882,7 +9882,7 @@
 "asof": "2026-11-16",
 "cik": "0000823768",
 "companyfacts_sha256": "f1319453df01c540de4ef887d12cc466fe215a75ba581da2c8020c2ef3586aa2",
-"fetched_at": "2026-11-16T05:10:52Z",
+"fetched_at": "2026-11-16T15:46:18Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.5923068505143357,
@@ -9908,7 +9908,7 @@
 "asof": "2026-11-16",
 "cik": "0001000697",
 "companyfacts_sha256": "2af1facaf3c3d0e96fbb4d70e43acb1ed0555e6f1e483943adf974c68c16aafa",
-"fetched_at": "2026-11-16T05:10:53Z",
+"fetched_at": "2026-11-16T15:46:18Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.6546300463047547,
@@ -9934,7 +9934,7 @@
 "asof": "2026-11-16",
 "cik": "0000783325",
 "companyfacts_sha256": "d3ff040c70074e8d98a9333971011f615dd6576fdfab79ead478f175d410d6fc",
-"fetched_at": "2026-11-16T05:10:53Z",
+"fetched_at": "2026-11-16T15:46:18Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": null,
@@ -9960,7 +9960,7 @@
 "asof": "2026-11-16",
 "cik": "0000072971",
 "companyfacts_sha256": "70f26843912342104ab3b66b6bb54d8fd8b5e9909731583b2fc1fc9b0feeb096",
-"fetched_at": "2026-11-16T05:10:53Z",
+"fetched_at": "2026-11-16T15:46:18Z",
 "group": "Banks",
 "inputs": {
 "latest_period": "2025-12-31",
@@ -9982,7 +9982,7 @@
 "asof": "2026-11-16",
 "cik": "0000105770",
 "companyfacts_sha256": "0f0ccb5caf9038a68f85c6231ffd7b1583edef2f974f2e51c0d82d12491e2766",
-"fetched_at": "2026-11-16T05:10:54Z",
+"fetched_at": "2026-11-16T15:46:18Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 0.5817732356576528,
@@ -10008,7 +10008,7 @@
 "asof": "2026-11-16",
 "cik": "0000106040",
 "companyfacts_sha256": "40160bdeb0eac939896bcb6a9f79b436fc467c41b473c17ef673e26fdccb80e7",
-"fetched_at": "2026-11-16T05:10:54Z",
+"fetched_at": "2026-11-16T15:46:19Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.43004740488634985,
@@ -10034,7 +10034,7 @@
 "asof": "2026-11-16",
 "cik": "0000719955",
 "companyfacts_sha256": "16afd59c6d21ea7be1f7cbaa84e26fbc0ab5d9ea9a4938decf2f3f7077618d5c",
-"fetched_at": "2026-11-16T05:10:55Z",
+"fetched_at": "2026-11-16T15:46:19Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.7852230951410872,
@@ -10060,7 +10060,7 @@
 "asof": "2026-11-16",
 "cik": "0000107263",
 "companyfacts_sha256": "a38b0b57b26ca66457650d6dd0aa6206cf92e4ccf57396303e4769f04f710a67",
-"fetched_at": "2026-11-16T05:10:55Z",
+"fetched_at": "2026-11-16T15:46:19Z",
 "group": "Energy",
 "inputs": {
 "fcf_conversion_cum": 0.6956273220920263,
@@ -10086,7 +10086,7 @@
 "asof": "2026-11-16",
 "cik": "0001327811",
 "companyfacts_sha256": "c953cbd3b65fdf9bab67f221d23190f77a9e8df6e1e14f38dce8c1d02380a71b",
-"fetched_at": "2026-11-16T05:10:55Z",
+"fetched_at": "2026-11-16T15:46:19Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 7.455788514129444,
@@ -10112,7 +10112,7 @@
 "asof": "2026-11-16",
 "cik": "0001174922",
 "companyfacts_sha256": "8a03b72b6afc197c812eca8f49d86d8c3eb306f62f51b1de2e7d33814f62b263",
-"fetched_at": "2026-11-16T05:10:56Z",
+"fetched_at": "2026-11-16T15:46:19Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.6236093878860692,
@@ -10138,7 +10138,7 @@
 "asof": "2026-11-16",
 "cik": "0000072903",
 "companyfacts_sha256": "485b042553a1813247b9ec918659b1138e814c97a6394fb89a581e22c6fe2799",
-"fetched_at": "2026-11-16T05:10:56Z",
+"fetched_at": "2026-11-16T15:46:20Z",
 "group": "Utilities",
 "inputs": {
 "fcf_conversion_cum": -1.062494826587203,
@@ -10164,7 +10164,7 @@
 "asof": "2026-11-16",
 "cik": "0001524472",
 "companyfacts_sha256": "9c8d47831be36e140ebd9dc9e987f4dd3f1b81ef8668e4a01427338fc029df4b",
-"fetched_at": "2026-11-16T05:10:56Z",
+"fetched_at": "2026-11-16T15:46:20Z",
 "group": "Industrials",
 "inputs": {
 "fcf_conversion_cum": 0.7665607430945979,
@@ -10190,7 +10190,7 @@
 "asof": "2026-11-16",
 "cik": "0001041061",
 "companyfacts_sha256": "386d743b02f52d3e9ba688b192f67b16a1bda3b2105876fffb957e4c59bc8dee",
-"fetched_at": "2026-11-16T05:10:57Z",
+"fetched_at": "2026-11-16T15:46:20Z",
 "group": "Consumer Discretionary",
 "inputs": {
 "fcf_conversion_cum": 0.603476465020222,
@@ -10216,7 +10216,7 @@
 "asof": "2026-11-16",
 "cik": "0000877212",
 "companyfacts_sha256": "7df193dd4b4e7ebc5fc8cfc4288a2608e04f08d83b5e43f600c21343bf95d1ac",
-"fetched_at": "2026-11-16T05:10:57Z",
+"fetched_at": "2026-11-16T15:46:21Z",
 "group": "Information Technology",
 "inputs": {
 "fcf_conversion_cum": 0.9084814922763043,
@@ -10242,7 +10242,7 @@
 "asof": "2026-11-16",
 "cik": "0001136869",
 "companyfacts_sha256": "afc2bc659aa29977778f1737ada88edf80bced7ea5faeada9c9891278e36e533",
-"fetched_at": "2026-11-16T05:10:58Z",
+"fetched_at": "2026-11-16T15:46:21Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": 1.1973771506922022,
@@ -10268,7 +10268,7 @@
 "asof": "2026-11-16",
 "cik": "0001555280",
 "companyfacts_sha256": "fa87cafa44b96542d8061589094bc996446f7bd26bdf86c98ef75b2bec4f70c1",
-"fetched_at": "2026-11-16T05:10:58Z",
+"fetched_at": "2026-11-16T15:46:21Z",
 "group": "Health Care",
 "inputs": {
 "fcf_conversion_cum": null,

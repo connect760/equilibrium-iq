@@ -61,4 +61,4 @@ tests/test_sec_xbrl.py::test_every_score_is_bounded_and_cited PASSED     [ 96%]
 tests/test_sec_xbrl.py::test_extraction_is_deterministic PASSED          [ 98%]
 tests/test_sec_xbrl.py::test_layer_a_alone_cannot_produce_a_definitive_score PASSED [100%]
 
-============================== 56 passed in 4.38s ==============================
+============================== 56 passed in 4.34s ==============================
