@@ -10,20 +10,31 @@ from datetime import date
 from pathlib import Path
 
 from .client import RawStore, SecClient, load_user_agent, submissions_url
-from .pipeline import fetch, process
+from .pipeline import build_peers, fetch, fetch_peers, process
 
 ROOT = Path(__file__).resolve().parents[3]
 
 
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="celi.sec")
-    ap.add_argument("cmd", choices=["fetch", "process", "selftest"])
+    ap.add_argument("cmd", choices=["fetch", "process", "selftest", "fetch-peers", "build-peers"])
     ap.add_argument("--root", default=str(ROOT))
     ap.add_argument("--asof", default=date.today().isoformat())
     ap.add_argument("--documents", action="store_true")
     a = ap.parse_args(argv)
     root = Path(a.root)
     raw = RawStore(root / "data" / "raw")
+    if a.cmd == "fetch-peers":
+        peer_raw = RawStore(root / "data" / "peer_raw")
+        res = fetch_peers(root, SecClient(load_user_agent(root), peer_raw))
+        print(json.dumps({"fetched": res["fetched"], "failed": len(res["failed"])}))
+        (root / "data" / "peers").mkdir(parents=True, exist_ok=True)
+        (root / "data" / "peers" / "fetch_failures.json").write_text(json.dumps(res["failed"], indent=1))
+        return 0
+    if a.cmd == "build-peers":
+        doc = build_peers(root, RawStore(root / "data" / "peer_raw"), a.asof)
+        print(json.dumps({"peers": len(doc["peers"]), "skipped": len(doc["skipped"])}))
+        return 0
     if a.cmd in ("fetch", "selftest"):
         client = SecClient(load_user_agent(root), raw)
         if a.cmd == "selftest":

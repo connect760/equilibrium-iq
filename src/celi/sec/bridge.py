@@ -11,7 +11,7 @@ from __future__ import annotations
 
 from ..methodology import v3_0
 
-SCALES: dict = {}  # indicator_id -> published, calibrated scoring function. Deliberately empty.
+SCALES: dict = {}  # absolute calibrated scales: none exist. Relative scoring lives in peers.py (peer percentiles, indicative).
 
 
 class SyntheticDataError(RuntimeError):
@@ -68,14 +68,28 @@ def indicator_status(model: str, metrics: list[dict]) -> dict:
     return out
 
 
-def run_engine(model: str, asof: str, status: dict) -> dict:
+def apply_peer_scores(status: dict, peer_scores: dict | None) -> dict:
+    """Mark indicators that received a peer-percentile score. Returns a new status dict."""
+    out = {k: dict(v) for k, v in status.items()}
+    for ind, ps in (peer_scores or {}).items():
+        if ind in out and ps.get("score") is not None:
+            out[ind].update({"status": "scored_peer_percentile", "score": ps["score"], "peer": ps,
+                             "reason": f"Indicative: percentile rank vs {ps['parts'][0]['peers'] if ps['parts'] else 0}+ {ps['group']} peers (S&P 500), not an absolute calibration"})
+        elif ind in out and ps.get("reason"):
+            out[ind]["peer_reason"] = ps["reason"]
+    return out
+
+
+def run_engine(model: str, asof: str, status: dict, archetype: str | None = None) -> dict:
     ev = {}
     for ind, s in status.items():
         if s["status"] == "not_applicable":
             ev[ind] = {"state": "not_applicable", "score": None}
-        elif ind in SCALES:  # pragma: no cover - no calibrated scales exist yet
-            raise NotImplementedError
+        elif s["status"] == "scored_peer_percentile":
+            ev[ind] = {"state": "disclosed", "score": s["score"], "cls": "statutory_filing", "method": "peer_percentile", "conf": None,
+                       "raw": s["reason"]}
         else:
             ev[ind] = {"state": "unavailable", "score": None, "raw": s["reason"]}
-    snap = {"archetype": "financial" if model == "bank" else "general", "cutoff": asof, "rol": None, "provisional": True, "ev": ev, "events": []}
+    arch = archetype or ("financial" if model == "bank" else "general")
+    snap = {"archetype": arch, "cutoff": asof, "rol": None, "provisional": True, "ev": ev, "events": []}
     return v3_0.compute(snap)

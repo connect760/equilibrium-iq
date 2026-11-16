@@ -6,7 +6,7 @@ from pathlib import Path
 
 from ..canonical import canonical_json, sha256_hex
 from ..methodology import v3_0
-from . import bridge
+from . import bridge, peers as P
 from .client import RawStore, SecClient, cik10, companyfacts_url, submissions_page_url, submissions_url, utcnow
 from .facts import FactIndex, parse_companyfacts, to_millions
 from .metrics import compute_metrics, summary
@@ -20,7 +20,7 @@ SINCE = "2015-01-01"
 def code_fingerprint() -> str:
     """sha256 of the extraction, metric and engine source, so a code change always yields a new assessment id."""
     here = Path(__file__).resolve().parent
-    files = [here / f for f in ("facts.py", "statements.py", "metrics.py", "bridge.py")] + [here.parent / "methodology" / "v3_0.py"]
+    files = [here / f for f in ("facts.py", "statements.py", "metrics.py", "bridge.py", "peers.py")] + [here.parent / "methodology" / "v3_0.py"]
     return sha256_hex("".join(f.read_text() for f in files))
 
 
@@ -50,6 +50,48 @@ def fetch(root: Path, client: SecClient, documents: bool = False) -> list[dict]:
     return log
 
 
+def fetch_peers(root: Path, client: SecClient) -> dict:
+    """Download companyfacts for every scorable S&P 500 peer (corporate + banks)."""
+    ok, failed = 0, []
+    for p in P.load_peer_list(root / "config" / "peers_sp500.csv"):
+        if p["model"] not in ("corporate", "bank"):
+            continue
+        try:
+            cf, rec = client.get_json(companyfacts_url(p["cik"]), "peer_companyfacts")
+            check_identity(p["cik"], cf)
+            ok += 1
+        except Exception as e:  # a missing peer is recorded, never fabricated
+            failed.append({"cik": p["cik"], "symbol": p["symbol"], "error": str(e)[:200]})
+    return {"fetched": ok, "failed": failed}
+
+
+def build_peers(root: Path, raw: RawStore, asof: str) -> dict:
+    """Point-in-time indicator inputs for every peer, as of `asof`, with provenance."""
+    rows, skipped = [], []
+    for p in P.load_peer_list(root / "config" / "peers_sp500.csv"):
+        if p["model"] not in ("corporate", "bank"):
+            continue
+        rec = raw.latest(companyfacts_url(p["cik"]))
+        if rec is None:
+            skipped.append({"symbol": p["symbol"], "reason": "companyfacts not fetched"})
+            continue
+        cf = json.loads(raw.read(rec))
+        idx = FactIndex(parse_companyfacts(cf))
+        hist = annual_history(idx, p["model"], asof)
+        if len(hist["periods"]) < 3:
+            skipped.append({"symbol": p["symbol"], "reason": f"only {len(hist['periods'])} annual periods filed by {asof}"})
+            continue
+        mets = compute_metrics(hist)
+        rows.append({"cik": p["cik"], "symbol": p["symbol"], "group": p["group"], "model": p["model"], "asof": asof,
+                     "inputs": P.indicator_inputs(hist, mets), "companyfacts_sha256": rec["sha256"], "fetched_at": rec["fetched_at"]})
+    doc = {"asof": asof, "built_at": utcnow(), "list": "config/peers_sp500.csv", "list_date": P.LIST_DATE, "code": code_fingerprint(),
+           "peers": rows, "skipped": skipped}
+    out = root / "data" / "peers" / f"peer_inputs_{asof}.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(doc, indent=0, sort_keys=True))
+    return doc
+
+
 # ---------------------------------------------------------------- process (offline)
 def _sel_json(s):
     return None if s is None else s.as_dict()
@@ -61,7 +103,13 @@ def process(root: Path, raw: RawStore, db_path: Path, asof: str, out_dir: Path) 
         if r.get("status") == 200:
             add_source(db, r)
     created = utcnow()
-    dataset = {"generated_at": created, "asof": asof, "methodology": v3_0.VERSION, "source": "SEC EDGAR (data.sec.gov companyfacts + submissions)", "companies": []}
+    peer_list = P.load_peer_list(root / "config" / "peers_sp500.csv") if (root / "config" / "peers_sp500.csv").exists() else []
+    pf = root / "data" / "peers" / f"peer_inputs_{asof}.json"
+    peer_doc = json.loads(pf.read_text()) if pf.exists() else None
+    peer_rows = peer_doc["peers"] if peer_doc else []
+    dataset = {"peers": {"file": str(pf.relative_to(root)) if peer_doc else None, "count": len(peer_rows), "list_source": "config/peers_sp500.csv",
+                         "min_peers": P.MIN_PEERS, "built_at": peer_doc.get("built_at") if peer_doc else None},
+               "generated_at": created, "asof": asof, "methodology": v3_0.VERSION, "source": "SEC EDGAR (data.sec.gov companyfacts + submissions)", "companies": []}
     for c in load_registry(root):
         sub, srec = raw.read_json(submissions_url(c["cik"]))
         check_identity(c["cik"], sub, c["expect"])
@@ -80,8 +128,14 @@ def process(root: Path, raw: RawStore, db_path: Path, asof: str, out_dir: Path) 
         mets = compute_metrics(hist)
         summ = summary(hist, mets)
         status = bridge.indicator_status(c["model"], mets)
-        result = bridge.run_engine(c["model"], asof, status)
-        inputs = {"cik": prof["cik"], "asof": asof, "companyfacts_sha256": crec["sha256"], "submissions_sha256": srec["sha256"], "model": c["model"], "code": code_fingerprint()}
+        prow = next((r for r in peer_list if r["cik"] == prof["cik"]), None)
+        target_inputs = P.indicator_inputs(hist, mets)
+        peer_scores = P.score_indicators(c["model"], asof, target_inputs, peer_rows, prof["cik"], prow["group"]) if (prow and peer_rows) else None
+        status = bridge.apply_peer_scores(status, peer_scores)
+        archetype = prow["archetype"] if prow else None
+        result = bridge.run_engine(c["model"], asof, status, archetype)
+        inputs = {"cik": prof["cik"], "asof": asof, "companyfacts_sha256": crec["sha256"], "submissions_sha256": srec["sha256"], "model": c["model"], "code": code_fingerprint(),
+                  "peers_sha256": sha256_hex(canonical_json(peer_rows)) if peer_rows else None}
         input_hash = sha256_hex(canonical_json(inputs))
         aid = f"{prof['cik']}-{asof}-{input_hash[:12]}"
         exists = db.execute("SELECT 1 FROM assessments WHERE id=?", (aid,)).fetchone()
@@ -100,7 +154,8 @@ def process(root: Path, raw: RawStore, db_path: Path, asof: str, out_dir: Path) 
             "statements": {item: {e: _sel_json(s) for e, s in by.items()} for item, by in hist["items"].items()},
             "filing_links": {s.accession: {"form": s.form, "filed": s.filed, "url": (fmap.get(s.accession) or {}).get("url_primary") or (fmap.get(s.accession) or {}).get("url_index")}
                              for by in hist["items"].values() for s in by.values() if s is not None},
-            "metrics": mets, "summary": summ, "indicators": status, "celi": v3_0.summarize(result), "celi_reasons": result["reasons"],
+            "metrics": mets, "summary": summ, "indicators": status, "peer_inputs": target_inputs,
+            "peer_group": prow["group"] if prow else None, "archetype": archetype, "celi": v3_0.summarize(result), "celi_reasons": result["reasons"],
             "amendment_filings": amendments[-10:], "restated_values": restated,
         })
     db.commit()

@@ -21,6 +21,7 @@ concurrency: sec-pipeline
 jobs:
   run:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     defaults:
       run:
         shell: bash -eo pipefail {0}
@@ -33,17 +34,29 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install pytest
+      - name: Assessment date
+        run: |
+          ASOF="${{ inputs.asof }}"; echo "ASOF=${ASOF:-$(date -u +%F)}" >> "$GITHUB_ENV"
       - name: A. SEC connection self-test
         run: python -m celi.sec selftest | tee reports_selftest.json
       - name: B. Fetch the five companies from SEC
         run: python -m celi.sec fetch ${{ inputs.documents && '--documents' || '' }}
+      - name: Restore peer raw cache
+        uses: actions/cache@v4
+        with:
+          path: data/peer_raw
+          key: peer-raw-${{ github.run_id }}
+          restore-keys: peer-raw-
+      - name: Fetch S&P 500 peers from SEC (companyfacts)
+        run: python -m celi.sec fetch-peers
+      - name: Build point-in-time peer inputs
+        run: python -m celi.sec build-peers --asof "$ASOF"
       - name: F. Automated tests (offline + live SEC)
         run: |
           mkdir -p reports
           SEC_LIVE=1 python -m pytest -v -rs 2>&1 | tee reports/F_test_results.txt
       - name: C/D/E. Process and write reports
         run: |
-          ASOF="${{ inputs.asof }}"; ASOF="${ASOF:-$(date -u +%F)}"
           python -m celi.sec process --asof "$ASOF"
           mv reports_selftest.json reports/A_sec_connection.json
       - name: Commit raw SEC data, evidence database and reports
