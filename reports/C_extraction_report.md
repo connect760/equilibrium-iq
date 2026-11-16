@@ -1,6 +1,6 @@
 # C. Financial-data extraction report
 
-Assessment date 2026-11-13 · generated 2026-11-13T12:25:44Z · source: SEC EDGAR (data.sec.gov companyfacts + submissions)
+Assessment date 2026-11-16 · generated 2026-11-16T05:11:48Z · source: SEC EDGAR (data.sec.gov companyfacts + submissions)
 
 Values are USD millions as filed. '—' means the item was not reported for that period (never zero-filled). Concept = the us-gaap tag actually used.
 
@@ -60,7 +60,7 @@ SIC 7372 Services-Prepackaged Software · fiscal year end 0630 · 33,058 XBRL fa
 
 **Five-year summary (descriptive, unscored):** years_in_window 6; revenue_growth_sd 4.1%; revenue_growth_mean 14.6%; worst_revenue_drawdown 0.0%; operating_margin_sd 2.0%; fcf_positive_share 100.0%; roic_mean 31.0%
 
-**CELI-100 engine:** status `insufficient` · reasons: Constructive Capability scored coverage 0% below 80%; Systemic Risk scored coverage 0% below 80%; Adaptability scored coverage 0% below 80%; Data Confidence 25.0 below 50
+**CELI-100 engine:** status `insufficient` · reasons: Constructive Capability scored coverage 60% below 80%; Systemic Risk scored coverage 25% below 80%; Adaptability scored coverage 0% below 80%; Data Confidence 48.8 below 50
 
 
 ## NVIDIA CORP (NVDA) · CIK 0001045810 · model: corporate
@@ -118,12 +118,12 @@ SIC 3674 Semiconductors & Related Devices · fiscal year end 0131 · 27,281 XBRL
 
 **Five-year summary (descriptive, unscored):** years_in_window 6; revenue_growth_sd 44.7%; revenue_growth_mean 73.4%; worst_revenue_drawdown 0.0%; operating_margin_sd 17.5%; fcf_positive_share 100.0%; roic_mean 53.4%
 
-**CELI-100 engine:** status `insufficient` · reasons: Constructive Capability scored coverage 0% below 80%; Systemic Risk scored coverage 0% below 80%; Adaptability scored coverage 0% below 80%; Data Confidence 25.0 below 50
+**CELI-100 engine:** status `insufficient` · reasons: Constructive Capability scored coverage 60% below 80%; Systemic Risk scored coverage 25% below 80%; Adaptability scored coverage 0% below 80%; Data Confidence 48.8 below 50
 
 
 ## JPMORGAN CHASE & CO (JPM) · CIK 0000019617 · model: bank
 
-SIC 6021 National Commercial Banks · fiscal year end 1231 · 55,228 XBRL facts · 487 filings registered (12 10-K, 38 10-Q, 12 DEF 14A, 0 10-K/10-Q amendments)
+SIC 6021 National Commercial Banks · fiscal year end 1231 · 55,233 XBRL facts · 487 filings registered (12 10-K, 38 10-Q, 12 DEF 14A, 0 10-K/10-Q amendments)
 
 | Item | concept | 2020-12-31 | 2021-12-31 | 2022-12-31 | 2023-12-31 | 2024-12-31 | 2025-12-31 |
 |---|---|---:|---:|---:|---:|---:|---:|
@@ -162,7 +162,7 @@ SIC 6021 National Commercial Banks · fiscal year end 1231 · 55,228 XBRL facts 
 
 **Five-year summary (descriptive, unscored):** years_in_window 6; revenue_growth_sd 7.9%; revenue_growth_mean 9.0%; worst_revenue_drawdown 0.0%; roe_mean 15.4%; efficiency_ratio_mean 55.4%
 
-**CELI-100 engine:** status `insufficient` · reasons: Constructive Capability scored coverage 0% below 80%; Systemic Risk scored coverage 0% below 80%; Adaptability scored coverage 0% below 80%; Data Confidence 25.0 below 50
+**CELI-100 engine:** status `insufficient` · reasons: Constructive Capability scored coverage 31% below 80%; Systemic Risk scored coverage 0% below 80%; Adaptability scored coverage 0% below 80%; Data Confidence 30.6 below 50
 
 
 ## Apple Inc. (AAPL) · CIK 0000320193 · model: corporate
@@ -220,7 +220,7 @@ SIC 3571 Electronic Computers · fiscal year end 0926 · 25,604 XBRL facts · 42
 
 **Five-year summary (descriptive, unscored):** years_in_window 6; revenue_growth_sd 6.0%; revenue_growth_mean 5.7%; worst_revenue_drawdown 2.8%; operating_margin_sd 1.2%; fcf_positive_share 100.0%; roic_mean 74.5%
 
-**CELI-100 engine:** status `insufficient` · reasons: Constructive Capability scored coverage 0% below 80%; Systemic Risk scored coverage 0% below 80%; Adaptability scored coverage 0% below 80%; Data Confidence 25.0 below 50
+**CELI-100 engine:** status `insufficient` · reasons: Constructive Capability scored coverage 60% below 80%; Systemic Risk scored coverage 25% below 80%; Adaptability scored coverage 0% below 80%; Data Confidence 48.8 below 50
 
 
 ## AMAZON COM INC (AMZN) · CIK 0001018724 · model: corporate
@@ -278,5 +278,5 @@ SIC 5961 Retail-Catalog & Mail-Order Houses · fiscal year end 1231 · 30,289 XB
 
 **Five-year summary (descriptive, unscored):** years_in_window 6; revenue_growth_sd 4.3%; revenue_growth_mean 13.3%; worst_revenue_drawdown 0.0%; operating_margin_sd 3.3%; fcf_positive_share 60.0%; roic_mean 17.1%
 
-**CELI-100 engine:** status `insufficient` · reasons: Constructive Capability scored coverage 0% below 80%; Systemic Risk scored coverage 0% below 80%; Adaptability scored coverage 0% below 80%; Data Confidence 25.0 below 50
+**CELI-100 engine:** status `insufficient` · reasons: Constructive Capability scored coverage 60% below 80%; Systemic Risk scored coverage 25% below 80%; Adaptability scored coverage 0% below 80%; Data Confidence 48.8 below 50
 

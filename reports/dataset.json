@@ -1,6 +1,13 @@
 {
- "generated_at": "2026-11-13T12:25:44Z",
- "asof": "2026-11-13",
+ "peers": {
+  "file": "data/peers/peer_inputs_2026-11-16.json",
+  "count": 398,
+  "list_source": "config/peers_sp500.csv",
+  "min_peers": 10,
+  "built_at": "2026-11-16T05:11:43Z"
+ },
+ "generated_at": "2026-11-16T05:11:48Z",
+ "asof": "2026-11-16",
  "methodology": "CELI-100 v3.0",
  "source": "SEC EDGAR (data.sec.gov companyfacts + submissions)",
  "companies": [
@@ -26,20 +33,20 @@
     "model_detected": "corporate",
     "model_conflict": false
    },
-   "assessment_id": "0000789019-2026-11-13-21a685af4e43",
-   "input_hash": "21a685af4e43d82f16eaab54f80c51b3d59c0ca52691e60f954eccc6e721c2b2",
-   "code_fingerprint": "ca60a05151ecae6ea05a9aa4409778da6ff75f5d75011fc266bb6c573d258168",
+   "assessment_id": "0000789019-2026-11-16-57f3b72f5159",
+   "input_hash": "57f3b72f51597eaead6f92ee792509e73c03649446d150e6f31268b4eaba287a",
+   "code_fingerprint": "bc7cf0f65c8cd9417b96033d21d5e477090c5c05dd8ed2bb31bf83f9e09c4f9b",
    "sources": {
     "companyfacts": {
      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
      "sha256": "8c1903c041f5c27e86ed15f37debb1f41882b7904bba129ef9edc76478b1e8ea",
-     "fetched_at": "2026-11-13T12:23:54Z",
+     "fetched_at": "2026-11-16T05:08:06Z",
      "bytes": 4938072
     },
     "submissions": {
      "url": "https://data.sec.gov/submissions/CIK0000789019.json",
      "sha256": "4d4ff98b1deea7b90123e2b99c059cdac4343de0dccbdfdc9855e788419f893e",
-     "fetched_at": "2026-11-13T12:23:54Z",
+     "fetched_at": "2026-11-16T05:08:06Z",
      "bytes": 186640
     }
    },
@@ -6703,22 +6710,56 @@
    },
    "indicators": {
     "ROIC_5Y": {
-     "status": "evidence_available_not_scored",
-     "reason": "No calibrated cost-of-capital benchmark; WACC is not assumed",
+     "status": "scored_peer_percentile",
+     "reason": "Indicative: percentile rank vs 37+ Information Technology peers (S&P 500), not an absolute calibration",
      "evidence_metrics": [
       "return_on_invested_capital",
       "return_on_equity"
      ],
-     "missing_metrics": []
+     "missing_metrics": [],
+     "score": 64.86,
+     "peer": {
+      "score": 64.86,
+      "parts": [
+       {
+        "input": "roic_mean",
+        "direction": 1,
+        "value": 0.31007536332040886,
+        "peers": 37,
+        "percentile": 64.86,
+        "peer_median": 0.18252058200769064
+       }
+      ],
+      "group": "Information Technology",
+      "peer_count": 73,
+      "reason": ""
+     }
     },
     "FCF_DUR": {
-     "status": "evidence_available_not_scored",
-     "reason": "No calibrated scale for cash-flow conversion",
+     "status": "scored_peer_percentile",
+     "reason": "Indicative: percentile rank vs 63+ Information Technology peers (S&P 500), not an absolute calibration",
      "evidence_metrics": [
       "free_cash_flow",
       "fcf_to_operating_income"
      ],
-     "missing_metrics": []
+     "missing_metrics": [],
+     "score": 12.7,
+     "peer": {
+      "score": 12.7,
+      "parts": [
+       {
+        "input": "fcf_conversion_cum",
+        "direction": 1,
+        "value": 0.596868894929075,
+        "peers": 63,
+        "percentile": 12.7,
+        "peer_median": 0.9207204651822437
+       }
+      ],
+      "group": "Information Technology",
+      "peer_count": 73,
+      "reason": ""
+     }
     },
     "REINVEST": {
      "status": "evidence_available_not_scored",
@@ -6730,13 +6771,38 @@
      "missing_metrics": []
     },
     "REV_DUR": {
-     "status": "evidence_available_not_scored",
-     "reason": "No calibrated volatility scale; the pilot found growth was penalised as volatility",
+     "status": "scored_peer_percentile",
+     "reason": "Indicative: percentile rank vs 73+ Information Technology peers (S&P 500), not an absolute calibration",
      "evidence_metrics": [
       "revenue_growth",
       "operating_margin"
      ],
-     "missing_metrics": []
+     "missing_metrics": [],
+     "score": 72.9,
+     "peer": {
+      "score": 72.9,
+      "parts": [
+       {
+        "input": "revenue_drawdown_worst",
+        "direction": -1,
+        "value": 0.0,
+        "peers": 73,
+        "percentile": 73.97,
+        "peer_median": 0.0
+       },
+       {
+        "input": "operating_margin_sd",
+        "direction": -1,
+        "value": 0.01968126629869435,
+        "peers": 71,
+        "percentile": 71.83,
+        "peer_median": 0.034720648878592525
+       }
+      ],
+      "group": "Information Technology",
+      "peer_count": 73,
+      "reason": ""
+     }
     },
     "WORKFORCE": {
      "status": "unsupported_by_sec_xbrl",
@@ -6749,8 +6815,8 @@
      "evidence_metrics": []
     },
     "FIN_FRAG": {
-     "status": "evidence_available_not_scored",
-     "reason": "No sector leverage thresholds calibrated",
+     "status": "scored_peer_percentile",
+     "reason": "Indicative: percentile rank vs 29+ Information Technology peers (S&P 500), not an absolute calibration",
      "evidence_metrics": [
       "interest_cover",
       "liabilities_to_assets",
@@ -6758,7 +6824,32 @@
      ],
      "missing_metrics": [
       "net_debt_to_ebitda"
-     ]
+     ],
+     "score": 12.28,
+     "peer": {
+      "score": 12.28,
+      "parts": [
+       {
+        "input": "net_debt_to_ebitda",
+        "direction": 1,
+        "value": null,
+        "peers": 29,
+        "percentile": null,
+        "reason": "company value not computable"
+       },
+       {
+        "input": "interest_cover",
+        "direction": -1,
+        "value": 50.880694854146185,
+        "peers": 57,
+        "percentile": 12.28,
+        "peer_median": 12.75509939105935
+       }
+      ],
+      "group": "Information Technology",
+      "peer_count": 73,
+      "reason": ""
+     }
     },
     "GOV_CONC": {
      "status": "unsupported_by_sec_xbrl",
@@ -6812,31 +6903,50 @@
      "missing_metrics": []
     }
    },
+   "peer_inputs": {
+    "periods": [
+     "2022-06-30",
+     "2023-06-30",
+     "2024-06-30",
+     "2025-06-30",
+     "2026-06-30"
+    ],
+    "latest_period": "2026-06-30",
+    "revenue_drawdown_worst": 0.0,
+    "revenue_growth_sd": 0.0405567918627276,
+    "roic_mean": 0.31007536332040886,
+    "operating_margin_sd": 0.01968126629869435,
+    "fcf_conversion_cum": 0.596868894929075,
+    "net_debt_to_ebitda": null,
+    "interest_cover": 50.880694854146185
+   },
+   "peer_group": "Information Technology",
+   "archetype": "tech",
    "celi": {
-    "P": 25.0,
-    "Rt": 75.0,
+    "P": 38.21,
+    "Rt": 60.42,
     "El": 0.0,
-    "Reff": 75.0,
+    "Reff": 60.42,
     "L": 25.0,
-    "gap": 0.0,
+    "gap": 1.37,
     "Eb": 0.0,
     "S": 1.0,
-    "raw": 25.0,
-    "celi": 25.0,
-    "dcs": 25.0,
+    "raw": 36.12,
+    "celi": 36.12,
+    "dcs": 48.8,
     "status": "insufficient",
-    "archetype": "General (unclassified)",
+    "archetype": "High-growth technology",
     "coverage": {
-     "cap": 0.0,
-     "risk": 0.0,
+     "cap": 0.6,
+     "risk": 0.25,
      "adapt": 0.0
     }
    },
    "celi_reasons": [
-    "Constructive Capability scored coverage 0% below 80%",
-    "Systemic Risk scored coverage 0% below 80%",
+    "Constructive Capability scored coverage 60% below 80%",
+    "Systemic Risk scored coverage 25% below 80%",
     "Adaptability scored coverage 0% below 80%",
-    "Data Confidence 25.0 below 50"
+    "Data Confidence 48.8 below 50"
    ],
    "amendment_filings": [
     {
@@ -6876,29 +6986,29 @@
     "former_names": [
      {
       "name": "NVIDIA CORP/CA",
-      "from": "1998-05-07T00:00:00.000Z",
-      "to": "2002-06-04T00:00:00.000Z"
+      "from": "1998-05-07T04:00:00.000Z",
+      "to": "2002-06-04T04:00:00.000Z"
      }
     ],
     "model_declared": "corporate",
     "model_detected": "corporate",
     "model_conflict": false
    },
-   "assessment_id": "0001045810-2026-11-13-e5d4e03b264d",
-   "input_hash": "e5d4e03b264dc38c9872a548fae5799ba35c14f65db4619dcf32a92ada7da65e",
-   "code_fingerprint": "ca60a05151ecae6ea05a9aa4409778da6ff75f5d75011fc266bb6c573d258168",
+   "assessment_id": "0001045810-2026-11-16-6b1cc6f1b5a9",
+   "input_hash": "6b1cc6f1b5a9ac4a4501d55be9e78d1ed7949a5d3eaf54a5c440d5b3ccaac64e",
+   "code_fingerprint": "bc7cf0f65c8cd9417b96033d21d5e477090c5c05dd8ed2bb31bf83f9e09c4f9b",
    "sources": {
     "companyfacts": {
      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
      "sha256": "19ef503a5770f5660964b3c3aea6937579d9b359da344afe6a9adf59c63d26ff",
-     "fetched_at": "2026-11-13T12:23:59Z",
+     "fetched_at": "2026-11-16T05:08:07Z",
      "bytes": 4092966
     },
     "submissions": {
      "url": "https://data.sec.gov/submissions/CIK0001045810.json",
-     "sha256": "092e307ba8b409e49bd89a410eeb3134e7d193ea083eaf6e687539702b2ede07",
-     "fetched_at": "2026-11-13T12:23:58Z",
-     "bytes": 160083
+     "sha256": "7cbfb234acae4a666ed049cd86157c2a7daf5a89dd4083af31a1da6831793096",
+     "fetched_at": "2026-11-16T05:08:07Z",
+     "bytes": 159760
     }
    },
    "counts": {
@@ -13988,22 +14098,56 @@
    },
    "indicators": {
     "ROIC_5Y": {
-     "status": "evidence_available_not_scored",
-     "reason": "No calibrated cost-of-capital benchmark; WACC is not assumed",
+     "status": "scored_peer_percentile",
+     "reason": "Indicative: percentile rank vs 37+ Information Technology peers (S&P 500), not an absolute calibration",
      "evidence_metrics": [
       "return_on_invested_capital",
       "return_on_equity"
      ],
-     "missing_metrics": []
+     "missing_metrics": [],
+     "score": 86.49,
+     "peer": {
+      "score": 86.49,
+      "parts": [
+       {
+        "input": "roic_mean",
+        "direction": 1,
+        "value": 0.534008315136514,
+        "peers": 37,
+        "percentile": 86.49,
+        "peer_median": 0.18252058200769064
+       }
+      ],
+      "group": "Information Technology",
+      "peer_count": 73,
+      "reason": ""
+     }
     },
     "FCF_DUR": {
-     "status": "evidence_available_not_scored",
-     "reason": "No calibrated scale for cash-flow conversion",
+     "status": "scored_peer_percentile",
+     "reason": "Indicative: percentile rank vs 63+ Information Technology peers (S&P 500), not an absolute calibration",
      "evidence_metrics": [
       "free_cash_flow",
       "fcf_to_operating_income"
      ],
-     "missing_metrics": []
+     "missing_metrics": [],
+     "score": 26.98,
+     "peer": {
+      "score": 26.98,
+      "parts": [
+       {
+        "input": "fcf_conversion_cum",
+        "direction": 1,
+        "value": 0.7584231714895572,
+        "peers": 63,
+        "percentile": 26.98,
+        "peer_median": 0.9207204651822437
+       }
+      ],
+      "group": "Information Technology",
+      "peer_count": 73,
+      "reason": ""
+     }
     },
     "REINVEST": {
      "status": "evidence_available_not_scored",
@@ -14015,13 +14159,38 @@
      "missing_metrics": []
     },
     "REV_DUR": {
-     "status": "evidence_available_not_scored",
-     "reason": "No calibrated volatility scale; the pilot found growth was penalised as volatility",
+     "status": "scored_peer_percentile",
+     "reason": "Indicative: percentile rank vs 73+ Information Technology peers (S&P 500), not an absolute calibration",
      "evidence_metrics": [
       "revenue_growth",
       "operating_margin"
      ],
-     "missing_metrics": []
+     "missing_metrics": [],
+     "score": 39.8,
+     "peer": {
+      "score": 39.8,
+      "parts": [
+       {
+        "input": "revenue_drawdown_worst",
+        "direction": -1,
+        "value": 0.0,
+        "peers": 73,
+        "percentile": 73.97,
+        "peer_median": 0.0
+       },
+       {
+        "input": "operating_margin_sd",
+        "direction": -1,
+        "value": 0.17540964234502707,
+        "peers": 71,
+        "percentile": 5.63,
+        "peer_median": 0.03410356709715942
+       }
+      ],
+      "group": "Information Technology",
+      "peer_count": 73,
+      "reason": ""
+     }
     },
     "WORKFORCE": {
      "status": "unsupported_by_sec_xbrl",
@@ -14034,15 +14203,40 @@
      "evidence_metrics": []
     },
     "FIN_FRAG": {
-     "status": "evidence_available_not_scored",
-     "reason": "No sector leverage thresholds calibrated",
+     "status": "scored_peer_percentile",
+     "reason": "Indicative: percentile rank vs 28+ Information Technology peers (S&P 500), not an absolute calibration",
      "evidence_metrics": [
       "net_debt_to_ebitda",
       "interest_cover",
       "liabilities_to_assets",
       "current_ratio"
      ],
-     "missing_metrics": []
+     "missing_metrics": [],
+     "score": 11.59,
+     "peer": {
+      "score": 11.59,
+      "parts": [
+       {
+        "input": "net_debt_to_ebitda",
+        "direction": 1,
+        "value": -0.016039930946483524,
+        "peers": 28,
+        "percentile": 21.43,
+        "peer_median": 1.0006296739899456
+       },
+       {
+        "input": "interest_cover",
+        "direction": -1,
+        "value": 503.42471042471044,
+        "peers": 57,
+        "percentile": 1.75,
+        "peer_median": 12.75509939105935
+       }
+      ],
+      "group": "Information Technology",
+      "peer_count": 73,
+      "reason": ""
+     }
     },
     "GOV_CONC": {
      "status": "unsupported_by_sec_xbrl",
@@ -14096,31 +14290,50 @@
      "missing_metrics": []
     }
    },
+   "peer_inputs": {
+    "periods": [
+     "2022-01-30",
+     "2023-01-29",
+     "2024-01-28",
+     "2025-01-26",
+     "2026-01-25"
+    ],
+    "latest_period": "2026-01-25",
+    "revenue_drawdown_worst": 0.0,
+    "revenue_growth_sd": 0.4467219130900056,
+    "roic_mean": 0.534008315136514,
+    "operating_margin_sd": 0.17540964234502707,
+    "fcf_conversion_cum": 0.7584231714895572,
+    "net_debt_to_ebitda": -0.016039930946483524,
+    "interest_cover": 503.42471042471044
+   },
+   "peer_group": "Information Technology",
+   "archetype": "tech",
    "celi": {
-    "P": 25.0,
-    "Rt": 75.0,
+    "P": 41.34,
+    "Rt": 60.25,
     "El": 0.0,
-    "Reff": 75.0,
+    "Reff": 60.25,
     "L": 25.0,
-    "gap": 0.0,
+    "gap": 1.59,
     "Eb": 0.0,
     "S": 1.0,
-    "raw": 25.0,
-    "celi": 25.0,
-    "dcs": 25.0,
+    "raw": 37.44,
+    "celi": 37.44,
+    "dcs": 48.8,
     "status": "insufficient",
-    "archetype": "General (unclassified)",
+    "archetype": "High-growth technology",
     "coverage": {
-     "cap": 0.0,
-     "risk": 0.0,
+     "cap": 0.6,
+     "risk": 0.25,
      "adapt": 0.0
     }
    },
    "celi_reasons": [
-    "Constructive Capability scored coverage 0% below 80%",
-    "Systemic Risk scored coverage 0% below 80%",
+    "Constructive Capability scored coverage 60% below 80%",
+    "Systemic Risk scored coverage 25% below 80%",
     "Adaptability scored coverage 0% below 80%",
-    "Data Confidence 25.0 below 50"
+    "Data Confidence 48.8 below 50"
    ],
    "amendment_filings": [
     {
@@ -14333,49 +14546,49 @@
     "former_names": [
      {
       "name": "JPMORGAN CHASE & CO",
-      "from": "2009-02-02T00:00:00.000Z",
-      "to": "2026-11-13T00:00:00.000Z"
+      "from": "2009-02-02T05:00:00.000Z",
+      "to": "2026-11-13T05:00:00.000Z"
      },
      {
       "name": "J P MORGAN CHASE & CO",
-      "from": "2001-02-08T00:00:00.000Z",
-      "to": "2011-10-06T00:00:00.000Z"
+      "from": "2001-02-08T05:00:00.000Z",
+      "to": "2011-10-06T04:00:00.000Z"
      },
      {
       "name": "CHASE MANHATTAN CORP /DE/",
-      "from": "1996-10-17T00:00:00.000Z",
-      "to": "2000-11-21T00:00:00.000Z"
+      "from": "1996-10-17T04:00:00.000Z",
+      "to": "2000-11-21T05:00:00.000Z"
      },
      {
       "name": "CHEMICAL BANKING CORP",
-      "from": "1994-02-02T00:00:00.000Z",
-      "to": "1996-03-28T00:00:00.000Z"
+      "from": "1994-02-02T05:00:00.000Z",
+      "to": "1996-03-28T05:00:00.000Z"
      }
     ],
     "model_declared": "bank",
     "model_detected": "bank",
     "model_conflict": false
    },
-   "assessment_id": "0000019617-2026-11-13-08604fcd2450",
-   "input_hash": "08604fcd24501681e449ac8e4686011acd24d9fedf5b46b07ca587c17b49415f",
-   "code_fingerprint": "ca60a05151ecae6ea05a9aa4409778da6ff75f5d75011fc266bb6c573d258168",
+   "assessment_id": "0000019617-2026-11-16-adcc5757b23c",
+   "input_hash": "adcc5757b23cab1a74919788a0d08a11310c57bca4752bb8cf2171a622bc935b",
+   "code_fingerprint": "bc7cf0f65c8cd9417b96033d21d5e477090c5c05dd8ed2bb31bf83f9e09c4f9b",
    "sources": {
     "companyfacts": {
      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000019617.json",
-     "sha256": "9ae303a532bde47ea040f005e1d6c26b10114fd21a482c68d7e7689fe577cc34",
-     "fetched_at": "2026-11-13T12:24:15Z",
-     "bytes": 8141435
+     "sha256": "5c6e52a9e2a27ec66dafa43b7b31d23f09d6fbca9487937ce98d1d499220e3a0",
+     "fetched_at": "2026-11-16T05:08:20Z",
+     "bytes": 8142039
     },
     "submissions": {
      "url": "https://data.sec.gov/submissions/CIK0000019617.json",
-     "sha256": "b99899532f2476d469ffd3708398d2492a0ceb2630ffa11d55142e7207bba150",
-     "fetched_at": "2026-11-13T12:24:02Z",
-     "bytes": 4692683
+     "sha256": "775942e3f29c125447b43aa2f7df9a8dbab22c886d3ae3cffab0df3dfb8c1de1",
+     "fetched_at": "2026-11-16T05:08:07Z",
+     "bytes": 4649658
     }
    },
    "counts": {
-    "facts": 55228,
-    "facts_new_in_db": 0,
+    "facts": 55233,
+    "facts_new_in_db": 5,
     "filings_registered": 487,
     "ten_k": 12,
     "ten_q": 38,
@@ -18906,13 +19119,30 @@
    },
    "indicators": {
     "ROIC_5Y": {
-     "status": "evidence_available_not_scored",
-     "reason": "No calibrated cost-of-equity benchmark; not assumed",
+     "status": "scored_peer_percentile",
+     "reason": "Indicative: percentile rank vs 10+ Banks peers (S&P 500), not an absolute calibration",
      "evidence_metrics": [
       "return_on_equity",
       "return_on_assets"
      ],
-     "missing_metrics": []
+     "missing_metrics": [],
+     "score": 100.0,
+     "peer": {
+      "score": 100.0,
+      "parts": [
+       {
+        "input": "roe_mean",
+        "direction": 1,
+        "value": 0.15426829172580045,
+        "peers": 10,
+        "percentile": 100.0,
+        "peer_median": 0.09854256545293405
+       }
+      ],
+      "group": "Banks",
+      "peer_count": 12,
+      "reason": ""
+     }
     },
     "FCF_DUR": {
      "status": "not_applicable",
@@ -18931,7 +19161,8 @@
       "revenue_growth",
       "efficiency_ratio"
      ],
-     "missing_metrics": []
+     "missing_metrics": [],
+     "peer_reason": "No input could be scored against peers"
     },
     "WORKFORCE": {
      "status": "unsupported_by_sec_xbrl",
@@ -19003,31 +19234,46 @@
      "evidence_metrics": []
     }
    },
+   "peer_inputs": {
+    "periods": [
+     "2021-12-31",
+     "2022-12-31",
+     "2023-12-31",
+     "2024-12-31",
+     "2025-12-31"
+    ],
+    "latest_period": "2025-12-31",
+    "revenue_drawdown_worst": 0.0,
+    "revenue_growth_sd": 0.07868896539174884,
+    "roe_mean": 0.15426829172580045
+   },
+   "peer_group": "Banks",
+   "archetype": "financial",
    "celi": {
-    "P": 25.0,
+    "P": 46.88,
     "Rt": 75.0,
     "El": 0.0,
     "Reff": 75.0,
     "L": 25.0,
-    "gap": 0.0,
-    "Eb": 0.0,
+    "gap": 21.88,
+    "Eb": 1.73,
     "S": 1.0,
-    "raw": 25.0,
-    "celi": 25.0,
-    "dcs": 25.0,
+    "raw": 29.83,
+    "celi": 29.83,
+    "dcs": 30.59,
     "status": "insufficient",
     "archetype": "Financials",
     "coverage": {
-     "cap": 0.0,
+     "cap": 0.31,
      "risk": 0.0,
      "adapt": 0.0
     }
    },
    "celi_reasons": [
-    "Constructive Capability scored coverage 0% below 80%",
+    "Constructive Capability scored coverage 31% below 80%",
     "Systemic Risk scored coverage 0% below 80%",
     "Adaptability scored coverage 0% below 80%",
-    "Data Confidence 25.0 below 50"
+    "Data Confidence 30.6 below 50"
    ],
    "amendment_filings": [],
    "restated_values": [
@@ -19237,38 +19483,38 @@
     "former_names": [
      {
       "name": "APPLE INC",
-      "from": "2007-01-10T00:00:00.000Z",
-      "to": "2019-08-05T00:00:00.000Z"
+      "from": "2007-01-10T05:00:00.000Z",
+      "to": "2019-08-05T04:00:00.000Z"
      },
      {
       "name": "APPLE COMPUTER INC",
-      "from": "1994-01-26T00:00:00.000Z",
-      "to": "2007-01-04T00:00:00.000Z"
+      "from": "1994-01-26T05:00:00.000Z",
+      "to": "2007-01-04T05:00:00.000Z"
      },
      {
       "name": "APPLE COMPUTER INC/ FA",
-      "from": "1997-07-28T00:00:00.000Z",
-      "to": "1997-07-28T00:00:00.000Z"
+      "from": "1997-07-28T04:00:00.000Z",
+      "to": "1997-07-28T04:00:00.000Z"
      }
     ],
     "model_declared": "corporate",
     "model_detected": "corporate",
     "model_conflict": false
    },
-   "assessment_id": "0000320193-2026-11-13-95a2acc85a2e",
-   "input_hash": "95a2acc85a2ed8d39dacd8b0d00ce518baca7214ce86ca70e3b1051d64df8bdc",
-   "code_fingerprint": "ca60a05151ecae6ea05a9aa4409778da6ff75f5d75011fc266bb6c573d258168",
+   "assessment_id": "0000320193-2026-11-16-326c8a188e07",
+   "input_hash": "326c8a188e072b8e5574359b109e0818638c24a230b2d09b03adf0058287411d",
+   "code_fingerprint": "bc7cf0f65c8cd9417b96033d21d5e477090c5c05dd8ed2bb31bf83f9e09c4f9b",
    "sources": {
     "companyfacts": {
      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
      "sha256": "f085735b4d08fb116ade18d24247ffabe11df8eb52eae6556b165831f15ef1ad",
-     "fetched_at": "2026-11-13T12:24:27Z",
+     "fetched_at": "2026-11-16T05:08:21Z",
      "bytes": 3859564
     },
     "submissions": {
      "url": "https://data.sec.gov/submissions/CIK0000320193.json",
-     "sha256": "ecc3321932506974dec32db5b7f475a95a4756ed3839d9b5d57122db0e824e08",
-     "fetched_at": "2026-11-13T12:24:26Z",
+     "sha256": "d7c4a3c888fe60da97ceef8f9b80da4c205e82440c1bc3ba9dcc7316a482a6b1",
+     "fetched_at": "2026-11-16T05:08:21Z",
      "bytes": 163926
     }
    },
@@ -26407,22 +26653,56 @@
    },
    "indicators": {
     "ROIC_5Y": {
-     "status": "evidence_available_not_scored",
-     "reason": "No calibrated cost-of-capital benchmark; WACC is not assumed",
+     "status": "scored_peer_percentile",
+     "reason": "Indicative: percentile rank vs 37+ Information Technology peers (S&P 500), not an absolute calibration",
      "evidence_metrics": [
       "return_on_invested_capital",
       "return_on_equity"
      ],
-     "missing_metrics": []
+     "missing_metrics": [],
+     "score": 94.59,
+     "peer": {
+      "score": 94.59,
+      "parts": [
+       {
+        "input": "roic_mean",
+        "direction": 1,
+        "value": 0.7450163982057105,
+        "peers": 37,
+        "percentile": 94.59,
+        "peer_median": 0.18252058200769064
+       }
+      ],
+      "group": "Information Technology",
+      "peer_count": 73,
+      "reason": ""
+     }
     },
     "FCF_DUR": {
-     "status": "evidence_available_not_scored",
-     "reason": "No calibrated scale for cash-flow conversion",
+     "status": "scored_peer_percentile",
+     "reason": "Indicative: percentile rank vs 63+ Information Technology peers (S&P 500), not an absolute calibration",
      "evidence_metrics": [
       "free_cash_flow",
       "fcf_to_operating_income"
      ],
-     "missing_metrics": []
+     "missing_metrics": [],
+     "score": 38.1,
+     "peer": {
+      "score": 38.1,
+      "parts": [
+       {
+        "input": "fcf_conversion_cum",
+        "direction": 1,
+        "value": 0.8558636684170001,
+        "peers": 63,
+        "percentile": 38.1,
+        "peer_median": 0.9207204651822437
+       }
+      ],
+      "group": "Information Technology",
+      "peer_count": 73,
+      "reason": ""
+     }
     },
     "REINVEST": {
      "status": "evidence_available_not_scored",
@@ -26434,13 +26714,38 @@
      "missing_metrics": []
     },
     "REV_DUR": {
-     "status": "evidence_available_not_scored",
-     "reason": "No calibrated volatility scale; the pilot found growth was penalised as volatility",
+     "status": "scored_peer_percentile",
+     "reason": "Indicative: percentile rank vs 73+ Information Technology peers (S&P 500), not an absolute calibration",
      "evidence_metrics": [
       "revenue_growth",
       "operating_margin"
      ],
-     "missing_metrics": []
+     "missing_metrics": [],
+     "score": 64.19,
+     "peer": {
+      "score": 64.19,
+      "parts": [
+       {
+        "input": "revenue_drawdown_worst",
+        "direction": -1,
+        "value": 0.02800460530319937,
+        "peers": 73,
+        "percentile": 42.47,
+        "peer_median": 0.0
+       },
+       {
+        "input": "operating_margin_sd",
+        "direction": -1,
+        "value": 0.011510868895735583,
+        "peers": 71,
+        "percentile": 85.92,
+        "peer_median": 0.034720648878592525
+       }
+      ],
+      "group": "Information Technology",
+      "peer_count": 73,
+      "reason": ""
+     }
     },
     "WORKFORCE": {
      "status": "unsupported_by_sec_xbrl",
@@ -26453,15 +26758,40 @@
      "evidence_metrics": []
     },
     "FIN_FRAG": {
-     "status": "evidence_available_not_scored",
-     "reason": "No sector leverage thresholds calibrated",
+     "status": "scored_peer_percentile",
+     "reason": "Indicative: percentile rank vs 28+ Information Technology peers (S&P 500), not an absolute calibration",
      "evidence_metrics": [
       "net_debt_to_ebitda",
       "interest_cover",
       "liabilities_to_assets",
       "current_ratio"
      ],
-     "missing_metrics": []
+     "missing_metrics": [],
+     "score": 28.57,
+     "peer": {
+      "score": 28.57,
+      "parts": [
+       {
+        "input": "net_debt_to_ebitda",
+        "direction": 1,
+        "value": 0.25544942444281166,
+        "peers": 28,
+        "percentile": 28.57,
+        "peer_median": 1.0006296739899456
+       },
+       {
+        "input": "interest_cover",
+        "direction": -1,
+        "value": null,
+        "peers": 58,
+        "percentile": null,
+        "reason": "company value not computable"
+       }
+      ],
+      "group": "Information Technology",
+      "peer_count": 73,
+      "reason": ""
+     }
     },
     "GOV_CONC": {
      "status": "unsupported_by_sec_xbrl",
@@ -26515,31 +26845,50 @@
      "missing_metrics": []
     }
    },
+   "peer_inputs": {
+    "periods": [
+     "2022-09-24",
+     "2023-09-30",
+     "2024-09-28",
+     "2025-09-27",
+     "2026-09-26"
+    ],
+    "latest_period": "2026-09-26",
+    "revenue_drawdown_worst": 0.02800460530319937,
+    "revenue_growth_sd": 0.05971627289237346,
+    "roic_mean": 0.7450163982057105,
+    "operating_margin_sd": 0.011510868895735583,
+    "fcf_conversion_cum": 0.8558636684170001,
+    "net_debt_to_ebitda": 0.25544942444281166,
+    "interest_cover": null
+   },
+   "peer_group": "Information Technology",
+   "archetype": "tech",
    "celi": {
-    "P": 25.0,
-    "Rt": 75.0,
+    "P": 48.85,
+    "Rt": 64.29,
     "El": 0.0,
-    "Reff": 75.0,
+    "Reff": 64.29,
     "L": 25.0,
-    "gap": 0.0,
+    "gap": 13.14,
     "Eb": 0.0,
     "S": 1.0,
-    "raw": 25.0,
-    "celi": 25.0,
-    "dcs": 25.0,
+    "raw": 38.82,
+    "celi": 38.82,
+    "dcs": 48.8,
     "status": "insufficient",
-    "archetype": "General (unclassified)",
+    "archetype": "High-growth technology",
     "coverage": {
-     "cap": 0.0,
-     "risk": 0.0,
+     "cap": 0.6,
+     "risk": 0.25,
      "adapt": 0.0
     }
    },
    "celi_reasons": [
-    "Constructive Capability scored coverage 0% below 80%",
-    "Systemic Risk scored coverage 0% below 80%",
+    "Constructive Capability scored coverage 60% below 80%",
+    "Systemic Risk scored coverage 25% below 80%",
     "Adaptability scored coverage 0% below 80%",
-    "Data Confidence 25.0 below 50"
+    "Data Confidence 48.8 below 50"
    ],
    "amendment_filings": [
     {
@@ -26623,20 +26972,20 @@
     "model_detected": "corporate",
     "model_conflict": false
    },
-   "assessment_id": "0001018724-2026-11-13-07826d234c6b",
-   "input_hash": "07826d234c6b0e95e70085a41dba64e0d8ef51a2a0c6ca0708aa36434f6af437",
-   "code_fingerprint": "ca60a05151ecae6ea05a9aa4409778da6ff75f5d75011fc266bb6c573d258168",
+   "assessment_id": "0001018724-2026-11-16-c0fd42c959f2",
+   "input_hash": "c0fd42c959f254705ad6524ee5fca268bbf684693cad90baa2c527f7dc095aa6",
+   "code_fingerprint": "bc7cf0f65c8cd9417b96033d21d5e477090c5c05dd8ed2bb31bf83f9e09c4f9b",
    "sources": {
     "companyfacts": {
      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
      "sha256": "acddb7c0a6973a1fd08372de3b292298a34eae7f42a7eedc4bdebd3ac659c8fd",
-     "fetched_at": "2026-11-13T12:24:29Z",
+     "fetched_at": "2026-11-16T05:08:22Z",
      "bytes": 4554378
     },
     "submissions": {
      "url": "https://data.sec.gov/submissions/CIK0001018724.json",
      "sha256": "c2c36f85c91b5d57c0808db46c216d089401d3ad0c5b813ac828b8830481fd80",
-     "fetched_at": "2026-11-13T12:24:29Z",
+     "fetched_at": "2026-11-16T05:08:21Z",
      "bytes": 160388
     }
    },
@@ -33241,22 +33590,56 @@
    },
    "indicators": {
     "ROIC_5Y": {
-     "status": "evidence_available_not_scored",
-     "reason": "No calibrated cost-of-capital benchmark; WACC is not assumed",
+     "status": "scored_peer_percentile",
+     "reason": "Indicative: percentile rank vs 12+ Consumer Discretionary peers (S&P 500), not an absolute calibration",
      "evidence_metrics": [
       "return_on_invested_capital",
       "return_on_equity"
      ],
-     "missing_metrics": []
+     "missing_metrics": [],
+     "score": 16.67,
+     "peer": {
+      "score": 16.67,
+      "parts": [
+       {
+        "input": "roic_mean",
+        "direction": 1,
+        "value": 0.17078332541903804,
+        "peers": 12,
+        "percentile": 16.67,
+        "peer_median": 0.34959133677127374
+       }
+      ],
+      "group": "Consumer Discretionary",
+      "peer_count": 46,
+      "reason": ""
+     }
     },
     "FCF_DUR": {
-     "status": "evidence_available_not_scored",
-     "reason": "No calibrated scale for cash-flow conversion",
+     "status": "scored_peer_percentile",
+     "reason": "Indicative: percentile rank vs 34+ Consumer Discretionary peers (S&P 500), not an absolute calibration",
      "evidence_metrics": [
       "free_cash_flow",
       "fcf_to_operating_income"
      ],
-     "missing_metrics": []
+     "missing_metrics": [],
+     "score": 2.94,
+     "peer": {
+      "score": 2.94,
+      "parts": [
+       {
+        "input": "fcf_conversion_cum",
+        "direction": 1,
+        "value": 0.18499912378059466,
+        "peers": 34,
+        "percentile": 2.94,
+        "peer_median": 0.7257262640023376
+       }
+      ],
+      "group": "Consumer Discretionary",
+      "peer_count": 46,
+      "reason": ""
+     }
     },
     "REINVEST": {
      "status": "evidence_available_not_scored",
@@ -33269,13 +33652,38 @@
      ]
     },
     "REV_DUR": {
-     "status": "evidence_available_not_scored",
-     "reason": "No calibrated volatility scale; the pilot found growth was penalised as volatility",
+     "status": "scored_peer_percentile",
+     "reason": "Indicative: percentile rank vs 46+ Consumer Discretionary peers (S&P 500), not an absolute calibration",
      "evidence_metrics": [
       "revenue_growth",
       "operating_margin"
      ],
-     "missing_metrics": []
+     "missing_metrics": [],
+     "score": 56.53,
+     "peer": {
+      "score": 56.53,
+      "parts": [
+       {
+        "input": "revenue_drawdown_worst",
+        "direction": -1,
+        "value": 0.0,
+        "peers": 46,
+        "percentile": 77.17,
+        "peer_median": 0.0026738340120756043
+       },
+       {
+        "input": "operating_margin_sd",
+        "direction": -1,
+        "value": 0.03338079232395291,
+        "peers": 39,
+        "percentile": 35.9,
+        "peer_median": 0.022956890345032593
+       }
+      ],
+      "group": "Consumer Discretionary",
+      "peer_count": 46,
+      "reason": ""
+     }
     },
     "WORKFORCE": {
      "status": "unsupported_by_sec_xbrl",
@@ -33288,8 +33696,8 @@
      "evidence_metrics": []
     },
     "FIN_FRAG": {
-     "status": "evidence_available_not_scored",
-     "reason": "No sector leverage thresholds calibrated",
+     "status": "scored_peer_percentile",
+     "reason": "Indicative: percentile rank vs 13+ Consumer Discretionary peers (S&P 500), not an absolute calibration",
      "evidence_metrics": [
       "net_debt_to_ebitda",
       "interest_cover",
@@ -33297,7 +33705,32 @@
      ],
      "missing_metrics": [
       "liabilities_to_assets"
-     ]
+     ],
+     "score": 9.47,
+     "peer": {
+      "score": 9.47,
+      "parts": [
+       {
+        "input": "net_debt_to_ebitda",
+        "direction": 1,
+        "value": -0.12323390356204239,
+        "peers": 13,
+        "percentile": 15.38,
+        "peer_median": 1.4660983493301094
+       },
+       {
+        "input": "interest_cover",
+        "direction": -1,
+        "value": 35.16930518909411,
+        "peers": 28,
+        "percentile": 3.57,
+        "peer_median": 5.8575813420533915
+       }
+      ],
+      "group": "Consumer Discretionary",
+      "peer_count": 46,
+      "reason": ""
+     }
     },
     "GOV_CONC": {
      "status": "unsupported_by_sec_xbrl",
@@ -33351,31 +33784,50 @@
      ]
     }
    },
+   "peer_inputs": {
+    "periods": [
+     "2021-12-31",
+     "2022-12-31",
+     "2023-12-31",
+     "2024-12-31",
+     "2025-12-31"
+    ],
+    "latest_period": "2025-12-31",
+    "revenue_drawdown_worst": 0.0,
+    "revenue_growth_sd": 0.0433663582986945,
+    "roic_mean": 0.17078332541903804,
+    "operating_margin_sd": 0.03338079232395291,
+    "fcf_conversion_cum": 0.18499912378059466,
+    "net_debt_to_ebitda": -0.12323390356204239,
+    "interest_cover": 35.16930518909411
+   },
+   "peer_group": "Consumer Discretionary",
+   "archetype": "general",
    "celi": {
-    "P": 25.0,
-    "Rt": 75.0,
+    "P": 22.57,
+    "Rt": 59.75,
     "El": 0.0,
-    "Reff": 75.0,
+    "Reff": 59.75,
     "L": 25.0,
-    "gap": 0.0,
-    "Eb": 0.0,
+    "gap": 17.68,
+    "Eb": 0.14,
     "S": 1.0,
-    "raw": 25.0,
-    "celi": 25.0,
-    "dcs": 25.0,
+    "raw": 29.99,
+    "celi": 29.99,
+    "dcs": 48.8,
     "status": "insufficient",
     "archetype": "General (unclassified)",
     "coverage": {
-     "cap": 0.0,
-     "risk": 0.0,
+     "cap": 0.6,
+     "risk": 0.25,
      "adapt": 0.0
     }
    },
    "celi_reasons": [
-    "Constructive Capability scored coverage 0% below 80%",
-    "Systemic Risk scored coverage 0% below 80%",
+    "Constructive Capability scored coverage 60% below 80%",
+    "Systemic Risk scored coverage 25% below 80%",
     "Adaptability scored coverage 0% below 80%",
-    "Data Confidence 25.0 below 50"
+    "Data Confidence 48.8 below 50"
    ],
    "amendment_filings": [
     {

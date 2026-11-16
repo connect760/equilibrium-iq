@@ -1,19 +1,19 @@
 # E. Missing and unsupported indicators
 
-Assessment date 2026-11-13. No WACC, cost of equity, sector threshold or scoring scale is assumed, so no CELI indicator is scored yet.
+Assessment date 2026-11-16. No WACC, cost of equity, sector threshold or scoring scale is assumed, so no CELI indicator is scored yet.
 
 
 ## MICROSOFT CORP (MSFT) · corporate model
 
 | Indicator | status | reason | evidence available |
 |---|---|---|---|
-| ROIC_5Y | evidence_available_not_scored | No calibrated cost-of-capital benchmark; WACC is not assumed | return_on_invested_capital, return_on_equity |
-| FCF_DUR | evidence_available_not_scored | No calibrated scale for cash-flow conversion | free_cash_flow, fcf_to_operating_income |
+| ROIC_5Y | scored_peer_percentile | Indicative: percentile rank vs 37+ Information Technology peers (S&P 500), not an absolute calibration | return_on_invested_capital, return_on_equity |
+| FCF_DUR | scored_peer_percentile | Indicative: percentile rank vs 63+ Information Technology peers (S&P 500), not an absolute calibration | free_cash_flow, fcf_to_operating_income |
 | REINVEST | evidence_available_not_scored | Reinvestment quality is an analyst judgement | capex_to_revenue, rnd_to_revenue |
-| REV_DUR | evidence_available_not_scored | No calibrated volatility scale; the pilot found growth was penalised as volatility | revenue_growth, operating_margin |
+| REV_DUR | scored_peer_percentile | Indicative: percentile rank vs 73+ Information Technology peers (S&P 500), not an absolute calibration | revenue_growth, operating_margin |
 | WORKFORCE | unsupported_by_sec_xbrl | Human-capital disclosures are narrative (10-K Item 1); needs analyst extraction | — |
 | ENV_OUT | unsupported_by_sec_xbrl | Emissions and environmental outcomes are in sustainability reports / EPA data, not SEC XBRL | — |
-| FIN_FRAG | evidence_available_not_scored | No sector leverage thresholds calibrated | interest_cover, liabilities_to_assets, current_ratio |
+| FIN_FRAG | scored_peer_percentile | Indicative: percentile rank vs 29+ Information Technology peers (S&P 500), not an absolute calibration | interest_cover, liabilities_to_assets, current_ratio |
 | GOV_CONC | unsupported_by_sec_xbrl | Board and control concentration need DEF 14A proxy extraction | — |
 | AUDIT_INT | unsupported_by_sec_xbrl | Needs auditor's report, Item 9A controls and restatement review; amendment/restatement flags below are an input, not a score | — |
 | REG_LEGAL | unsupported_by_sec_xbrl | Needs enforcement databases (SEC litigation, DOJ, CFPB, EPA) and contingency notes | — |
@@ -41,13 +41,13 @@ Assessment date 2026-11-13. No WACC, cost of equity, sector threshold or scoring
 
 | Indicator | status | reason | evidence available |
 |---|---|---|---|
-| ROIC_5Y | evidence_available_not_scored | No calibrated cost-of-capital benchmark; WACC is not assumed | return_on_invested_capital, return_on_equity |
-| FCF_DUR | evidence_available_not_scored | No calibrated scale for cash-flow conversion | free_cash_flow, fcf_to_operating_income |
+| ROIC_5Y | scored_peer_percentile | Indicative: percentile rank vs 37+ Information Technology peers (S&P 500), not an absolute calibration | return_on_invested_capital, return_on_equity |
+| FCF_DUR | scored_peer_percentile | Indicative: percentile rank vs 63+ Information Technology peers (S&P 500), not an absolute calibration | free_cash_flow, fcf_to_operating_income |
 | REINVEST | evidence_available_not_scored | Reinvestment quality is an analyst judgement | capex_to_revenue, rnd_to_revenue |
-| REV_DUR | evidence_available_not_scored | No calibrated volatility scale; the pilot found growth was penalised as volatility | revenue_growth, operating_margin |
+| REV_DUR | scored_peer_percentile | Indicative: percentile rank vs 73+ Information Technology peers (S&P 500), not an absolute calibration | revenue_growth, operating_margin |
 | WORKFORCE | unsupported_by_sec_xbrl | Human-capital disclosures are narrative (10-K Item 1); needs analyst extraction | — |
 | ENV_OUT | unsupported_by_sec_xbrl | Emissions and environmental outcomes are in sustainability reports / EPA data, not SEC XBRL | — |
-| FIN_FRAG | evidence_available_not_scored | No sector leverage thresholds calibrated | net_debt_to_ebitda, interest_cover, liabilities_to_assets, current_ratio |
+| FIN_FRAG | scored_peer_percentile | Indicative: percentile rank vs 28+ Information Technology peers (S&P 500), not an absolute calibration | net_debt_to_ebitda, interest_cover, liabilities_to_assets, current_ratio |
 | GOV_CONC | unsupported_by_sec_xbrl | Board and control concentration need DEF 14A proxy extraction | — |
 | AUDIT_INT | unsupported_by_sec_xbrl | Needs auditor's report, Item 9A controls and restatement review; amendment/restatement flags below are an input, not a score | — |
 | REG_LEGAL | unsupported_by_sec_xbrl | Needs enforcement databases (SEC litigation, DOJ, CFPB, EPA) and contingency notes | — |
@@ -75,7 +75,7 @@ Assessment date 2026-11-13. No WACC, cost of equity, sector threshold or scoring
 
 | Indicator | status | reason | evidence available |
 |---|---|---|---|
-| ROIC_5Y | evidence_available_not_scored | No calibrated cost-of-equity benchmark; not assumed | return_on_equity, return_on_assets |
+| ROIC_5Y | scored_peer_percentile | Indicative: percentile rank vs 10+ Banks peers (S&P 500), not an absolute calibration | return_on_equity, return_on_assets |
 | FCF_DUR | not_applicable | Free-cash-flow conversion is not meaningful for a bank | — |
 | REINVEST | unsupported_by_sec_xbrl | Not derivable from SEC XBRL | — |
 | REV_DUR | evidence_available_not_scored | No calibrated volatility scale | revenue_growth, efficiency_ratio |
@@ -96,13 +96,13 @@ Assessment date 2026-11-13. No WACC, cost of equity, sector threshold or scoring
 
 | Indicator | status | reason | evidence available |
 |---|---|---|---|
-| ROIC_5Y | evidence_available_not_scored | No calibrated cost-of-capital benchmark; WACC is not assumed | return_on_invested_capital, return_on_equity |
-| FCF_DUR | evidence_available_not_scored | No calibrated scale for cash-flow conversion | free_cash_flow, fcf_to_operating_income |
+| ROIC_5Y | scored_peer_percentile | Indicative: percentile rank vs 37+ Information Technology peers (S&P 500), not an absolute calibration | return_on_invested_capital, return_on_equity |
+| FCF_DUR | scored_peer_percentile | Indicative: percentile rank vs 63+ Information Technology peers (S&P 500), not an absolute calibration | free_cash_flow, fcf_to_operating_income |
 | REINVEST | evidence_available_not_scored | Reinvestment quality is an analyst judgement | capex_to_revenue, rnd_to_revenue |
-| REV_DUR | evidence_available_not_scored | No calibrated volatility scale; the pilot found growth was penalised as volatility | revenue_growth, operating_margin |
+| REV_DUR | scored_peer_percentile | Indicative: percentile rank vs 73+ Information Technology peers (S&P 500), not an absolute calibration | revenue_growth, operating_margin |
 | WORKFORCE | unsupported_by_sec_xbrl | Human-capital disclosures are narrative (10-K Item 1); needs analyst extraction | — |
 | ENV_OUT | unsupported_by_sec_xbrl | Emissions and environmental outcomes are in sustainability reports / EPA data, not SEC XBRL | — |
-| FIN_FRAG | evidence_available_not_scored | No sector leverage thresholds calibrated | net_debt_to_ebitda, interest_cover, liabilities_to_assets, current_ratio |
+| FIN_FRAG | scored_peer_percentile | Indicative: percentile rank vs 28+ Information Technology peers (S&P 500), not an absolute calibration | net_debt_to_ebitda, interest_cover, liabilities_to_assets, current_ratio |
 | GOV_CONC | unsupported_by_sec_xbrl | Board and control concentration need DEF 14A proxy extraction | — |
 | AUDIT_INT | unsupported_by_sec_xbrl | Needs auditor's report, Item 9A controls and restatement review; amendment/restatement flags below are an input, not a score | — |
 | REG_LEGAL | unsupported_by_sec_xbrl | Needs enforcement databases (SEC litigation, DOJ, CFPB, EPA) and contingency notes | — |
@@ -127,13 +127,13 @@ Assessment date 2026-11-13. No WACC, cost of equity, sector threshold or scoring
 
 | Indicator | status | reason | evidence available |
 |---|---|---|---|
-| ROIC_5Y | evidence_available_not_scored | No calibrated cost-of-capital benchmark; WACC is not assumed | return_on_invested_capital, return_on_equity |
-| FCF_DUR | evidence_available_not_scored | No calibrated scale for cash-flow conversion | free_cash_flow, fcf_to_operating_income |
+| ROIC_5Y | scored_peer_percentile | Indicative: percentile rank vs 12+ Consumer Discretionary peers (S&P 500), not an absolute calibration | return_on_invested_capital, return_on_equity |
+| FCF_DUR | scored_peer_percentile | Indicative: percentile rank vs 34+ Consumer Discretionary peers (S&P 500), not an absolute calibration | free_cash_flow, fcf_to_operating_income |
 | REINVEST | evidence_available_not_scored | Reinvestment quality is an analyst judgement | capex_to_revenue |
-| REV_DUR | evidence_available_not_scored | No calibrated volatility scale; the pilot found growth was penalised as volatility | revenue_growth, operating_margin |
+| REV_DUR | scored_peer_percentile | Indicative: percentile rank vs 46+ Consumer Discretionary peers (S&P 500), not an absolute calibration | revenue_growth, operating_margin |
 | WORKFORCE | unsupported_by_sec_xbrl | Human-capital disclosures are narrative (10-K Item 1); needs analyst extraction | — |
 | ENV_OUT | unsupported_by_sec_xbrl | Emissions and environmental outcomes are in sustainability reports / EPA data, not SEC XBRL | — |
-| FIN_FRAG | evidence_available_not_scored | No sector leverage thresholds calibrated | net_debt_to_ebitda, interest_cover, current_ratio |
+| FIN_FRAG | scored_peer_percentile | Indicative: percentile rank vs 13+ Consumer Discretionary peers (S&P 500), not an absolute calibration | net_debt_to_ebitda, interest_cover, current_ratio |
 | GOV_CONC | unsupported_by_sec_xbrl | Board and control concentration need DEF 14A proxy extraction | — |
 | AUDIT_INT | unsupported_by_sec_xbrl | Needs auditor's report, Item 9A controls and restatement review; amendment/restatement flags below are an input, not a score | — |
 | REG_LEGAL | unsupported_by_sec_xbrl | Needs enforcement databases (SEC litigation, DOJ, CFPB, EPA) and contingency notes | — |

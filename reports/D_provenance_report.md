@@ -5,9 +5,9 @@ Every figure below is traceable to one SEC accession number and filing date. Raw
 
 ## MICROSOFT CORP (MSFT)
 
-- companyfacts: https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json · fetched 2026-11-13T12:23:54Z · 4,938,072 bytes · sha256 `8c1903c041f5c27e86ed15f37debb1f41882b7904bba129ef9edc76478b1e8ea`
-- submissions: https://data.sec.gov/submissions/CIK0000789019.json · fetched 2026-11-13T12:23:54Z · 186,640 bytes · sha256 `4d4ff98b1deea7b90123e2b99c059cdac4343de0dccbdfdc9855e788419f893e`
-- assessment id `0000789019-2026-11-13-21a685af4e43` · input hash `21a685af4e43d82f16eaab54f80c51b3d59c0ca52691e60f954eccc6e721c2b2`
+- companyfacts: https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json · fetched 2026-11-16T05:08:06Z · 4,938,072 bytes · sha256 `8c1903c041f5c27e86ed15f37debb1f41882b7904bba129ef9edc76478b1e8ea`
+- submissions: https://data.sec.gov/submissions/CIK0000789019.json · fetched 2026-11-16T05:08:06Z · 186,640 bytes · sha256 `4d4ff98b1deea7b90123e2b99c059cdac4343de0dccbdfdc9855e788419f893e`
+- assessment id `0000789019-2026-11-16-57f3b72f5159` · input hash `57f3b72f51597eaead6f92ee792509e73c03649446d150e6f31268b4eaba287a`
 
 | Accession | form | filed | document |
 |---|---|---|---|
@@ -21,9 +21,9 @@ Every figure below is traceable to one SEC accession number and filing date. Raw
 
 ## NVIDIA CORP (NVDA)
 
-- companyfacts: https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json · fetched 2026-11-13T12:23:59Z · 4,092,966 bytes · sha256 `19ef503a5770f5660964b3c3aea6937579d9b359da344afe6a9adf59c63d26ff`
-- submissions: https://data.sec.gov/submissions/CIK0001045810.json · fetched 2026-11-13T12:23:58Z · 160,083 bytes · sha256 `092e307ba8b409e49bd89a410eeb3134e7d193ea083eaf6e687539702b2ede07`
-- assessment id `0001045810-2026-11-13-e5d4e03b264d` · input hash `e5d4e03b264dc38c9872a548fae5799ba35c14f65db4619dcf32a92ada7da65e`
+- companyfacts: https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json · fetched 2026-11-16T05:08:07Z · 4,092,966 bytes · sha256 `19ef503a5770f5660964b3c3aea6937579d9b359da344afe6a9adf59c63d26ff`
+- submissions: https://data.sec.gov/submissions/CIK0001045810.json · fetched 2026-11-16T05:08:07Z · 159,760 bytes · sha256 `7cbfb234acae4a666ed049cd86157c2a7daf5a89dd4083af31a1da6831793096`
+- assessment id `0001045810-2026-11-16-6b1cc6f1b5a9` · input hash `6b1cc6f1b5a9ac4a4501d55be9e78d1ed7949a5d3eaf54a5c440d5b3ccaac64e`
 
 | Accession | form | filed | document |
 |---|---|---|---|
@@ -46,9 +46,9 @@ Every figure below is traceable to one SEC accession number and filing date. Raw
 
 ## JPMORGAN CHASE & CO (JPM)
 
-- companyfacts: https://data.sec.gov/api/xbrl/companyfacts/CIK0000019617.json · fetched 2026-11-13T12:24:15Z · 8,141,435 bytes · sha256 `9ae303a532bde47ea040f005e1d6c26b10114fd21a482c68d7e7689fe577cc34`
-- submissions: https://data.sec.gov/submissions/CIK0000019617.json · fetched 2026-11-13T12:24:02Z · 4,692,683 bytes · sha256 `b99899532f2476d469ffd3708398d2492a0ceb2630ffa11d55142e7207bba150`
-- assessment id `0000019617-2026-11-13-08604fcd2450` · input hash `08604fcd24501681e449ac8e4686011acd24d9fedf5b46b07ca587c17b49415f`
+- companyfacts: https://data.sec.gov/api/xbrl/companyfacts/CIK0000019617.json · fetched 2026-11-16T05:08:20Z · 8,142,039 bytes · sha256 `5c6e52a9e2a27ec66dafa43b7b31d23f09d6fbca9487937ce98d1d499220e3a0`
+- submissions: https://data.sec.gov/submissions/CIK0000019617.json · fetched 2026-11-16T05:08:07Z · 4,649,658 bytes · sha256 `775942e3f29c125447b43aa2f7df9a8dbab22c886d3ae3cffab0df3dfb8c1de1`
+- assessment id `0000019617-2026-11-16-adcc5757b23c` · input hash `adcc5757b23cab1a74919788a0d08a11310c57bca4752bb8cf2171a622bc935b`
 
 | Accession | form | filed | document |
 |---|---|---|---|
@@ -70,9 +70,9 @@ Every figure below is traceable to one SEC accession number and filing date. Raw
 
 ## Apple Inc. (AAPL)
 
-- companyfacts: https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json · fetched 2026-11-13T12:24:27Z · 3,859,564 bytes · sha256 `f085735b4d08fb116ade18d24247ffabe11df8eb52eae6556b165831f15ef1ad`
-- submissions: https://data.sec.gov/submissions/CIK0000320193.json · fetched 2026-11-13T12:24:26Z · 163,926 bytes · sha256 `ecc3321932506974dec32db5b7f475a95a4756ed3839d9b5d57122db0e824e08`
-- assessment id `0000320193-2026-11-13-95a2acc85a2e` · input hash `95a2acc85a2ed8d39dacd8b0d00ce518baca7214ce86ca70e3b1051d64df8bdc`
+- companyfacts: https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json · fetched 2026-11-16T05:08:21Z · 3,859,564 bytes · sha256 `f085735b4d08fb116ade18d24247ffabe11df8eb52eae6556b165831f15ef1ad`
+- submissions: https://data.sec.gov/submissions/CIK0000320193.json · fetched 2026-11-16T05:08:21Z · 163,926 bytes · sha256 `d7c4a3c888fe60da97ceef8f9b80da4c205e82440c1bc3ba9dcc7316a482a6b1`
+- assessment id `0000320193-2026-11-16-326c8a188e07` · input hash `326c8a188e072b8e5574359b109e0818638c24a230b2d09b03adf0058287411d`
 
 | Accession | form | filed | document |
 |---|---|---|---|
@@ -86,9 +86,9 @@ Every figure below is traceable to one SEC accession number and filing date. Raw
 
 ## AMAZON COM INC (AMZN)
 
-- companyfacts: https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json · fetched 2026-11-13T12:24:29Z · 4,554,378 bytes · sha256 `acddb7c0a6973a1fd08372de3b292298a34eae7f42a7eedc4bdebd3ac659c8fd`
-- submissions: https://data.sec.gov/submissions/CIK0001018724.json · fetched 2026-11-13T12:24:29Z · 160,388 bytes · sha256 `c2c36f85c91b5d57c0808db46c216d089401d3ad0c5b813ac828b8830481fd80`
-- assessment id `0001018724-2026-11-13-07826d234c6b` · input hash `07826d234c6b0e95e70085a41dba64e0d8ef51a2a0c6ca0708aa36434f6af437`
+- companyfacts: https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json · fetched 2026-11-16T05:08:22Z · 4,554,378 bytes · sha256 `acddb7c0a6973a1fd08372de3b292298a34eae7f42a7eedc4bdebd3ac659c8fd`
+- submissions: https://data.sec.gov/submissions/CIK0001018724.json · fetched 2026-11-16T05:08:21Z · 160,388 bytes · sha256 `c2c36f85c91b5d57c0808db46c216d089401d3ad0c5b813ac828b8830481fd80`
+- assessment id `0001018724-2026-11-16-c0fd42c959f2` · input hash `c0fd42c959f254705ad6524ee5fca268bbf684693cad90baa2c527f7dc095aa6`
 
 | Accession | form | filed | document |
 |---|---|---|---|
